@@ -1,0 +1,103 @@
+-- component team-1:
+caption title:
+body about:
+
+
+
+-- ftd.column:
+width: fill-container
+height: fill-container
+margin.px: 20
+align-self: center
+
+-- ftd.column:
+align-self: center
+
+
+-- ftd.text: $team-1.title
+margin-top.px: 80
+role: $inherited.types.heading-small
+align-self: center
+
+-- ftd.text: $team-1.about
+classes: text
+css: [ $assets.files.style.team.css]
+margin-top.px: 18
+color: grey
+text-align: center
+padding-left.px: 200
+padding-right.px: 200
+
+-- end: ftd.column
+
+-- ftd.row:
+width: fill-container
+height: fill-container
+align-content: center
+margin-top.px: 70
+spacing.fixed.px: 4
+
+-- ftd.row:
+wrap: true
+align-content: center
+
+-- lib.profilecard-a:
+pro-pic: $assets.files.assets.pic1.jpg
+name: Holden Caulfield
+position: UI Designer
+
+-- lib.profilecard-a:
+pro-pic: $assets.files.assets.pic2.jpg
+name: Henry Letham
+position: CTO
+
+-- lib.profilecard-a:
+pro-pic: $assets.files.assets.pic3.jpg
+name: Oskar Blinde
+position: Founder
+
+
+-- lib.profilecard-a:
+pro-pic: $assets.files.assets.pic4.jpg
+name: John Doe
+position: DevOps
+
+-- lib.profilecard-a:
+pro-pic: $assets.files.assets.pic5.jpg
+name: Martin Eden
+position: Software Engineer
+
+-- lib.profilecard-a:
+pro-pic: $assets.files.assets.pic6.jpg
+name: Boris Kitua
+position: UX Researcher
+
+
+-- lib.profilecard-a:
+pro-pic: $assets.files.assets.pic7.jpg
+name: Atticus Finch
+position: QA Engineer
+
+-- lib.profilecard-a:
+pro-pic: $assets.files.assets.pic8.jpg
+name: Alper Kamu
+position: System
+
+-- lib.profilecard-a:
+pro-pic: $assets.files.assets.pic9.jpg
+name: Rodrigo Monchi
+position: Product Manager
+
+-- end: ftd.row
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: team-1
+
+-- team-1:
+title: Our Team
+
+Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table.Franzen you probably
+haven't heard of them.

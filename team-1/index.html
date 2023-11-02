@@ -1,0 +1,845 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<base href="/componentset1/">
+<meta content="fastn" name="generator">
+
+<link rel="shortcut icon" href="/-/avgayathri.github.io/componentset1/favicon.ico" type="image/x-icon">
+
+<script>
+let __fastn_package_name__ = "avgayathri.github.io/componentset1";
+
+</script>
+
+
+<script src="markdown-BAEDD5DFCDD5DBEC8FC55F8804199879E276781A8879AD94F0C7DDA0F7069C74.js"></script>
+<script src="prism-8FE3A42AD547E2DBBC9FE16BA059F8F1870D613AD0C5B0B013D6205B72A62BAF.js"></script>
+<script src="default-35D3DC3ED42F3A75607B99E7EA05FC0387A5F96396E7CACE3804686C45817498.js"></script>
+<link rel="stylesheet" href="prism-73F718B9234C00C5C14AB6A11BF239A103F0B0F93B69CD55CB5C6530501182EB.css">
+
+
+
+<style>
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+/*html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+!* HTML5 display-role reset for older browsers *!
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}*/
+
+*, :after, :before {
+/*box-sizing: inherit;*/
+box-sizing: border-box;
+text-decoration: none;
+box-sizing: border-box;
+border-top-width: 0px;
+border-bottom-width: 0px;
+border-left-width: 0px;
+border-right-width: 0px;
+border-style: solid;
+height: auto;
+width: auto;
+}
+
+*, pre, div {
+padding: 0;
+margin: 0;
+gap: 0;
+outline: none;
+}
+
+
+body, ol ol, ol ul, ul ol, ul ul {
+margin:0
+}
+pre, table{
+overflow:auto
+}
+html {
+height: 100%;
+width: 100%;
+}
+
+body {
+height: 100%;
+width: 100%;
+}
+
+input {
+vertical-align: middle;
+}
+pre {
+white-space: break-spaces;
+word-wrap: break-word;
+}
+html {
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizelegibility;
+-webkit-text-size-adjust: 100%;
+text-size-adjust: 100%;
+}
+iframe {
+border: 0;
+color-scheme: auto;
+}
+
+pre code {
+/*
+This break show-line-number in `ftd.code`
+overflow-x: auto;
+*/
+display: block;
+padding: 0 1em !important;
+}
+
+/* Common styles  */
+.ft_common{
+text-decoration: none;
+box-sizing: border-box;
+border-top-width: 0px;
+border-bottom-width: 0px;
+border-left-width: 0px;
+border-right-width: 0px;
+border-style: solid;
+height: auto;
+width: auto;
+}
+
+/* Common container attributes */
+.ft_row, .ft_column {
+display: flex;
+align-items: start;
+justify-content: start
+}
+
+.full {
+width: 100%;
+height: 100%;
+}
+
+.ft_row {
+display: flex;
+align-items: start;
+justify-content: start;
+flex-direction: row;
+box-sizing: border-box;
+}
+.ft_column {
+display: flex;
+align-items: start;
+justify-content: start;
+flex-direction: column;
+box-sizing: border-box;
+}
+
+.ft_row {
+flex-direction: row;
+}
+
+.ft_column {
+flex-direction: column;
+}
+
+.ft_md ul,
+.ft_md ol{
+margin: 10px 0;
+}
+
+.ft_md ul ul,
+.ft_md ul ol,
+.ft_md ol ul,
+.ft_md ol ol {
+margin: 0;
+}
+
+.ft_md ul li,
+.ft_md ol li,
+.ft_md ul ol li .ft_md ul ul li .ft_md ol ul li .ft_md ol ol li {
+position: relative;
+padding-left: 32px;
+margin: 4px 0;
+}
+
+.ft_md ul {
+list-style: none;
+padding-left: 0;
+}
+
+.ft_md ol {
+list-style: none;
+padding-left: 0;
+counter-reset: item;
+}
+
+.ft_md ol li:before,
+.ft_md ol ol li:before,
+.ft_md ul ol li:before {
+content: counter(item);
+counter-increment: item;
+font-size: 11px;
+line-height: 10px;
+text-align: center;
+padding: 4px 0;
+height: 10px;
+width: 18px;
+border-radius: 10px;
+position: absolute;
+left: 0;
+top: 5px;
+}
+
+.ft_md ul li::before,
+.ft_md ul ul li::before,
+.ft_md ol ul li::before {
+content: "";
+position: absolute;
+width: 6px;
+height: 6px;
+left: 8px;
+top: 10px;
+border-radius: 50%;
+background: #c1c8ce;
+}
+
+ul, ol {
+/* Added padding to the left to move the ol number/ ul bullet to the right */
+padding-left: 20px;
+}
+
+a {
+color: #2952a3;
+}
+
+a:visited {
+color: #856ab9;
+}
+
+a:hover {
+color: #24478f;
+}
+
+.ft_md a {
+text-decoration: none;
+}
+
+.ft_md a:visited {
+text-decoration: none;
+}
+
+.ft_md a:hover {
+text-decoration: none;
+}
+
+code {
+padding: 0.1rem 0.25rem;
+border-radius: 4px;
+background-color: #0000000d;
+}
+
+.ft_md blockquote {
+padding: 0.25rem 1rem;
+margin: 1rem 0;
+border-radius: 3px;
+}
+
+.ft_md blockquote > blockquote {
+margin: 0;
+}
+
+
+body.dark code {
+padding: 0.1rem 0.25rem;
+border-radius: 4px;
+background-color: #ffffff1f;
+}
+
+
+body.dark a {
+color: #6498ff
+}
+
+body.dark a:visited {
+color: #b793fb;
+}
+
+
+p {
+margin-block-end: 1em;
+}
+
+h1:only-child {
+margin-block-end: 0.67em
+}
+
+table, td, th {
+border: 1px solid;
+}
+
+th {
+padding: 6px;
+}
+
+td {
+padding-left: 6px;
+padding-right: 6px;
+padding-top: 3px;
+padding-bottom: 3px;
+}
+
+</style>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<body data-id="1"><div data-id="2" class="ft_column __w-1 __h-2"><div data-id="3" class="ft_column __as-3 __w-4 __h-5 __m-6"><div data-id="4" class="ft_column __as-7"><div data-id="5" class="__rl-8 __as-9 __mt-10">Our Team</div><div data-id="6" class="text __pl-11 __pr-12 __mt-13 __c-14 __ta-15">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table.Franzen you probably
+haven&#39;t heard of them.</div></div><div data-id="7" class="ft_row __w-16 __h-17 __mt-18 __jc-19 __ali-20 __g-21"><div data-id="8" class="ft_row __fw-22 __jc-23 __ali-24"><div data-id="9" class="ft_column div1 __w-25 __h-26 __m-27 __bw-28 __br-29 __bc-30 __mnh-31 __mnw-32"><div data-id="10" class="ft_row div2"><img data-id="11" src="-/avgayathri.github.io/componentset1/assets/pic1.jpg" class="__as-33 __w-34 __h-35 __m-36 __br-37"></img><div data-id="12" class="ft_column div3 __ml-38 __mt-39 __jc-40 __ali-41"><div data-id="13" class="text __mt-42 __c-43">Holden Caulfield</div><div data-id="14" class="text __mt-44 __c-45">UI Designer</div></div></div></div><div data-id="15" class="ft_column div1 __w-46 __h-47 __m-48 __bw-49 __br-50 __bc-51 __mnh-52 __mnw-53"><div data-id="16" class="ft_row div2"><img data-id="17" src="-/avgayathri.github.io/componentset1/assets/pic2.jpg" class="__as-54 __w-55 __h-56 __m-57 __br-58"></img><div data-id="18" class="ft_column div3 __ml-59 __mt-60 __jc-61 __ali-62"><div data-id="19" class="text __mt-63 __c-64">Henry Letham</div><div data-id="20" class="text __mt-65 __c-66">CTO</div></div></div></div><div data-id="21" class="ft_column div1 __w-67 __h-68 __m-69 __bw-70 __br-71 __bc-72 __mnh-73 __mnw-74"><div data-id="22" class="ft_row div2"><img data-id="23" src="-/avgayathri.github.io/componentset1/assets/pic3.jpg" class="__as-75 __w-76 __h-77 __m-78 __br-79"></img><div data-id="24" class="ft_column div3 __ml-80 __mt-81 __jc-82 __ali-83"><div data-id="25" class="text __mt-84 __c-85">Oskar Blinde</div><div data-id="26" class="text __mt-86 __c-87">Founder</div></div></div></div><div data-id="27" class="ft_column div1 __w-88 __h-89 __m-90 __bw-91 __br-92 __bc-93 __mnh-94 __mnw-95"><div data-id="28" class="ft_row div2"><img data-id="29" src="-/avgayathri.github.io/componentset1/assets/pic4.jpg" class="__as-96 __w-97 __h-98 __m-99 __br-100"></img><div data-id="30" class="ft_column div3 __ml-101 __mt-102 __jc-103 __ali-104"><div data-id="31" class="text __mt-105 __c-106">John Doe</div><div data-id="32" class="text __mt-107 __c-108">DevOps</div></div></div></div><div data-id="33" class="ft_column div1 __w-109 __h-110 __m-111 __bw-112 __br-113 __bc-114 __mnh-115 __mnw-116"><div data-id="34" class="ft_row div2"><img data-id="35" src="-/avgayathri.github.io/componentset1/assets/pic5.jpg" class="__as-117 __w-118 __h-119 __m-120 __br-121"></img><div data-id="36" class="ft_column div3 __ml-122 __mt-123 __jc-124 __ali-125"><div data-id="37" class="text __mt-126 __c-127">Martin Eden</div><div data-id="38" class="text __mt-128 __c-129">Software Engineer</div></div></div></div><div data-id="39" class="ft_column div1 __w-130 __h-131 __m-132 __bw-133 __br-134 __bc-135 __mnh-136 __mnw-137"><div data-id="40" class="ft_row div2"><img data-id="41" src="-/avgayathri.github.io/componentset1/assets/pic6.jpg" class="__as-138 __w-139 __h-140 __m-141 __br-142"></img><div data-id="42" class="ft_column div3 __ml-143 __mt-144 __jc-145 __ali-146"><div data-id="43" class="text __mt-147 __c-148">Boris Kitua</div><div data-id="44" class="text __mt-149 __c-150">UX Researcher</div></div></div></div><div data-id="45" class="ft_column div1 __w-151 __h-152 __m-153 __bw-154 __br-155 __bc-156 __mnh-157 __mnw-158"><div data-id="46" class="ft_row div2"><img data-id="47" src="-/avgayathri.github.io/componentset1/assets/pic7.jpg" class="__as-159 __w-160 __h-161 __m-162 __br-163"></img><div data-id="48" class="ft_column div3 __ml-164 __mt-165 __jc-166 __ali-167"><div data-id="49" class="text __mt-168 __c-169">Atticus Finch</div><div data-id="50" class="text __mt-170 __c-171">QA Engineer</div></div></div></div><div data-id="51" class="ft_column div1 __w-172 __h-173 __m-174 __bw-175 __br-176 __bc-177 __mnh-178 __mnw-179"><div data-id="52" class="ft_row div2"><img data-id="53" src="-/avgayathri.github.io/componentset1/assets/pic8.jpg" class="__as-180 __w-181 __h-182 __m-183 __br-184"></img><div data-id="54" class="ft_column div3 __ml-185 __mt-186 __jc-187 __ali-188"><div data-id="55" class="text __mt-189 __c-190">Alper Kamu</div><div data-id="56" class="text __mt-191 __c-192">System</div></div></div></div><div data-id="57" class="ft_column div1 __w-193 __h-194 __m-195 __bw-196 __br-197 __bc-198 __mnh-199 __mnw-200"><div data-id="58" class="ft_row div2"><img data-id="59" src="-/avgayathri.github.io/componentset1/assets/pic9.jpg" class="__as-201 __w-202 __h-203 __m-204 __br-205"></img><div data-id="60" class="ft_column div3 __ml-206 __mt-207 __jc-208 __ali-209"><div data-id="61" class="text __mt-210 __c-211">Rodrigo Monchi</div><div data-id="62" class="text __mt-212 __c-213">Product Manager</div></div></div></div></div></div></div></div></body><style id="styles">
+.__w-1 { width: 100%; }
+.__h-2 { height: 100%; }
+.__as-3 { align-self: center; }
+.__w-4 { width: 100%; }
+.__h-5 { height: 100%; }
+.__m-6 { margin: 20px; }
+.__as-7 { align-self: center; }
+.__rl-8 {  font-family: sans-serif; font-size: 24px; font-weight: 400; line-height: 31px; }
+body.mobile .__rl-8 {  font-family: sans-serif; font-size: 22px; font-weight: 400; line-height: 29px; }
+.__as-9 { align-self: center; }
+.__mt-10 { margin-top: 80px; }
+.__pl-11 { padding-left: 200px; }
+.__pr-12 { padding-right: 200px; }
+.__mt-13 { margin-top: 18px; }
+.__c-14 { color: grey !important; }
+.__ta-15 { text-align: center; }
+.__w-16 { width: 100%; }
+.__h-17 { height: 100%; }
+.__mt-18 { margin-top: 70px; }
+.__jc-19 { justify-content: center; }
+.__ali-20 { align-items: center; }
+.__g-21 { gap: 4px; }
+.__fw-22 { flex-wrap: wrap; }
+.__jc-23 { justify-content: center; }
+.__ali-24 { align-items: center; }
+.__w-25 { width: 24vw; }
+.__h-26 { height: 8vw; }
+.__m-27 { margin: 8px; }
+.__bw-28 { border-width: 1px; }
+.__br-29 { border-radius: 12px; }
+.__bc-30 { border-color: grey; }
+.__mnh-31 { min-height: 96px; }
+.__mnw-32 { min-width: 336px; }
+.__as-33 { align-self: center; }
+.__w-34 { width: 75px; }
+.__h-35 { height: 75px; }
+.__m-36 { margin: 16px; }
+.__br-37 { border-radius: 50%; }
+.__ml-38 { margin-left: 16px; }
+.__mt-39 { margin-top: 12px; }
+.__jc-40 { justify-content: center; }
+.__ali-41 { align-items: center; }
+.__mt-42 { margin-top: 16px; }
+.__c-43 { color: black !important; }
+.__mt-44 { margin-top: 5px; }
+.__c-45 { color: grey !important; }
+.__w-46 { width: 24vw; }
+.__h-47 { height: 8vw; }
+.__m-48 { margin: 8px; }
+.__bw-49 { border-width: 1px; }
+.__br-50 { border-radius: 12px; }
+.__bc-51 { border-color: grey; }
+.__mnh-52 { min-height: 96px; }
+.__mnw-53 { min-width: 336px; }
+.__as-54 { align-self: center; }
+.__w-55 { width: 75px; }
+.__h-56 { height: 75px; }
+.__m-57 { margin: 16px; }
+.__br-58 { border-radius: 50%; }
+.__ml-59 { margin-left: 16px; }
+.__mt-60 { margin-top: 12px; }
+.__jc-61 { justify-content: center; }
+.__ali-62 { align-items: center; }
+.__mt-63 { margin-top: 16px; }
+.__c-64 { color: black !important; }
+.__mt-65 { margin-top: 5px; }
+.__c-66 { color: grey !important; }
+.__w-67 { width: 24vw; }
+.__h-68 { height: 8vw; }
+.__m-69 { margin: 8px; }
+.__bw-70 { border-width: 1px; }
+.__br-71 { border-radius: 12px; }
+.__bc-72 { border-color: grey; }
+.__mnh-73 { min-height: 96px; }
+.__mnw-74 { min-width: 336px; }
+.__as-75 { align-self: center; }
+.__w-76 { width: 75px; }
+.__h-77 { height: 75px; }
+.__m-78 { margin: 16px; }
+.__br-79 { border-radius: 50%; }
+.__ml-80 { margin-left: 16px; }
+.__mt-81 { margin-top: 12px; }
+.__jc-82 { justify-content: center; }
+.__ali-83 { align-items: center; }
+.__mt-84 { margin-top: 16px; }
+.__c-85 { color: black !important; }
+.__mt-86 { margin-top: 5px; }
+.__c-87 { color: grey !important; }
+.__w-88 { width: 24vw; }
+.__h-89 { height: 8vw; }
+.__m-90 { margin: 8px; }
+.__bw-91 { border-width: 1px; }
+.__br-92 { border-radius: 12px; }
+.__bc-93 { border-color: grey; }
+.__mnh-94 { min-height: 96px; }
+.__mnw-95 { min-width: 336px; }
+.__as-96 { align-self: center; }
+.__w-97 { width: 75px; }
+.__h-98 { height: 75px; }
+.__m-99 { margin: 16px; }
+.__br-100 { border-radius: 50%; }
+.__ml-101 { margin-left: 16px; }
+.__mt-102 { margin-top: 12px; }
+.__jc-103 { justify-content: center; }
+.__ali-104 { align-items: center; }
+.__mt-105 { margin-top: 16px; }
+.__c-106 { color: black !important; }
+.__mt-107 { margin-top: 5px; }
+.__c-108 { color: grey !important; }
+.__w-109 { width: 24vw; }
+.__h-110 { height: 8vw; }
+.__m-111 { margin: 8px; }
+.__bw-112 { border-width: 1px; }
+.__br-113 { border-radius: 12px; }
+.__bc-114 { border-color: grey; }
+.__mnh-115 { min-height: 96px; }
+.__mnw-116 { min-width: 336px; }
+.__as-117 { align-self: center; }
+.__w-118 { width: 75px; }
+.__h-119 { height: 75px; }
+.__m-120 { margin: 16px; }
+.__br-121 { border-radius: 50%; }
+.__ml-122 { margin-left: 16px; }
+.__mt-123 { margin-top: 12px; }
+.__jc-124 { justify-content: center; }
+.__ali-125 { align-items: center; }
+.__mt-126 { margin-top: 16px; }
+.__c-127 { color: black !important; }
+.__mt-128 { margin-top: 5px; }
+.__c-129 { color: grey !important; }
+.__w-130 { width: 24vw; }
+.__h-131 { height: 8vw; }
+.__m-132 { margin: 8px; }
+.__bw-133 { border-width: 1px; }
+.__br-134 { border-radius: 12px; }
+.__bc-135 { border-color: grey; }
+.__mnh-136 { min-height: 96px; }
+.__mnw-137 { min-width: 336px; }
+.__as-138 { align-self: center; }
+.__w-139 { width: 75px; }
+.__h-140 { height: 75px; }
+.__m-141 { margin: 16px; }
+.__br-142 { border-radius: 50%; }
+.__ml-143 { margin-left: 16px; }
+.__mt-144 { margin-top: 12px; }
+.__jc-145 { justify-content: center; }
+.__ali-146 { align-items: center; }
+.__mt-147 { margin-top: 16px; }
+.__c-148 { color: black !important; }
+.__mt-149 { margin-top: 5px; }
+.__c-150 { color: grey !important; }
+.__w-151 { width: 24vw; }
+.__h-152 { height: 8vw; }
+.__m-153 { margin: 8px; }
+.__bw-154 { border-width: 1px; }
+.__br-155 { border-radius: 12px; }
+.__bc-156 { border-color: grey; }
+.__mnh-157 { min-height: 96px; }
+.__mnw-158 { min-width: 336px; }
+.__as-159 { align-self: center; }
+.__w-160 { width: 75px; }
+.__h-161 { height: 75px; }
+.__m-162 { margin: 16px; }
+.__br-163 { border-radius: 50%; }
+.__ml-164 { margin-left: 16px; }
+.__mt-165 { margin-top: 12px; }
+.__jc-166 { justify-content: center; }
+.__ali-167 { align-items: center; }
+.__mt-168 { margin-top: 16px; }
+.__c-169 { color: black !important; }
+.__mt-170 { margin-top: 5px; }
+.__c-171 { color: grey !important; }
+.__w-172 { width: 24vw; }
+.__h-173 { height: 8vw; }
+.__m-174 { margin: 8px; }
+.__bw-175 { border-width: 1px; }
+.__br-176 { border-radius: 12px; }
+.__bc-177 { border-color: grey; }
+.__mnh-178 { min-height: 96px; }
+.__mnw-179 { min-width: 336px; }
+.__as-180 { align-self: center; }
+.__w-181 { width: 75px; }
+.__h-182 { height: 75px; }
+.__m-183 { margin: 16px; }
+.__br-184 { border-radius: 50%; }
+.__ml-185 { margin-left: 16px; }
+.__mt-186 { margin-top: 12px; }
+.__jc-187 { justify-content: center; }
+.__ali-188 { align-items: center; }
+.__mt-189 { margin-top: 16px; }
+.__c-190 { color: black !important; }
+.__mt-191 { margin-top: 5px; }
+.__c-192 { color: grey !important; }
+.__w-193 { width: 24vw; }
+.__h-194 { height: 8vw; }
+.__m-195 { margin: 8px; }
+.__bw-196 { border-width: 1px; }
+.__br-197 { border-radius: 12px; }
+.__bc-198 { border-color: grey; }
+.__mnh-199 { min-height: 96px; }
+.__mnw-200 { min-width: 336px; }
+.__as-201 { align-self: center; }
+.__w-202 { width: 75px; }
+.__h-203 { height: 75px; }
+.__m-204 { margin: 16px; }
+.__br-205 { border-radius: 50%; }
+.__ml-206 { margin-left: 16px; }
+.__mt-207 { margin-top: 12px; }
+.__jc-208 { justify-content: center; }
+.__ali-209 { align-items: center; }
+.__mt-210 { margin-top: 16px; }
+.__c-211 { color: black !important; }
+.__mt-212 { margin-top: 5px; }
+.__c-213 { color: grey !important; }
+</style>
+<script>
+(function() {
+let main = function (parent) {
+let __fastn_super_package_name__ = __fastn_package_name__;
+__fastn_package_name__ = "avgayathri_github_io_componentset1";
+try {
+let parenti0 = avgayathri_github_io_componentset1_team_1___team_1(parent, inherited, {
+title: "Our Team",
+about: "Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table.Franzen you probably\nhaven't heard of them."
+});
+} finally {
+__fastn_package_name__ = __fastn_super_package_name__;
+}
+}
+global["main"] = main;
+fastn_utils.createNestedObject(global, "avgayathri_github_io_componentset1_assets__files.style.team.css", "-/avgayathri.github.io/componentset1/style/team.css");
+fastn_utils.createNestedObject(global, "avgayathri_github_io_componentset1_assets__files.assets.pic9.jpg", fastn.recordInstance({
+light: "-/avgayathri.github.io/componentset1/assets/pic9.jpg",
+dark: "-/avgayathri.github.io/componentset1/assets/pic9.jpg"
+}));
+fastn_utils.createNestedObject(global, "avgayathri_github_io_componentset1_assets__files.assets.pic8.jpg", fastn.recordInstance({
+light: "-/avgayathri.github.io/componentset1/assets/pic8.jpg",
+dark: "-/avgayathri.github.io/componentset1/assets/pic8.jpg"
+}));
+fastn_utils.createNestedObject(global, "avgayathri_github_io_componentset1_assets__files.assets.pic7.jpg", fastn.recordInstance({
+light: "-/avgayathri.github.io/componentset1/assets/pic7.jpg",
+dark: "-/avgayathri.github.io/componentset1/assets/pic7.jpg"
+}));
+fastn_utils.createNestedObject(global, "avgayathri_github_io_componentset1_assets__files.assets.pic6.jpg", fastn.recordInstance({
+light: "-/avgayathri.github.io/componentset1/assets/pic6.jpg",
+dark: "-/avgayathri.github.io/componentset1/assets/pic6.jpg"
+}));
+fastn_utils.createNestedObject(global, "avgayathri_github_io_componentset1_assets__files.assets.pic5.jpg", fastn.recordInstance({
+light: "-/avgayathri.github.io/componentset1/assets/pic5.jpg",
+dark: "-/avgayathri.github.io/componentset1/assets/pic5.jpg"
+}));
+fastn_utils.createNestedObject(global, "avgayathri_github_io_componentset1_assets__files.assets.pic4.jpg", fastn.recordInstance({
+light: "-/avgayathri.github.io/componentset1/assets/pic4.jpg",
+dark: "-/avgayathri.github.io/componentset1/assets/pic4.jpg"
+}));
+fastn_utils.createNestedObject(global, "avgayathri_github_io_componentset1_assets__files.assets.pic3.jpg", fastn.recordInstance({
+light: "-/avgayathri.github.io/componentset1/assets/pic3.jpg",
+dark: "-/avgayathri.github.io/componentset1/assets/pic3.jpg"
+}));
+fastn_utils.createNestedObject(global, "avgayathri_github_io_componentset1_assets__files.assets.pic2.jpg", fastn.recordInstance({
+light: "-/avgayathri.github.io/componentset1/assets/pic2.jpg",
+dark: "-/avgayathri.github.io/componentset1/assets/pic2.jpg"
+}));
+fastn_utils.createNestedObject(global, "avgayathri_github_io_componentset1_assets__files.assets.pic1.jpg", fastn.recordInstance({
+light: "-/avgayathri.github.io/componentset1/assets/pic1.jpg",
+dark: "-/avgayathri.github.io/componentset1/assets/pic1.jpg"
+}));
+let avgayathri_github_io_componentset1_lib__profilecard_a = function (parent, inherited, args)
+{
+let __fastn_super_package_name__ = __fastn_package_name__;
+__fastn_package_name__ = "avgayathri_github_io_componentset1";
+try {
+let __args__ = {
+};
+inherited = fastn_utils.getInheritedValues(__args__, inherited, args);
+__args__ = fastn_utils.getArgs(__args__, args);
+let parenti0 = fastn_dom.createKernel(parent, fastn_dom.ElementKind.Column);
+parenti0.setProperty(fastn_dom.PropertyKind.Css, fastn.mutableList([global.avgayathri_github_io_componentset1_assets__files.get("style").get("team").get("css")]), inherited);
+parenti0.setProperty(fastn_dom.PropertyKind.Classes, fastn.mutableList(["div1"]), inherited);
+parenti0.setProperty(fastn_dom.PropertyKind.Width, fastn_dom.Resizing.Fixed(fastn_dom.Length.Vw(24)), inherited);
+parenti0.setProperty(fastn_dom.PropertyKind.Height, fastn_dom.Resizing.Fixed(fastn_dom.Length.Vw(8)), inherited);
+parenti0.setProperty(fastn_dom.PropertyKind.Margin, fastn_dom.Length.Px(8), inherited);
+parenti0.setProperty(fastn_dom.PropertyKind.BorderWidth, fastn_dom.Length.Px(1), inherited);
+parenti0.setProperty(fastn_dom.PropertyKind.BorderRadius, fastn_dom.Length.Px(12), inherited);
+parenti0.setProperty(fastn_dom.PropertyKind.BorderColor, fastn.recordInstance({
+dark: "grey",
+light: "grey"
+}), inherited);
+parenti0.setProperty(fastn_dom.PropertyKind.MinHeight, fastn_dom.Resizing.Fixed(fastn_dom.Length.Px(96)), inherited);
+parenti0.setProperty(fastn_dom.PropertyKind.MinWidth, fastn_dom.Resizing.Fixed(fastn_dom.Length.Px(336)), inherited);
+parenti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
+let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Row);
+rooti0.setProperty(fastn_dom.PropertyKind.Css, fastn.mutableList([global.avgayathri_github_io_componentset1_assets__files.get("style").get("team").get("css")]), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.Classes, fastn.mutableList(["div2"]), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
+let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Image);
+rooti0.setProperty(fastn_dom.PropertyKind.ImageSrc, __args__.pro_pic, inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.AlignSelf, fastn_dom.AlignSelf.Center, inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.Width, fastn_dom.Resizing.Fixed(fastn_dom.Length.Px(75)), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.Height, fastn_dom.Resizing.Fixed(fastn_dom.Length.Px(75)), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.Margin, fastn_dom.Length.Px(16), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.BorderRadius, fastn_dom.Length.Percent(50), inherited);
+},
+function (root, inherited) {
+let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Column);
+rooti0.setProperty(fastn_dom.PropertyKind.Css, fastn.mutableList([global.avgayathri_github_io_componentset1_assets__files.get("style").get("team").get("css")]), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.Classes, fastn.mutableList(["div3"]), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.MarginLeft, fastn_dom.Length.Px(16), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.MarginTop, fastn_dom.Length.Px(12), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.AlignContent, fastn_dom.AlignContent.Center, inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
+let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Text);
+rooti0.setProperty(fastn_dom.PropertyKind.StringValue, __args__.name, inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.Css, fastn.mutableList([global.avgayathri_github_io_componentset1_assets__files.get("style").get("team").get("css")]), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.Classes, fastn.mutableList(["text"]), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.MarginTop, fastn_dom.Length.Px(16), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.Color, fastn.recordInstance({
+dark: "black",
+light: "black"
+}), inherited);
+},
+function (root, inherited) {
+let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Text);
+rooti0.setProperty(fastn_dom.PropertyKind.StringValue, __args__.position, inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.Css, fastn.mutableList([global.avgayathri_github_io_componentset1_assets__files.get("style").get("team").get("css")]), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.Classes, fastn.mutableList(["text"]), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.MarginTop, fastn_dom.Length.Px(5), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.Color, fastn.recordInstance({
+dark: "grey",
+light: "grey"
+}), inherited);
+}
+]), inherited);
+}
+]), inherited);
+}
+]), inherited);
+return parenti0;
+} finally {
+__fastn_package_name__ = __fastn_super_package_name__;
+}
+}
+global["avgayathri_github_io_componentset1_lib__profilecard_a"] = avgayathri_github_io_componentset1_lib__profilecard_a;
+let avgayathri_github_io_componentset1_team_1___team_1 = function (parent, inherited, args)
+{
+let __fastn_super_package_name__ = __fastn_package_name__;
+__fastn_package_name__ = "avgayathri_github_io_componentset1";
+try {
+let __args__ = {
+};
+inherited = fastn_utils.getInheritedValues(__args__, inherited, args);
+__args__ = fastn_utils.getArgs(__args__, args);
+let parenti0 = fastn_dom.createKernel(parent, fastn_dom.ElementKind.Column);
+parenti0.setProperty(fastn_dom.PropertyKind.AlignSelf, fastn_dom.AlignSelf.Center, inherited);
+parenti0.setProperty(fastn_dom.PropertyKind.Width, fastn_dom.Resizing.FillContainer, inherited);
+parenti0.setProperty(fastn_dom.PropertyKind.Height, fastn_dom.Resizing.FillContainer, inherited);
+parenti0.setProperty(fastn_dom.PropertyKind.Margin, fastn_dom.Length.Px(20), inherited);
+parenti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
+let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Column);
+rooti0.setProperty(fastn_dom.PropertyKind.AlignSelf, fastn_dom.AlignSelf.Center, inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
+let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Text);
+rooti0.setProperty(fastn_dom.PropertyKind.Role, inherited.get("types").get("heading_small"), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.StringValue, __args__.title, inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.AlignSelf, fastn_dom.AlignSelf.Center, inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.MarginTop, fastn_dom.Length.Px(80), inherited);
+},
+function (root, inherited) {
+let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Text);
+rooti0.setProperty(fastn_dom.PropertyKind.StringValue, __args__.about, inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.Css, fastn.mutableList([global.avgayathri_github_io_componentset1_assets__files.get("style").get("team").get("css")]), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.Classes, fastn.mutableList(["text"]), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.PaddingLeft, fastn_dom.Length.Px(200), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.PaddingRight, fastn_dom.Length.Px(200), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.MarginTop, fastn_dom.Length.Px(18), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.Color, fastn.recordInstance({
+dark: "grey",
+light: "grey"
+}), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.TextAlign, fastn_dom.TextAlign.Center, inherited);
+}
+]), inherited);
+},
+function (root, inherited) {
+let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Row);
+rooti0.setProperty(fastn_dom.PropertyKind.Width, fastn_dom.Resizing.FillContainer, inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.Height, fastn_dom.Resizing.FillContainer, inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.MarginTop, fastn_dom.Length.Px(70), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.AlignContent, fastn_dom.AlignContent.Center, inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.Spacing, fastn_dom.Spacing.Fixed(fastn_dom.Length.Px(4)), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
+let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Row);
+rooti0.setProperty(fastn_dom.PropertyKind.Wrap, true, inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.AlignContent, fastn_dom.AlignContent.Center, inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
+let rooti0 = avgayathri_github_io_componentset1_lib__profilecard_a(root, inherited, {
+pro_pic: global.avgayathri_github_io_componentset1_assets__files.get("assets").get("pic1").get("jpg"),
+name: "Holden Caulfield",
+position: "UI Designer"
+});
+},
+function (root, inherited) {
+let rooti0 = avgayathri_github_io_componentset1_lib__profilecard_a(root, inherited, {
+pro_pic: global.avgayathri_github_io_componentset1_assets__files.get("assets").get("pic2").get("jpg"),
+name: "Henry Letham",
+position: "CTO"
+});
+},
+function (root, inherited) {
+let rooti0 = avgayathri_github_io_componentset1_lib__profilecard_a(root, inherited, {
+pro_pic: global.avgayathri_github_io_componentset1_assets__files.get("assets").get("pic3").get("jpg"),
+name: "Oskar Blinde",
+position: "Founder"
+});
+},
+function (root, inherited) {
+let rooti0 = avgayathri_github_io_componentset1_lib__profilecard_a(root, inherited, {
+pro_pic: global.avgayathri_github_io_componentset1_assets__files.get("assets").get("pic4").get("jpg"),
+name: "John Doe",
+position: "DevOps"
+});
+},
+function (root, inherited) {
+let rooti0 = avgayathri_github_io_componentset1_lib__profilecard_a(root, inherited, {
+pro_pic: global.avgayathri_github_io_componentset1_assets__files.get("assets").get("pic5").get("jpg"),
+name: "Martin Eden",
+position: "Software Engineer"
+});
+},
+function (root, inherited) {
+let rooti0 = avgayathri_github_io_componentset1_lib__profilecard_a(root, inherited, {
+pro_pic: global.avgayathri_github_io_componentset1_assets__files.get("assets").get("pic6").get("jpg"),
+name: "Boris Kitua",
+position: "UX Researcher"
+});
+},
+function (root, inherited) {
+let rooti0 = avgayathri_github_io_componentset1_lib__profilecard_a(root, inherited, {
+pro_pic: global.avgayathri_github_io_componentset1_assets__files.get("assets").get("pic7").get("jpg"),
+name: "Atticus Finch",
+position: "QA Engineer"
+});
+},
+function (root, inherited) {
+let rooti0 = avgayathri_github_io_componentset1_lib__profilecard_a(root, inherited, {
+pro_pic: global.avgayathri_github_io_componentset1_assets__files.get("assets").get("pic8").get("jpg"),
+name: "Alper Kamu",
+position: "System"
+});
+},
+function (root, inherited) {
+let rooti0 = avgayathri_github_io_componentset1_lib__profilecard_a(root, inherited, {
+pro_pic: global.avgayathri_github_io_componentset1_assets__files.get("assets").get("pic9").get("jpg"),
+name: "Rodrigo Monchi",
+position: "Product Manager"
+});
+}
+]), inherited);
+}
+]), inherited);
+}
+]), inherited);
+return parenti0;
+} finally {
+__fastn_package_name__ = __fastn_super_package_name__;
+}
+}
+global["avgayathri_github_io_componentset1_team_1___team_1"] = avgayathri_github_io_componentset1_team_1___team_1;
+fastn_dom.codeData.availableThemes["coldark-theme.dark"] = "code-theme-9A3284FD117DFF7CFD432FF860A5E14169FA592BC3DA4F5E8A6975143F5EA07F.css";
+fastn_dom.codeData.availableThemes["coldark-theme.light"] = "code-theme-99CD7B013C96C4632F0AEA39AC265387B814AE85A7D33666A4AE4BEFF59016D0.css";
+fastn_dom.codeData.availableThemes["coy-theme"] = "code-theme-B3AEA322EADEDA61F0E219845A0E9C8E73F6345E49362B46E6F52CEE40471248.css";
+fastn_dom.codeData.availableThemes["dracula-theme"] = "code-theme-0CA636E4954E3FC6184FB8000174F8EAA6C61DB10F6A18D74740E6D2032C1A2E.css";
+fastn_dom.codeData.availableThemes["duotone-theme.dark"] = "code-theme-95B9118AFC8631777EEBBD89B2066C3706A6DF3579B14F41AF05564E41CAA09C.css";
+fastn_dom.codeData.availableThemes["duotone-theme.earth"] = "code-theme-6EB6F03F9F578742CA0CD1189693E43A6135D910989ADD88CA3C0D6117EE24D7.css";
+fastn_dom.codeData.availableThemes["duotone-theme.forest"] = "code-theme-256C21B515FC9E77F95D88689A4086B9D9406B7AAE3A273780FE8B8748C5A7D2.css";
+fastn_dom.codeData.availableThemes["duotone-theme.light"] = "code-theme-0800A18B1822D6AFDAF807CF840379A2DB3483A1F058CA29FBCFB3815CA76148.css";
+fastn_dom.codeData.availableThemes["duotone-theme.sea"] = "code-theme-9A45313F167DBD90654BFD5BB3BC0BDF6AE447485C30B0389ADA7B49C069E46A.css";
+fastn_dom.codeData.availableThemes["duotone-theme.space"] = "code-theme-4DD8479BE14A755645BC09FF433FB70EB4CB28F0CBF3CA98DCB71B244B85B194.css";
+fastn_dom.codeData.availableThemes["fastn-theme.dark"] = "code-theme-F614177D3155EA8E915B35A3445175DC7C96D02FBC621F8AFD0FCCC417ED8A43.css";
+fastn_dom.codeData.availableThemes["fastn-theme.light"] = "code-theme-B8645DE281A38A3068C56919DE1BB0511696A1EE8002C5088748DA0BAC0806E6.css";
+fastn_dom.codeData.availableThemes["fire.light"] = "code-theme-A352AF572179AB980583D41BC41ADDBA36C4C17757A34C1C6AAAF2C253E25CE3.css";
+fastn_dom.codeData.availableThemes["gruvbox-theme.dark"] = "code-theme-B68AA27E05B319F04A9CD747AADBF9B9CD791E040DEC519AE9544B4FF65DDBAC.css";
+fastn_dom.codeData.availableThemes["gruvbox-theme.light"] = "code-theme-06E6F84E43C61CB1653D9F4FACD46B7EBCB3CD8A48EFAEF2E5BE3E9E9212D1E6.css";
+fastn_dom.codeData.availableThemes["laserwave-theme"] = "code-theme-0F444C6433C356376F7E92122F6C521FE40242BEC9D9E050359EE1DF4A9D5E6D.css";
+fastn_dom.codeData.availableThemes["material-theme.dark"] = "code-theme-8CCA3D600F91FA55950DF3132F2ABE4BA14CEEA13CD23E157BF6A137762B8452.css";
+fastn_dom.codeData.availableThemes["material-theme.light"] = "code-theme-8C59190F5018F48CCBB063359072EE9053D04923BBC5D1BA52B574E78D8C536A.css";
+fastn_dom.codeData.availableThemes["nightowl-theme"] = "code-theme-88F91252A8A0EA125B4BA2C7B85E65580DB580F1477931AADCB5118E4E69D1CD.css";
+fastn_dom.codeData.availableThemes["one-theme.dark"] = "code-theme-A24DC8F09D03756A62923E8A883CAE3B938D54E2813F0855312D2554DBE97BAD.css";
+fastn_dom.codeData.availableThemes["one-theme.light"] = "code-theme-60E02531E77333F3F1B636C4FC43E976EA9F41AD75268B2DD825C33C68B573A6.css";
+fastn_dom.codeData.availableThemes["vs-theme.dark"] = "code-theme-DC76F700474E809F7BA2D9914793D04881B17EA4699BA9C568C83D32A18B0173.css";
+fastn_dom.codeData.availableThemes["vs-theme.light"] = "code-theme-7852E516BA094B01897820BB3432BE553FE5B28F00E9CA0EBC9DFFB8312EE8BF.css";
+fastn_dom.codeData.availableThemes["ztouch-theme"] = "code-theme-792C7BB9F4C8DFF3E0CBC354D2084DBF71BC5750C2C1357F0E7D936867AFAB62.css";
+
+let main_wrapper = function (parent) {
+let parenti0 = fastn_dom.createKernel(parent, fastn_dom.ElementKind.Column);
+parenti0.setProperty(fastn_dom.PropertyKind.Width, fastn_dom.Resizing.FillContainer, inherited);
+parenti0.setProperty(fastn_dom.PropertyKind.Height, fastn_dom.Resizing.FillContainer, inherited);
+main(parenti0);
+}
+fastn_virtual.hydrate(main_wrapper);
+ftd.post_init();
+})();
+
+window.onload = function() {
+fastn_utils.resetFullHeight();
+fastn_utils.setFullHeight();
+};
+
+</script>
+</html>

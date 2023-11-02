@@ -8,9 +8,9 @@ favicon: /-/avgayathri.github.io/componentset1/favicon.ico
 -- fastn.dependency: fastn-community.github.io/roboto-typography
 -- fastn.dependency: fastn-community.github.io/dark-flame-cs
 
--- fastn.auto-import: avgayathri.github.io/componentset1/FASTN/ds
 -- fastn.auto-import: avgayathri.github.io/componentset1/assets
 -- fastn.auto-import: doc-site
+-- fastn.auto-import: avgayathri.github.io/componentset1/lib
+-- fastn.auto-import: fastn-community.github.io/roboto-typography
 
--- fastn.sitemap:
 
