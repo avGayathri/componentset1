@@ -21,7 +21,7 @@ align-self: center
 
 -- ftd.text: $team-1.about
 classes: text
-css: [ $assets.files.style.team-a.css]
+css: [ $assets.files.style.team.css]
 margin-top.px: 18
 color: grey
 text-align: center

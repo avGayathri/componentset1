@@ -1,4 +1,4 @@
--- component team-2:
+-- component team-3:
 caption title:
 body about:
 
@@ -13,12 +13,12 @@ align-self: center
 align-self: center
 
 
--- ftd.text: $team-2.title
+-- ftd.text: $team-3.title
 margin-top.px: 80
 role: $inherited.types.heading-small
 align-self: center
 
--- ftd.text: $team-2.about
+-- ftd.text: $team-3.about
 classes: text
 css: [ $assets.files.style.team.css]
 margin-top.px: 18
@@ -39,34 +39,34 @@ spacing.fixed.px: 8
 wrap: true
 align-content: center
 
-
--- lib.profilecard-b:
+-- lib.profilecard-c:
 pro-pic: $assets.files.assets.pic10.jpg
 name: Holden Caulfield
 position: UI Designer
 
 DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.
 
--- lib.profilecard-b:
+-- lib.profilecard-c:
 pro-pic: $assets.files.assets.pic11.jpg
 name: Holden Caulfield
 position: UI Designer
 
 DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.
 
--- lib.profilecard-b:
+-- lib.profilecard-c:
 pro-pic: $assets.files.assets.pic12.jpg
 name: Holden Caulfield
 position: UI Designer
 
 DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.
 
--- lib.profilecard-b:
+-- lib.profilecard-c:
 pro-pic: $assets.files.assets.pic13.jpg
 name: Holden Caulfield
 position: UI Designer
 
 DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.
+
 
 -- end: ftd.row
 
@@ -76,10 +76,14 @@ DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.
 
 -- end: team-2
 
--- team-2:
+-- team-3:
 title: Our Team
 
 Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table.Franzen you probably
 haven't heard of them.
+
+
+
+
 
 
