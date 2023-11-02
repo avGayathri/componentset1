@@ -4,8 +4,6 @@ string name:
 string position: 
 
 -- ftd.column:
-classes: div1
-css: [ $assets.files.style.team.css] 
 width.fixed.vw: 24
 height.fixed.vw: 8
 min-height.fixed.px: 96
@@ -16,9 +14,8 @@ border-color: grey
 margin.px: 8
 
 -- ftd.row:
-classes: div2
-css: [ $assets.files.style.team.css]
-
+width: fill-container
+height: fill-container
 
 -- ftd.image:
 src: $profilecard-a.pro-pic
@@ -29,8 +26,6 @@ margin.px: 16
 align-self: center
 
 -- ftd.column:
-classes: div3
-css: [ $assets.files.style.team.css]
 margin-top.px: 12
 margin-left.px: 16
 align-content: center
