@@ -26,7 +26,7 @@ margin.px: 16
 align-self: center
 
 -- ftd.column:
-margin-top.px: 12
+margin-top.px: 16
 margin-left.px: 16
 align-content: center
 
