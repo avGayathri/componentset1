@@ -1,0 +1,53 @@
+.text-1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #717273;
+    line-height: 1.8;
+}
+
+.text-2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #111827;
+}
+
+.text-3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #8a8b8d;
+}
+
+.container{
+    background-color: rgb(239, 241, 245);
+}
+
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bolder;
+    color: #111827;
+    
+}
+
+.text-4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #717273;
+    line-height: 1.8;
+    text-align: justify; 
+    justify-content: center;
+}
+
+
+.text-5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #111827;
+}
+
+.text-6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #8a8b8d;
+}
