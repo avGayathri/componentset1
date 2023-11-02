@@ -1,0 +1,51 @@
+-- component testimonial-1:
+caption heading:
+
+-- ftd.column:
+width: fill-container
+height: fill-container
+
+-- ftd.row:
+width: fill-container
+align-content: center
+margin-bottom.px: 60
+margin-top.px: 30
+
+-- ftd.text: $testimonial-1.heading
+classes: title
+css: [ $assets.files.style.testimonial.css]
+text-align: center
+
+-- end: ftd.row
+
+-- ftd.row: 
+spacing.fixed.px: 52
+align-self: center
+align-content: center
+wrap: true
+
+-- lib.testimonial-1:
+name: Alper Kamu
+position: DESIGNER
+pro-pic: $assets.files.assets.pic1.jpg
+
+Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. 
+Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.
+
+-- lib.testimonial-1:
+name: Holden Caulfield
+position: UI DEVELOPER
+pro-pic: $assets.files.assets.pic1.jpg
+
+Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. 
+Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: testimonial-1
+
+
+-- testimonial-1:
+heading: Testimonials
