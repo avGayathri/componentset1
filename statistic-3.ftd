@@ -1,6 +1,14 @@
 -- component statistic-3:
 string title:
 body about:
+string stat-1-count:
+string stat-2-count:
+string stat-3-count:
+string stat-4-count:
+string stat-1-category:
+string stat-2-category:
+string stat-3-category:
+string stat-4-category:
 
 
 -- ftd.column: 
@@ -52,8 +60,8 @@ width.fixed.px: 50
 height.fixed.px: 50
 
 -- lib.statistic-container:
-number: 2.7K
-category: Downloads
+number: $statistic-3.stat-1-count
+category: $statistic-3.stat-1-category
 
 -- end: ftd.column
 
@@ -73,8 +81,8 @@ width.fixed.px: 50
 height.fixed.px: 50
 
 -- lib.statistic-container:
-number: 1.8K
-category: Users
+number: $statistic-3.stat-2-count
+category: $statistic-3.stat-2-category
 
 -- end: ftd.column
 
@@ -94,8 +102,8 @@ width.fixed.px: 50
 height.fixed.px: 50
 
 -- lib.statistic-container:
-number: 35
-category: Downloads
+number: $statistic-3.stat-3-count
+category: $statistic-3.stat-3-category
 
 -- end: ftd.column
 
@@ -115,8 +123,8 @@ width.fixed.px: 50
 height.fixed.px: 50
 
 -- lib.statistic-container:
-number: 4
-category: Products
+number: $statistic-3.stat-4-count
+category: $statistic-3.stat-4-category
 
 -- end: ftd.column
 
@@ -130,6 +138,14 @@ category: Products
 
 -- statistic-3:
 title: Moon hashtag pop-up try-hard offal truffaut
+stat-1-count: 2.7K
+stat-2-count: 1.8K
+stat-3-count: 35
+stat-4-count: 4
+stat-1-category: Users
+stat-2-category: Subscribes
+stat-3-category: Downloads
+stat-4-category: Products
 
 
 Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. 
