@@ -1,0 +1,35 @@
+-- component statistic-1:
+
+-- ftd.row:
+width: fill-container
+spacing.fixed.px: 180
+wrap: true
+align-content: center
+
+-- lib.statistic-container:
+number: 2.7K
+category: Users
+
+-- lib.statistic-container:
+number: 1.8K
+category: Subscribes
+
+-- lib.statistic-container:
+number: 35
+category: Downloads
+
+-- lib.statistic-container:
+number: 4
+category: Products
+
+-- end: ftd.row
+
+-- end: statistic-1
+
+-- ftd.row:
+width: fill-container
+margin-top.px: 160
+
+-- statistic-1:
+
+-- end: ftd.row
