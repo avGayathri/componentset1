@@ -454,3 +454,27 @@ align-self: center
 
 
 
+
+
+
+
+
+-- component statistic-container:
+string number:
+string category:
+
+-- ftd.column:
+
+-- ftd.text: $statistic-container.number
+classes: text-1
+css: [ $assets.files.style.statistic.css]
+align-self: center
+
+-- ftd.text: $statistic-container.category
+classes: text-2
+css: [ $assets.files.style.statistic.css]
+align-self: center
+
+-- end: ftd.column
+
+-- end: statistic-container

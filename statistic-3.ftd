@@ -1,0 +1,136 @@
+-- component statistic-3:
+string title:
+body about:
+
+
+-- ftd.column: 
+width: fill-container
+height: fill-container
+align-content: center
+
+
+-- ftd.column:
+width: fill-container
+height: fill-container
+align-content: center
+;;wrap: true
+
+
+
+-- ftd.text: $statistic-3.title
+classes: title
+css: [ $assets.files.style.statistic.css]
+margin-bottom.px: 12
+
+-- ftd.text: $statistic-3.about
+classes: about
+css: [ $assets.files.style.statistic.css]
+margin-right.px: 260
+margin-left.px: 260
+text-align: center
+
+
+-- ftd.row:
+margin-top.px: 100
+spacing.fixed.px: 40
+align-content: center
+wrap: true
+
+-- ftd.column:
+width.fixed.vw: 20
+height.fixed.vw: 12
+min-height.fixed.px: 160
+min-width.fixed.px:  200
+align-content: center 
+border-color: grey
+border-width.px: 2
+border-radius.px: 10
+
+-- ftd.image:
+src: $assets.files.assets.cloud-download.svg
+width.fixed.px: 50
+height.fixed.px: 50
+
+-- lib.statistic-container:
+number: 2.7K
+category: Downloads
+
+-- end: ftd.column
+
+-- ftd.column:
+width.fixed.vw: 20
+height.fixed.vw: 12
+min-height.fixed.px: 160
+min-width.fixed.px:  200
+align-content: center 
+border-color: grey
+border-width.px: 2
+border-radius.px: 10
+
+-- ftd.image:
+src: $assets.files.assets.users.svg
+width.fixed.px: 50
+height.fixed.px: 50
+
+-- lib.statistic-container:
+number: 1.8K
+category: Users
+
+-- end: ftd.column
+
+-- ftd.column:
+width.fixed.vw: 20
+height.fixed.vw: 12
+min-height.fixed.px: 160
+min-width.fixed.px:  200
+align-content: center 
+border-color: grey
+border-width.px: 2
+border-radius.px: 10
+
+-- ftd.image:
+src: $assets.files.assets.headphone.svg
+width.fixed.px: 50
+height.fixed.px: 50
+
+-- lib.statistic-container:
+number: 35
+category: Downloads
+
+-- end: ftd.column
+
+-- ftd.column:
+width.fixed.vw: 20
+height.fixed.vw: 12
+min-height.fixed.px: 160
+min-width.fixed.px:  200
+align-content: center 
+border-color: grey
+border-width.px: 2
+border-radius.px: 10
+
+-- ftd.image:
+src: $assets.files.assets.shield-check.svg
+width.fixed.px: 50
+height.fixed.px: 50
+
+-- lib.statistic-container:
+number: 4
+category: Products
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: statistic-3
+
+-- statistic-3:
+title: Moon hashtag pop-up try-hard offal truffaut
+
+
+Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. 
+Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.
