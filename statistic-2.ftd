@@ -2,6 +2,15 @@
 string title:
 body about:
 ftd.image-src image: 
+string stat-1-count:
+string stat-2-count:
+string stat-3-count:
+string stat-4-count:
+string stat-1-category:
+string stat-2-category:
+string stat-3-category:
+string stat-4-category:
+
 
 -- ftd.column: 
 width: fill-container
@@ -41,20 +50,20 @@ margin-top.px: 64
 spacing.fixed.px: 40
 
 -- lib.statistic-container:
-number: 2.7K
-category: Users
+number: $statistic-2.stat-1-count
+category: $statistic-2.stat-1-category
 
 -- lib.statistic-container:
-number: 1.8K
-category: Subscribes
+number: $statistic-2.stat-2-count
+category: $statistic-2.stat-2-category
 
 -- lib.statistic-container:
-number: 35
-category: Downloads
+number: $statistic-2.stat-3-count
+category: $statistic-2.stat-3-category
 
 -- lib.statistic-container:
-number: 4
-category: Products
+number: $statistic-2.stat-4-count
+category: $statistic-2.stat-4-category
 
 -- end: ftd.row
 
@@ -70,8 +79,11 @@ margin-top.px: 60
 
 -- ftd.image:
 src: $statistic-2.image
-width.fixed.px: 696
+max-width.fixed.px: 696
 height.fixed.px: 360
+min-height.fixed.px: 300
+min-width.fixed.px: 600
+width.fixed.vw: 48
 border-radius.px: 10
 
 -- end: ftd.column
@@ -85,6 +97,14 @@ border-radius.px: 10
 -- statistic-2:
 title: Moon hashtag pop-up try-hard offal truffaut
 image: $assets.files.assets.statistic-2.png
+stat-1-count: 2.7K
+stat-2-count: 1.8K
+stat-3-count: 35
+stat-4-count: 4
+stat-1-category: Users
+stat-2-category: Subscribes
+stat-3-category: Downloads
+stat-4-category: Products
 
 Pour-over craft beer pug drinking vinegar live-edge gastropub,
 keytar neutra sustainable fingerstache kickstarter.

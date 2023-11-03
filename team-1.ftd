@@ -60,7 +60,7 @@ position: Founder
 -- lib.profilecard-a:
 pro-pic: $assets.files.assets.pic4.jpg
 name: John Doe
-position: DevOps
+position: Devops
 
 -- lib.profilecard-a:
 pro-pic: $assets.files.assets.pic5.jpg

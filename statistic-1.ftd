@@ -1,4 +1,12 @@
 -- component statistic-1:
+string stat-1-count:
+string stat-2-count:
+string stat-3-count:
+string stat-4-count:
+string stat-1-category:
+string stat-2-category:
+string stat-3-category:
+string stat-4-category:
 
 -- ftd.row:
 width: fill-container
@@ -7,20 +15,20 @@ wrap: true
 align-content: center
 
 -- lib.statistic-container:
-number: 2.7K
-category: Users
+number: $statistic-1.stat-1-count
+category: $statistic-1.stat-1-category
 
 -- lib.statistic-container:
-number: 1.8K
-category: Subscribes
+number: $statistic-1.stat-2-count
+category: $statistic-1.stat-2-category
 
 -- lib.statistic-container:
-number: 35
-category: Downloads
+number: $statistic-1.stat-3-count
+category: $statistic-1.stat-3-category
 
 -- lib.statistic-container:
-number: 4
-category: Products
+number: $statistic-1.stat-4-count
+category: $statistic-1.stat-4-category
 
 -- end: ftd.row
 
@@ -31,5 +39,13 @@ width: fill-container
 margin-top.px: 160
 
 -- statistic-1:
+stat-1-count: 2.7K
+stat-2-count: 1.8K
+stat-3-count: 35
+stat-4-count: 4
+stat-1-category: Users
+stat-2-category: Subscribes
+stat-3-category: Downloads
+stat-4-category: Products
 
 -- end: ftd.row

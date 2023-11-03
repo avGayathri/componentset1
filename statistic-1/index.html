@@ -360,7 +360,16 @@ let parenti0 = fastn_dom.createKernel(parent, fastn_dom.ElementKind.Row);
 parenti0.setProperty(fastn_dom.PropertyKind.Width, fastn_dom.Resizing.FillContainer, inherited);
 parenti0.setProperty(fastn_dom.PropertyKind.MarginTop, fastn_dom.Length.Px(160), inherited);
 parenti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
-let rooti0 = avgayathri_github_io_componentset1_statistic_1___statistic_1(root, inherited);
+let rooti0 = avgayathri_github_io_componentset1_statistic_1___statistic_1(root, inherited, {
+stat_1_count: "2.7K",
+stat_2_count: "1.8K",
+stat_3_count: "35",
+stat_4_count: "4",
+stat_1_category: "Users",
+stat_2_category: "Subscribes",
+stat_3_category: "Downloads",
+stat_4_category: "Products"
+});
 }
 ]), inherited);
 } finally {
@@ -416,26 +425,26 @@ parenti0.setProperty(fastn_dom.PropertyKind.AlignContent, fastn_dom.AlignContent
 parenti0.setProperty(fastn_dom.PropertyKind.Spacing, fastn_dom.Spacing.Fixed(fastn_dom.Length.Px(180)), inherited);
 parenti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
 let rooti0 = avgayathri_github_io_componentset1_lib__statistic_container(root, inherited, {
-number: "2.7K",
-category: "Users"
+number: __args__.stat_1_count,
+category: __args__.stat_1_category
 });
 },
 function (root, inherited) {
 let rooti0 = avgayathri_github_io_componentset1_lib__statistic_container(root, inherited, {
-number: "1.8K",
-category: "Subscribes"
+number: __args__.stat_2_count,
+category: __args__.stat_2_category
 });
 },
 function (root, inherited) {
 let rooti0 = avgayathri_github_io_componentset1_lib__statistic_container(root, inherited, {
-number: "35",
-category: "Downloads"
+number: __args__.stat_3_count,
+category: __args__.stat_3_category
 });
 },
 function (root, inherited) {
 let rooti0 = avgayathri_github_io_componentset1_lib__statistic_container(root, inherited, {
-number: "4",
-category: "Products"
+number: __args__.stat_4_count,
+category: __args__.stat_4_category
 });
 }
 ]), inherited);

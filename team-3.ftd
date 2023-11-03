@@ -39,31 +39,31 @@ spacing.fixed.px: 8
 wrap: true
 align-content: center
 
--- lib.profilecard-c:
+-- lib.profilecard-b:
 pro-pic: $assets.files.assets.pic10.jpg
 name: Holden Caulfield
 position: UI Designer
 
 DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.
 
--- lib.profilecard-c:
+-- lib.profilecard-b:
 pro-pic: $assets.files.assets.pic11.jpg
-name: Holden Caulfield
-position: UI Designer
+name: Henry Letham
+position: CTO
 
 DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.
 
--- lib.profilecard-c:
+-- lib.profilecard-b:
 pro-pic: $assets.files.assets.pic12.jpg
-name: Holden Caulfield
-position: UI Designer
+name: Oskar Blinde
+position: Founder
 
 DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.
 
--- lib.profilecard-c:
+-- lib.profilecard-b:
 pro-pic: $assets.files.assets.pic13.jpg
-name: Holden Caulfield
-position: UI Designer
+name: John Doe
+position: Devops
 
 DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.
 
