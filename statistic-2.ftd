@@ -14,18 +14,21 @@ width: fill-container
 height: fill-container
 padding.px: 32
 spacing.fixed.px: 10
-;;wrap: true
+wrap: true
 
 
 -- ftd.column:
+width.fixed.vw: 46
+height.fixed.vw: 24
 margin-top.px: 60
-margin-left.px: 5
+margin-left.px: 10
 
 
 -- ftd.text: $statistic-2.title
 classes: title
 css: [ $assets.files.style.statistic.css]
 margin-bottom.px: 12
+margin-top.px: 60
 
 -- ftd.text: $statistic-2.about
 classes: about
@@ -58,7 +61,11 @@ category: Products
 -- end: ftd.column
 
 -- ftd.column:
-margin-top.px: 20
+width.fixed.vw: 46
+height.fixed.vw: 24
+min-height.fixed.px: 360
+min-width.fixed.px: 696
+margin-top.px: 60
 
 
 -- ftd.image:
