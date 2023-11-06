@@ -339,7 +339,7 @@ Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cro
 .__h-2 { height: 100%; }
 .__w-3 { width: 100%; }
 .__h-4 { height: 50vw; }
-.__mt-5 { margin-top: 120px; }
+.__mt-5 { margin-top: 40px; }
 .__w-6 { width: 100%; }
 .__h-7 { height: 100%; }
 .__m-8 { margin: 10px; }
@@ -350,8 +350,8 @@ Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cro
 .__w-13 { width: 32vw; }
 .__h-14 { height: 28vw; }
 .__p-15 { padding: 20px; }
-.__mnh-16 { min-height: 420px; }
-.__mnw-17 { min-width: 440px; }
+.__mnh-16 { min-height: 494px; }
+.__mnw-17 { min-width: 288px; }
 .__w-18 { width: 100%; }
 .__h-19 { height: 100%; }
 .__g-20 { gap: 20px; }
@@ -376,8 +376,8 @@ Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cro
 .__w-39 { width: 32vw; }
 .__h-40 { height: 28vw; }
 .__p-41 { padding: 20px; }
-.__mnh-42 { min-height: 420px; }
-.__mnw-43 { min-width: 440px; }
+.__mnh-42 { min-height: 494px; }
+.__mnw-43 { min-width: 288px; }
 .__w-44 { width: 100%; }
 .__h-45 { height: 100%; }
 .__g-46 { gap: 20px; }
@@ -402,8 +402,8 @@ Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cro
 .__w-65 { width: 32vw; }
 .__h-66 { height: 28vw; }
 .__p-67 { padding: 20px; }
-.__mnh-68 { min-height: 420px; }
-.__mnw-69 { min-width: 440px; }
+.__mnh-68 { min-height: 494px; }
+.__mnw-69 { min-width: 288px; }
 .__w-70 { width: 100%; }
 .__h-71 { height: 100%; }
 .__g-72 { gap: 20px; }
@@ -435,7 +435,19 @@ try {
 let parenti0 = fastn_dom.createKernel(parent, fastn_dom.ElementKind.Row);
 parenti0.setProperty(fastn_dom.PropertyKind.Width, fastn_dom.Resizing.FillContainer, inherited);
 parenti0.setProperty(fastn_dom.PropertyKind.Height, fastn_dom.Resizing.Fixed(fastn_dom.Length.Vw(50)), inherited);
-parenti0.setProperty(fastn_dom.PropertyKind.MarginTop, fastn_dom.Length.Px(120), inherited);
+parenti0.setProperty(fastn_dom.PropertyKind.MarginTop, fastn.formula([ftd.device,
+ftd.device], function () {
+if (function () {
+return (fastn_utils.getter(ftd.device) == "desktop");
+}()) {
+return fastn_dom.Length.Px(120);
+} else if (function () {
+return (fastn_utils.getter(ftd.device) == "mobile");
+}()) {
+return fastn_dom.Length.Px(40);
+}
+}
+), inherited);
 parenti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
 let rooti0 = avgayathri_github_io_componentset1_testimonial_3___testimonial_3(root, inherited);
 }
@@ -459,8 +471,32 @@ let parenti0 = fastn_dom.createKernel(parent, fastn_dom.ElementKind.Row);
 parenti0.setProperty(fastn_dom.PropertyKind.Width, fastn_dom.Resizing.Fixed(fastn_dom.Length.Vw(32)), inherited);
 parenti0.setProperty(fastn_dom.PropertyKind.Height, fastn_dom.Resizing.Fixed(fastn_dom.Length.Vw(28)), inherited);
 parenti0.setProperty(fastn_dom.PropertyKind.Padding, fastn_dom.Length.Px(20), inherited);
-parenti0.setProperty(fastn_dom.PropertyKind.MinHeight, fastn_dom.Resizing.Fixed(fastn_dom.Length.Px(420)), inherited);
-parenti0.setProperty(fastn_dom.PropertyKind.MinWidth, fastn_dom.Resizing.Fixed(fastn_dom.Length.Px(440)), inherited);
+parenti0.setProperty(fastn_dom.PropertyKind.MinHeight, fastn.formula([ftd.device,
+ftd.device], function () {
+if (function () {
+return (fastn_utils.getter(ftd.device) == "desktop");
+}()) {
+return fastn_dom.Resizing.Fixed(fastn_dom.Length.Px(420));
+} else if (function () {
+return (fastn_utils.getter(ftd.device) == "mobile");
+}()) {
+return fastn_dom.Resizing.Fixed(fastn_dom.Length.Px(494));
+}
+}
+), inherited);
+parenti0.setProperty(fastn_dom.PropertyKind.MinWidth, fastn.formula([ftd.device,
+ftd.device], function () {
+if (function () {
+return (fastn_utils.getter(ftd.device) == "desktop");
+}()) {
+return fastn_dom.Resizing.Fixed(fastn_dom.Length.Px(440));
+} else if (function () {
+return (fastn_utils.getter(ftd.device) == "mobile");
+}()) {
+return fastn_dom.Resizing.Fixed(fastn_dom.Length.Px(288));
+}
+}
+), inherited);
 parenti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
 let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Column);
 rooti0.setProperty(fastn_dom.PropertyKind.Width, fastn_dom.Resizing.FillContainer, inherited);
