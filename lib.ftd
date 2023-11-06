@@ -226,17 +226,30 @@ body about:
 -- ftd.column: 
 width.fixed.vw: 20
 height.fixed.vw: 28
-min-width.fixed.px: 292
-min-height.fixed.px: 472 
+min-width.fixed.px if { ftd.device == "desktop" }: 292
+min-height.fixed.px if { ftd.device == "desktop" }: 472 
+min-width.fixed.px if { ftd.device == "mobile" }: 292
+min-height.fixed.px if { ftd.device == "mobile" }: 396
+border-color: black
+border-width.px: 2
 margin.px: 12
 
 
 -- ftd.column:
 
 -- ftd.image:
+if: { ftd.device == "desktop" }
 src: $profilecard-c.pro-pic
 width.fixed.px: 288
 height.fixed.px: 220
+border-radius.percent: 4
+align-self: center
+
+-- ftd.image:
+if: { ftd.device == "mobile" }
+src: $profilecard-c.pro-pic
+width.fixed.px: 244
+height.fixed.px: 164
 border-radius.percent: 4
 align-self: center
 
