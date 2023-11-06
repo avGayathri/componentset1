@@ -8,11 +8,11 @@ body about:
 width: fill-container
 height: fill-container
 margin.px: 20
-align-self: center
+
 
 -- ftd.column:
 if: { ftd.device == "desktop" }
-align-self: center
+
 
 
 -- ftd.text: $team-1.title
@@ -57,7 +57,6 @@ padding-right.px: 50
 -- ftd.row:
 width: fill-container
 height: fill-container
-align-content: center
 margin-top.px if { ftd.device == "desktop" }: 50
 margin-top.px if { ftd.device == "mobile" }: 45
 spacing.fixed.px: 4
