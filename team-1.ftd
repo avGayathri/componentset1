@@ -31,7 +31,6 @@ padding-right.px: 200
 
 -- end: ftd.column
 
-;;mobile-view
 
 -- ftd.column:
 align-self: center

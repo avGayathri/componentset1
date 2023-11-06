@@ -66,7 +66,11 @@ string name:
 string position:
 body about:
 
+-- ftd.column:
+
+
 -- ftd.column: 
+if: { ftd.device == "desktop" }
 width.fixed.vw: 40
 height.fixed.vw: 14
 min-width.fixed.px: 396
@@ -77,8 +81,8 @@ margin.px: 12
 
 -- ftd.image:
 src: $profilecard-b.pro-pic
-width.fixed.px: 176
-height.fixed.px: 176
+width.fixed.px : 176
+height.fixed.px : 176
 border-radius.percent: 4
 align-self: center
 
@@ -128,6 +132,77 @@ width.fixed.px: 20
 -- end: ftd.column
 
 -- end: ftd.row
+
+-- end: ftd.column
+
+;;mobile
+-- ftd.column: 
+if: { ftd.device == "mobile" }
+width.fixed.vw: 40
+height.fixed.vw: 14
+min-width.fixed.px: 352
+min-height.fixed.px: 180
+margin.px: 12
+
+-- ftd.row:
+
+-- ftd.image:
+src: $profilecard-b.pro-pic
+width.fixed.px : 100
+height.fixed.px : 100
+border-radius.percent: 4
+align-self: center
+margin-left.px: 10
+
+
+-- ftd.column:
+width.fixed.vw : 66
+height.fixed.vw : 40
+margin-top.px: 10
+margin-left.px: 15
+
+
+-- ftd.text: $profilecard-b.name 
+classes: text-1
+css: [ $assets.files.style.team.css] 
+margin-top.px: 2
+
+
+-- ftd.text: $profilecard-b.position
+classes: text-2
+css: [ $assets.files.style.team.css]
+margin-top.px: 2
+margin-bottom.px: 10
+color: grey
+
+-- ftd.text: $profilecard-b.about
+classes: text-3
+css: [ $assets.files.style.team.css]
+margin-bottom.px: 12
+align-self: center
+
+-- ftd.row:
+spacing.fixed.px: 8
+
+-- ftd.image:
+src: $assets.files.assets.facebook.svg
+width.fixed.px: 20
+
+-- ftd.image:
+src: $assets.files.assets.twitter.svg
+width.fixed.px: 20
+
+-- ftd.image:
+src: $assets.files.assets.whatsapp.svg
+width.fixed.px: 20
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: ftd.column
 
 -- end: ftd.column
 
