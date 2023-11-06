@@ -331,24 +331,28 @@ padding-bottom: 3px;
 </style>
 </head>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-<body data-id="1"><div data-id="2" class="ft_column __w-1 __h-2"><div data-id="3" class="ft_row __w-3 __mt-4"><div data-id="4" class="ft_row __w-5 __fw-6 __jc-7 __ali-8 __g-9"><div data-id="5" class="ft_column"><div data-id="6" class="__as-10 text-1">2.7K</div><div data-id="7" class="__as-11 text-2">Users</div></div><div data-id="8" class="ft_column"><div data-id="9" class="__as-12 text-1">1.8K</div><div data-id="10" class="__as-13 text-2">Subscribes</div></div><div data-id="11" class="ft_column"><div data-id="12" class="__as-14 text-1">35</div><div data-id="13" class="__as-15 text-2">Downloads</div></div><div data-id="14" class="ft_column"><div data-id="15" class="__as-16 text-1">4</div><div data-id="16" class="__as-17 text-2">Products</div></div></div></div></div></body><style id="styles">
+<body data-id="1"><div data-id="2" class="ft_column __w-1 __h-2"><div data-id="3" class="ft_row __w-3 __mt-4 __jc-5 __ali-6"><div data-id="4" class="ft_row __w-7 __fw-8 __g-9"><div data-id="5" class="ft_row"><comment data-id="6"></comment><comment data-id="7"></comment><div data-id="8" class="ft_column __g-10"><div data-id="9" class="__as-11 text-3">2.7K</div><div data-id="10" class="__as-12 text-4">Users</div></div></div><div data-id="11" class="ft_row"><comment data-id="12"></comment><comment data-id="13"></comment><div data-id="14" class="ft_column __g-13"><div data-id="15" class="__as-14 text-3">1.8K</div><div data-id="16" class="__as-15 text-4">Subscribes</div></div></div><div data-id="17" class="ft_row"><comment data-id="18"></comment><comment data-id="19"></comment><div data-id="20" class="ft_column __g-16"><div data-id="21" class="__as-17 text-3">35</div><div data-id="22" class="__as-18 text-4">Downloads</div></div></div><div data-id="23" class="ft_row"><comment data-id="24"></comment><comment data-id="25"></comment><div data-id="26" class="ft_column __g-19"><div data-id="27" class="__as-20 text-3">4</div><div data-id="28" class="__as-21 text-4">Products</div></div></div></div></div></div></body><style id="styles">
 .__w-1 { width: 100%; }
 .__h-2 { height: 100%; }
 .__w-3 { width: 100%; }
 .__mt-4 { margin-top: 160px; }
-.__w-5 { width: 100%; }
-.__fw-6 { flex-wrap: wrap; }
-.__jc-7 { justify-content: center; }
-.__ali-8 { align-items: center; }
-.__g-9 { gap: 180px; }
-.__as-10 { align-self: center; }
+.__jc-5 { justify-content: center; }
+.__ali-6 { align-items: center; }
+.__w-7 { width: fit-content; }
+.__fw-8 { flex-wrap: wrap; }
+.__g-9 { gap: 32px; }
+.__g-10 { gap: 5px; }
 .__as-11 { align-self: center; }
 .__as-12 { align-self: center; }
-.__as-13 { align-self: center; }
+.__g-13 { gap: 5px; }
 .__as-14 { align-self: center; }
 .__as-15 { align-self: center; }
-.__as-16 { align-self: center; }
+.__g-16 { gap: 5px; }
 .__as-17 { align-self: center; }
+.__as-18 { align-self: center; }
+.__g-19 { gap: 5px; }
+.__as-20 { align-self: center; }
+.__as-21 { align-self: center; }
 </style>
 <script>
 (function() {
@@ -359,6 +363,7 @@ try {
 let parenti0 = fastn_dom.createKernel(parent, fastn_dom.ElementKind.Row);
 parenti0.setProperty(fastn_dom.PropertyKind.Width, fastn_dom.Resizing.FillContainer, inherited);
 parenti0.setProperty(fastn_dom.PropertyKind.MarginTop, fastn_dom.Length.Px(160), inherited);
+parenti0.setProperty(fastn_dom.PropertyKind.AlignContent, fastn_dom.AlignContent.Center, inherited);
 parenti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
 let rooti0 = avgayathri_github_io_componentset1_statistic_1___statistic_1(root, inherited, {
 stat_1_count: "2.7K",
@@ -387,8 +392,15 @@ let __args__ = {
 };
 inherited = fastn_utils.getInheritedValues(__args__, inherited, args);
 __args__ = fastn_utils.getArgs(__args__, args);
-let parenti0 = fastn_dom.createKernel(parent, fastn_dom.ElementKind.Column);
+let parenti0 = fastn_dom.createKernel(parent, fastn_dom.ElementKind.Row);
 parenti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
+fastn_dom.conditionalDom(root, [
+ftd.device
+], function () {
+return (fastn_utils.getter(ftd.device) == "desktop");
+}, function (root) {
+let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Column);
+rooti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
 let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Text);
 rooti0.setProperty(fastn_dom.PropertyKind.StringValue, __args__.number, inherited);
 rooti0.setProperty(fastn_dom.PropertyKind.Css, fastn.mutableList([global.avgayathri_github_io_componentset1_assets__files.get("style").get("statistic").get("css")]), inherited);
@@ -401,6 +413,36 @@ rooti0.setProperty(fastn_dom.PropertyKind.StringValue, __args__.category, inheri
 rooti0.setProperty(fastn_dom.PropertyKind.Css, fastn.mutableList([global.avgayathri_github_io_componentset1_assets__files.get("style").get("statistic").get("css")]), inherited);
 rooti0.setProperty(fastn_dom.PropertyKind.AlignSelf, fastn_dom.AlignSelf.Center, inherited);
 rooti0.setProperty(fastn_dom.PropertyKind.Classes, fastn.mutableList(["text-2"]), inherited);
+}
+]), inherited);
+return rooti0;
+});
+},
+function (root, inherited) {
+fastn_dom.conditionalDom(root, [
+ftd.device
+], function () {
+return (fastn_utils.getter(ftd.device) == "mobile");
+}, function (root) {
+let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Column);
+rooti0.setProperty(fastn_dom.PropertyKind.Spacing, fastn_dom.Spacing.Fixed(fastn_dom.Length.Px(5)), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
+let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Text);
+rooti0.setProperty(fastn_dom.PropertyKind.StringValue, __args__.number, inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.Css, fastn.mutableList([global.avgayathri_github_io_componentset1_assets__files.get("style").get("statistic").get("css")]), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.AlignSelf, fastn_dom.AlignSelf.Center, inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.Classes, fastn.mutableList(["text-3"]), inherited);
+},
+function (root, inherited) {
+let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Text);
+rooti0.setProperty(fastn_dom.PropertyKind.StringValue, __args__.category, inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.Css, fastn.mutableList([global.avgayathri_github_io_componentset1_assets__files.get("style").get("statistic").get("css")]), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.AlignSelf, fastn_dom.AlignSelf.Center, inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.Classes, fastn.mutableList(["text-4"]), inherited);
+}
+]), inherited);
+return rooti0;
+});
 }
 ]), inherited);
 return parenti0;
@@ -419,10 +461,21 @@ let __args__ = {
 inherited = fastn_utils.getInheritedValues(__args__, inherited, args);
 __args__ = fastn_utils.getArgs(__args__, args);
 let parenti0 = fastn_dom.createKernel(parent, fastn_dom.ElementKind.Row);
-parenti0.setProperty(fastn_dom.PropertyKind.Width, fastn_dom.Resizing.FillContainer, inherited);
+parenti0.setProperty(fastn_dom.PropertyKind.Width, fastn_dom.Resizing.HugContent, inherited);
 parenti0.setProperty(fastn_dom.PropertyKind.Wrap, true, inherited);
-parenti0.setProperty(fastn_dom.PropertyKind.AlignContent, fastn_dom.AlignContent.Center, inherited);
-parenti0.setProperty(fastn_dom.PropertyKind.Spacing, fastn_dom.Spacing.Fixed(fastn_dom.Length.Px(180)), inherited);
+parenti0.setProperty(fastn_dom.PropertyKind.Spacing, fastn.formula([ftd.device,
+ftd.device], function () {
+if (function () {
+return (fastn_utils.getter(ftd.device) == "desktop");
+}()) {
+return fastn_dom.Spacing.Fixed(fastn_dom.Length.Px(180));
+} else if (function () {
+return (fastn_utils.getter(ftd.device) == "mobile");
+}()) {
+return fastn_dom.Spacing.Fixed(fastn_dom.Length.Px(32));
+}
+}
+), inherited);
 parenti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
 let rooti0 = avgayathri_github_io_componentset1_lib__statistic_container(root, inherited, {
 number: __args__.stat_1_count,

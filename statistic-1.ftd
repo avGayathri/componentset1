@@ -9,10 +9,11 @@ string stat-3-category:
 string stat-4-category:
 
 -- ftd.row:
-width: fill-container
-spacing.fixed.px: 180
+width: hug-content
+spacing.fixed.px if { ftd.device == "desktop" }: 180
+spacing.fixed.px if { ftd.device == "mobile" }: 32
 wrap: true
-align-content: center
+
 
 -- lib.statistic-container:
 number: $statistic-1.stat-1-count
@@ -37,6 +38,8 @@ category: $statistic-1.stat-4-category
 -- ftd.row:
 width: fill-container
 margin-top.px: 160
+align-content: center
+
 
 -- statistic-1:
 stat-1-count: 2.7K
