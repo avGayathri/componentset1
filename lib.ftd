@@ -462,14 +462,18 @@ string position:
 body about:
 
 
-
 -- ftd.row:
 width.fixed.vw: 48
-height.fixed.vw: 32
-min-width.fixed.px: 640
-min-height.fixed.px: 260
+height.fixed.vw: 28
+min-width.fixed.px if { ftd.device == "desktop" }: 640
+min-height.fixed.px if { ftd.device == "desktop" }: 260
+min-width.fixed.px if { ftd.device == "mobile" }: 288
+min-height.fixed.px if { ftd.device == "mobile" }: 772
 border-radius.px: 10
-padding.px: 20
+padding-left.px: 20
+padding-right.px: 20
+margin-bottom.px: 20
+
 
 -- ftd.column:
 width: fill-container
