@@ -230,8 +230,6 @@ min-width.fixed.px if { ftd.device == "desktop" }: 292
 min-height.fixed.px if { ftd.device == "desktop" }: 472 
 min-width.fixed.px if { ftd.device == "mobile" }: 292
 min-height.fixed.px if { ftd.device == "mobile" }: 396
-border-color: black
-border-width.px: 2
 margin.px: 12
 
 
