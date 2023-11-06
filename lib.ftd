@@ -322,6 +322,9 @@ ftd.image-src pro-pic:
 
 
 -- ftd.row:
+
+-- ftd.row:
+if: { ftd.device == "desktop" }
 classes: container
 css: [ $assets.files.style.testimonial.css]
 width.fixed.vw: 46
@@ -374,6 +377,70 @@ css: [ $assets.files.style.testimonial.css]
 -- end: ftd.row
 
 -- end: ftd.column
+
+-- end: ftd.row
+
+;; mobile
+
+-- ftd.row:
+if: { ftd.device == "mobile" }
+classes: container
+css: [ $assets.files.style.testimonial.css]
+width.fixed.vw: 46
+height.fixed.vw: 18
+min-width.fixed.px: 288
+min-height.fixed.px: 360
+border-radius.px: 10
+padding.px: 16
+margin-left.px: 20
+margin-right.px: 20
+margin-bottom.px: 10
+
+-- ftd.column:
+width: fill-container
+height: fill-container
+spacing.fixed.px: 20
+
+-- ftd.image:
+src: $assets.files.assets.quotes.png
+width.fixed.px: 28
+height.fixed.px: 28
+
+-- ftd.text: $testimonial-1.about
+classes: text-1
+css: [ $assets.files.style.testimonial.css]
+
+-- ftd.row:
+width: fill-container
+height: fill-container
+spacing.fixed.px: 20
+margin-top.px: 10
+
+-- ftd.image:
+src: $testimonial-1.pro-pic
+width.fixed.px: 50
+height.fixed.px: 50
+border-radius.percent: 50
+
+-- ftd.column:
+spacing.fixed.px: 10
+
+-- ftd.text: $testimonial-1.name
+classes: text-2
+css: [ $assets.files.style.testimonial.css]
+
+-- ftd.text: $testimonial-1.position
+classes: text-3
+css: [ $assets.files.style.testimonial.css]
+
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: ftd.row
 
 -- end: ftd.row
 
