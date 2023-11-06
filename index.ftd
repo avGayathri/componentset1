@@ -15,18 +15,6 @@ link: team-2
 role: $inherited.types.heading-medium
 link: team-3
 
--- ftd.text: testimonial-1
-role: $inherited.types.heading-medium
-link: testimonial-1
-
--- ftd.text: testimonial-2
-role: $inherited.types.heading-medium
-link: testimonial-2
-
--- ftd.text: testimonial-3
-role: $inherited.types.heading-medium
-link: testimonial-3
-
 -- ftd.text: statistic-1
 role: $inherited.types.heading-medium
 link: statistic-1
@@ -38,5 +26,17 @@ link: statistic-2
 -- ftd.text: statistic-3
 role: $inherited.types.heading-medium
 link: statistic-3
+
+-- ftd.text: testimonial-1
+role: $inherited.types.heading-medium
+link: testimonial-1
+
+-- ftd.text: testimonial-2
+role: $inherited.types.heading-medium
+link: testimonial-2
+
+-- ftd.text: testimonial-3
+role: $inherited.types.heading-medium
+link: testimonial-3
 
 -- end: ftd.column
