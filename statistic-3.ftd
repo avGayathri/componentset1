@@ -11,17 +11,13 @@ string stat-3-category:
 string stat-4-category:
 
 
--- ftd.column: 
-width: fill-container
-height: fill-container
-align-content: center
 
 
 -- ftd.column:
 width: fill-container
 height: fill-container
 align-content: center
-;;wrap: true
+
 
 
 
@@ -33,13 +29,16 @@ margin-bottom.px: 12
 -- ftd.text: $statistic-3.about
 classes: about
 css: [ $assets.files.style.statistic.css]
-margin-right.px: 260
-margin-left.px: 260
+margin-right.px if { ftd.device == "desktop" }: 260
+margin-left.px if { ftd.device == "desktop" }: 260
+margin-right.px if { ftd.device == "mobile" }: 50
+margin-left.px if { ftd.device == "mobile" }: 50
 text-align: center
 
 
 -- ftd.row:
-margin-top.px: 100
+margin-top.px if { ftd.device == "desktop" }: 100
+margin-top.px if { ftd.device == "mobile" }: 30
 spacing.fixed.px: 40
 align-content: center
 wrap: true
@@ -116,6 +115,8 @@ align-content: center
 border-color: grey
 border-width.px: 2
 border-radius.px: 10
+margin-bottom.px if { ftd.device == "desktop" }: 20
+margin-bottom.px if { ftd.device == "mobile" }: 30
 
 -- ftd.image:
 src: $assets.files.assets.shield-check.svg
@@ -132,9 +133,15 @@ category: $statistic-3.stat-4-category
 
 -- end: ftd.column
 
--- end: ftd.column
-
 -- end: statistic-3
+
+-- ftd.row:
+align-content: center
+align-self: center
+margin-top.px if { ftd.device == "desktop" }: 170
+margin-top.px if { ftd.device == "mobile" }: 30
+
+
 
 -- statistic-3:
 title: Moon hashtag pop-up try-hard offal truffaut
@@ -150,3 +157,5 @@ stat-4-category: Products
 
 Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. 
 Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.
+
+-- end: ftd.row
