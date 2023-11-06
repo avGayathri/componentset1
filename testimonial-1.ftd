@@ -8,7 +8,8 @@ height: fill-container
 -- ftd.row:
 width: fill-container
 align-content: center
-margin-bottom.px: 60
+margin-bottom.px if { ftd.device == "desktop" }: 60
+margin-bottom.px if { ftd.device == "mobile" }: 30
 margin-top.px: 30
 
 -- ftd.text: $testimonial-1.heading
