@@ -13,6 +13,8 @@ width: hug-content
 spacing.fixed.px if { ftd.device == "desktop" }: 180
 spacing.fixed.px if { ftd.device == "mobile" }: 32
 wrap: true
+margin-left.px: 8
+margin-right.px: 8
 
 
 -- lib.statistic-container:
