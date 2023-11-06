@@ -549,9 +549,12 @@ body about:
 -- ftd.row:
 width.fixed.vw: 32
 height.fixed.vw: 28
-min-width.fixed.px: 440
-min-height.fixed.px: 420
+min-width.fixed.px if { ftd.device == "desktop" }: 440
+min-height.fixed.px if { ftd.device == "desktop" }: 420
+min-width.fixed.px if { ftd.device == "mobile" }: 288
+min-height.fixed.px if { ftd.device == "mobile" }: 494
 padding.px: 20
+
 
 
 -- ftd.column:

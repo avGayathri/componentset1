@@ -40,7 +40,8 @@ Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cro
 -- ftd.row:
 width: fill-container
 height.fixed.vw: 50 
-margin-top.px: 120
+margin-top.px if { ftd.device == "desktop" }: 120
+margin-top.px if { ftd.device == "mobile" }: 40
 
 -- testimonial-3:
 
