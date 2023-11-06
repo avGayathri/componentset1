@@ -623,7 +623,10 @@ align-self: center
 string number:
 string category:
 
+-- ftd.row:
+
 -- ftd.column:
+if: { ftd.device == "desktop" }
 
 -- ftd.text: $statistic-container.number
 classes: text-1
@@ -636,5 +639,24 @@ css: [ $assets.files.style.statistic.css]
 align-self: center
 
 -- end: ftd.column
+
+-- ftd.column:
+if: { ftd.device == "mobile" }
+spacing.fixed.px: 5
+
+-- ftd.text: $statistic-container.number
+classes: text-3
+css: [ $assets.files.style.statistic.css]
+align-self: center
+
+-- ftd.text: $statistic-container.category
+classes: text-4
+css: [ $assets.files.style.statistic.css]
+align-self: center
+
+-- end: ftd.column
+
+
+-- end: ftd.row
 
 -- end: statistic-container
