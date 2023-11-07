@@ -19,6 +19,7 @@ align-content: center
 
 
 -- ftd.row:
+if : { ftd.device == "desktop" }
 width: fill-container
 height: fill-container
 padding.px: 32
@@ -89,6 +90,80 @@ border-radius.px: 10
 -- end: ftd.column
 
 -- end: ftd.row
+
+;;mobile-view
+
+-- ftd.column:
+if : { ftd.device == "mobile" }
+width: fill-container
+height: fill-container
+padding.px: 10
+spacing.fixed.px: 30
+wrap: true
+
+
+
+-- ftd.column:
+margin-top.px: 20
+margin-left.px: 10
+
+
+-- ftd.text: $statistic-2.title
+classes: title
+css: [ $assets.files.style.statistic.css]
+margin-bottom.px: 12
+margin-top.px: 10
+text-align: center
+
+-- ftd.text: $statistic-2.about
+classes: about
+css: [ $assets.files.style.statistic.css]
+margin-right.px: 10
+text-align: center
+
+
+-- ftd.row:
+margin-top.px: 20
+spacing.fixed.px: 20
+
+-- lib.statistic-container:
+number: $statistic-2.stat-1-count
+category: $statistic-2.stat-1-category
+
+-- lib.statistic-container:
+number: $statistic-2.stat-2-count
+category: $statistic-2.stat-2-category
+
+-- lib.statistic-container:
+number: $statistic-2.stat-3-count
+category: $statistic-2.stat-3-category
+
+-- lib.statistic-container:
+number: $statistic-2.stat-4-count
+category: $statistic-2.stat-4-category
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- ftd.column:
+min-height.fixed.px: 120
+min-width.fixed.px: 320
+margin-left.px: 5
+
+-- ftd.image:
+src: $statistic-2.image
+width.fixed.vw: 48
+height.fixed.px: 180
+min-height.fixed.px: 100
+min-width.fixed.px: 316
+border-radius.px: 10
+margin-left.px: 2
+
+
+-- end: ftd.column
+
+-- end: ftd.column
 
 -- end: ftd.column
 
