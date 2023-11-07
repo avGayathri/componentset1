@@ -39,4 +39,8 @@ link: testimonial-2
 role: $inherited.types.heading-medium
 link: testimonial-3
 
+-- ftd.text: feature-1
+role: $inherited.types.heading-medium
+link: feature-1
+
 -- end: ftd.column

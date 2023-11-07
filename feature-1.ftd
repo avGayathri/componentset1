@@ -1,0 +1,67 @@
+-- component feature-container-1:
+
+-- ftd.column:
+width: fill-container
+spacing.fixed.px: 80
+
+-- ftd.row:
+width.fixed.vw: 40
+height.fixed.vw: 5
+align-self: center
+padding-left.px: 60
+padding-right.px: 60
+
+-- ftd.text:
+classes: text-1
+css: [ $assets.files.style.feature.css]
+text-align: center
+
+Raw Denim Heirloom Man Braid Selfies Wayfarers
+
+-- end: ftd.row
+
+-- ftd.row:
+width: fill-container
+align-content: center
+align-self: center
+spacing.fixed.px: 20
+wrap: true
+
+-- lib.feature-container:
+logo: $assets.files.assets.graph.png
+title: Shooting Stars
+
+Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, 
+ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.
+
+-- lib.feature-container:
+logo: $assets.files.assets.scissors.png
+title: The Catalyzer
+
+Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, 
+ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.
+
+-- lib.feature-container:
+logo: $assets.files.assets.user.png
+title: Neptune
+
+Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. 
+Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.
+
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: feature-container-1
+
+-- ftd.row:
+width: fill-container
+height: fill-container
+align-self: center
+margin-top.px: 100
+
+-- feature-container-1:
+
+-- end: ftd.row
+
