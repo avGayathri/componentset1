@@ -15,7 +15,7 @@ string stat-4-category:
 -- ftd.column: 
 width: fill-container
 height: fill-container
-align-content: center
+
 
 
 -- ftd.row:
