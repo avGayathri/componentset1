@@ -1,4 +1,4 @@
--- component feature-container-1:
+-- component feature-1:
 
 -- ftd.column:
 width: fill-container
@@ -33,21 +33,21 @@ align-self: center
 spacing.fixed.px: 20
 wrap: true
 
--- lib.feature-container:
+-- lib.feature-container-1:
 logo: $assets.files.assets.graph.png
 title: Shooting Stars
 
 Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, 
 ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.
 
--- lib.feature-container:
+-- lib.feature-container-1:
 logo: $assets.files.assets.scissors.png
 title: The Catalyzer
 
 Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, 
 ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.
 
--- lib.feature-container:
+-- lib.feature-container-1:
 logo: $assets.files.assets.user.png
 title: Neptune
 
@@ -59,7 +59,7 @@ Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh i
 
 -- end: ftd.column
 
--- end: feature-container-1
+-- end: feature-1
 
 -- ftd.row:
 width: fill-container
@@ -67,7 +67,7 @@ height: fill-container
 align-self: center
 margin-top.px: 100
 
--- feature-container-1:
+-- feature-1:
 
 -- end: ftd.row
 
