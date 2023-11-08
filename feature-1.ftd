@@ -2,14 +2,20 @@
 
 -- ftd.column:
 width: fill-container
-spacing.fixed.px: 80
+spacing.fixed.px if { ftd.device == "desktop" }: 56
+spacing.fixed.px if { ftd.device == "mobile" }: 20
 
 -- ftd.row:
-width.fixed.vw: 40
-height.fixed.vw: 5
+width.fixed.vw if { ftd.device == "desktop" }: 44
+height.fixed.vw if { ftd.device == "desktop" }: 12
+padding-left.px if { ftd.device == "desktop" }: 60
+padding-right.px if { ftd.device == "desktop" }: 60
+width.fixed.vw if { ftd.device == "mobile" }: 92
+height.fixed.vw if { ftd.device == "mobile" }: 44
+padding-left.px if { ftd.device == "mobile" }: 20
+padding-right.px if { ftd.device == "mobile" }: 20
 align-self: center
-padding-left.px: 60
-padding-right.px: 60
+
 
 -- ftd.text:
 classes: text-1
