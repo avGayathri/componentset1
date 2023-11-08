@@ -670,7 +670,7 @@ align-self: center
 
 
 
--- component feature-container:
+-- component feature-container-1:
 ftd.image-src logo:
 string title:
 body about:
@@ -697,7 +697,7 @@ margin-bottom.px if { ftd.device == "desktop" } : 204
 
 
 -- ftd.image:
-src: $feature-container.logo
+src: $feature-container-1.logo
 width.fixed.px: 40
 height.fixed.px: 40
 border-radius.percent: 50
@@ -712,11 +712,11 @@ min-width.fixed.px: 360
 min-height.fixed.px: 196
 spacing.fixed.px: 20
 
--- ftd.text: $feature-container.title
+-- ftd.text: $feature-container-1.title
 classes: text-2
 css: [ $assets.files.style.feature.css]
 
--- ftd.text: $feature-container.about
+-- ftd.text: $feature-container-1.about
 classes: text-3
 css: [ $assets.files.style.feature.css]
 
@@ -748,7 +748,7 @@ margin-bottom.px: 204
 
 
 -- ftd.image:
-src: $feature-container.logo
+src: $feature-container-1.logo
 width.fixed.px: 40
 height.fixed.px: 40
 border-radius.percent: 50
@@ -764,11 +764,11 @@ height.fixed.vw: 72
 spacing.fixed.px: 20
 
 
--- ftd.text: $feature-container.title
+-- ftd.text: $feature-container-1.title
 classes: text-2
 css: [ $assets.files.style.feature.css]
 
--- ftd.text: $feature-container.about
+-- ftd.text: $feature-container-1.about
 classes: text-3
 css: [ $assets.files.style.feature.css]
 
@@ -783,4 +783,86 @@ css: [ $assets.files.style.feature.css]
 
 -- end: ftd.column
 
--- end: feature-container
+-- end: feature-container-1
+
+
+
+
+
+
+
+
+
+
+-- component feature-container-2:
+ftd.image-src logo:
+string title:
+body about:
+
+
+-- ftd.column:
+
+-- ftd.row:
+;;if : { ftd.device == "desktop" }
+classes: feature-2-container
+css: [ $assets.files.style.feature.css]
+min-width.fixed.px: 436
+min-height.fixed.px: 204
+width.fixed.vw: 46
+height.fixed.vw: 14
+spacing.fixed.px: 20
+border-width.px: 2
+border-radius.px: 10
+padding.px: 30
+
+
+-- ftd.column:
+classes: symbol
+css: [ $assets.files.style.feature.css]
+width.fixed.px: 52
+height.fixed.px: 52
+border-radius.percent: 50
+
+
+
+-- ftd.image:
+src: $feature-container-2.logo
+width.fixed.px: 40
+height.fixed.px: 40
+border-radius.percent: 50
+margin.px: 5
+
+-- end: ftd.column
+
+-- ftd.column:
+width: fill-container
+height: fill-container
+;;width.fixed.vw: 28
+;;height.fixed.vw: 16
+min-width.fixed.px: 360
+min-height.fixed.px: 196
+spacing.fixed.px: 20
+;;border-color: green
+;;border-width.px: 2
+
+-- ftd.text: $feature-container-2.title
+classes: text-2
+css: [ $assets.files.style.feature.css]
+
+
+-- ftd.text: $feature-container-2.about
+classes: text-3
+css: [ $assets.files.style.feature.css]
+margin-right.px: 10
+
+-- ftd.text: Learn More ->
+classes: text-4
+css: [ $assets.files.style.feature.css]
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: feature-container-2

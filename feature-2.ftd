@@ -1,0 +1,36 @@
+-- component feature-2:
+
+-- ftd.row:
+width: fill-container
+spacing.fixed.px: 32
+align-content: center
+wrap: true
+border-color: red
+border-width.px: 2
+
+-- lib.feature-container-2:
+logo: $assets.files.assets.graph.png
+title: Shooting Stars
+
+Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.
+
+-- lib.feature-container-2:
+logo: $assets.files.assets.graph.png
+title: Shooting Stars
+
+Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.
+
+
+-- end: ftd.row
+
+-- end: feature-2
+
+/-- ftd.row:
+width: fill-container
+margin-top.px: 100
+align-content: center
+align-self: center
+
+-- feature-2:
+
+/-- end: ftd.row

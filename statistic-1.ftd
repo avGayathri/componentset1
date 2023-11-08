@@ -11,10 +11,10 @@ string stat-4-category:
 -- ftd.row:
 width: hug-content
 spacing.fixed.px if { ftd.device == "desktop" }: 180
-spacing.fixed.px if { ftd.device == "mobile" }: 32
+spacing.fixed.px if { ftd.device == "mobile" }: 28
 wrap: true
-margin-left.px: 8
-margin-right.px: 8
+;;margin-left.px: 5
+;;margin-right.px: 5
 
 
 -- lib.statistic-container:
