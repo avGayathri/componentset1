@@ -677,28 +677,24 @@ body about:
 
 
 -- ftd.column:
-;;border-color: black
-;;border-width.px: 2
-width.fixed.vw: 30
-height.fixed.vw: 16
-min-width.fixed.px: 340
-min-height.fixed.px: 192
 
 -- ftd.row:
-min-width.fixed.px: 340
+if : { ftd.device == "desktop" }
+min-width.fixed.px: 436
 min-height.fixed.px: 192
 width.fixed.vw: 30
-height.fixed.vw: 16
-align-content: center
+height.fixed.vw: 20
 spacing.fixed.px: 20
+
 
 -- ftd.column:
 classes: symbol
 css: [ $assets.files.style.feature.css]
-width.fixed.px: 50
-height.fixed.px: 50
+width.fixed.px: 52
+height.fixed.px: 52
 border-radius.percent: 50
-margin-bottom.px: 170
+margin-bottom.px if { ftd.device == "desktop" } : 204
+
 
 -- ftd.image:
 src: $feature-container.logo
@@ -711,7 +707,9 @@ margin.px: 5
 
 -- ftd.column:
 width.fixed.vw: 28
-height.fixed.vw: 14
+height.fixed.vw: 16
+min-width.fixed.px: 360
+min-height.fixed.px: 196
 spacing.fixed.px: 20
 
 -- ftd.text: $feature-container.title
@@ -729,6 +727,59 @@ css: [ $assets.files.style.feature.css]
 -- end: ftd.column
 
 -- end: ftd.row
+
+;;mobile
+-- ftd.row:
+if : { ftd.device == "mobile" }
+;;min-width.fixed.px: 392
+;;min-height.fixed.px: 192
+width.fixed.vw: 96
+height.fixed.vw: 72
+spacing.fixed.px: 20
+
+
+-- ftd.column:
+classes: symbol
+css: [ $assets.files.style.feature.css]
+width.fixed.px: 52
+height.fixed.px: 52
+border-radius.percent: 50
+margin-bottom.px: 204
+
+
+-- ftd.image:
+src: $feature-container.logo
+width.fixed.px: 40
+height.fixed.px: 40
+border-radius.percent: 50
+margin.px: 5
+
+-- end: ftd.column
+
+-- ftd.column:
+width.fixed.vw: 80
+height.fixed.vw: 72
+;;min-width.fixed.px: 360
+;;min-height.fixed.px: 196
+spacing.fixed.px: 20
+
+
+-- ftd.text: $feature-container.title
+classes: text-2
+css: [ $assets.files.style.feature.css]
+
+-- ftd.text: $feature-container.about
+classes: text-3
+css: [ $assets.files.style.feature.css]
+
+-- ftd.text: Learn More ->
+classes: text-4
+css: [ $assets.files.style.feature.css]
+
+-- end: ftd.column
+
+-- end: ftd.row
+
 
 -- end: ftd.column
 
