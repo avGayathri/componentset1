@@ -1,4 +1,5 @@
 -- component feature-1:
+children card:
 
 -- ftd.column:
 width: fill-container
@@ -32,27 +33,8 @@ align-content: center
 align-self: center
 spacing.fixed.px: 20
 wrap: true
+children: $feature-1.card
 
--- lib.feature-container-1:
-logo: $assets.files.assets.graph.png
-title: Shooting Stars
-
-Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, 
-ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.
-
--- lib.feature-container-1:
-logo: $assets.files.assets.scissors.png
-title: The Catalyzer
-
-Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, 
-ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.
-
--- lib.feature-container-1:
-logo: $assets.files.assets.user.png
-title: Neptune
-
-Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. 
-Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.
 
 
 -- end: ftd.row
@@ -68,6 +50,33 @@ align-self: center
 margin-top.px: 100
 
 -- feature-1:
+
+-- lib.feature-container-1:
+logo: $assets.files.assets.graph.png
+title: Shooting Stars
+cta-link: https://fastnui.trizwit.com/
+
+Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, 
+ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.
+
+-- lib.feature-container-1:
+logo: $assets.files.assets.scissors.png
+title: The Catalyzer
+cta-link: https://fastnui.trizwit.com/
+
+Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, 
+ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.
+
+-- lib.feature-container-1:
+logo: $assets.files.assets.user.png
+title: Neptune
+cta-link: https://fastnui.trizwit.com/
+
+Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. 
+Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.
+
+-- end: feature-1
+
 
 -- end: ftd.row
 

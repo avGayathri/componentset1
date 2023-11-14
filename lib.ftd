@@ -314,7 +314,7 @@ width.fixed.px: 20
 
 
 
--- component testimonial-1:
+-- component testimonial-1-container:
 string name:
 string position:
 body about:
@@ -344,7 +344,7 @@ src: $assets.files.assets.quotes.png
 width.fixed.px: 28
 height.fixed.px: 28
 
--- ftd.text: $testimonial-1.about
+-- ftd.text: $testimonial-1-container.about
 classes: text-1
 css: [ $assets.files.style.testimonial.css]
 
@@ -355,7 +355,7 @@ spacing.fixed.px: 20
 margin-top.px: 10
 
 -- ftd.image:
-src: $testimonial-1.pro-pic
+src: $testimonial-1-container.pro-pic
 width.fixed.px: 50
 height.fixed.px: 50
 border-radius.percent: 50
@@ -363,11 +363,11 @@ border-radius.percent: 50
 -- ftd.column:
 spacing.fixed.px: 10
 
--- ftd.text: $testimonial-1.name
+-- ftd.text: $testimonial-1-container.name
 classes: text-2
 css: [ $assets.files.style.testimonial.css]
 
--- ftd.text: $testimonial-1.position
+-- ftd.text: $testimonial-1-container.position
 classes: text-3
 css: [ $assets.files.style.testimonial.css]
 
@@ -406,7 +406,7 @@ src: $assets.files.assets.quotes.png
 width.fixed.px: 28
 height.fixed.px: 28
 
--- ftd.text: $testimonial-1.about
+-- ftd.text: $testimonial-1-container.about
 classes: text-1
 css: [ $assets.files.style.testimonial.css]
 
@@ -417,7 +417,7 @@ spacing.fixed.px: 20
 margin-top.px: 10
 
 -- ftd.image:
-src: $testimonial-1.pro-pic
+src: $testimonial-1-container.pro-pic
 width.fixed.px: 50
 height.fixed.px: 50
 border-radius.percent: 50
@@ -425,11 +425,11 @@ border-radius.percent: 50
 -- ftd.column:
 spacing.fixed.px: 10
 
--- ftd.text: $testimonial-1.name
+-- ftd.text: $testimonial-1-container.name
 classes: text-2
 css: [ $assets.files.style.testimonial.css]
 
--- ftd.text: $testimonial-1.position
+-- ftd.text: $testimonial-1-container.position
 classes: text-3
 css: [ $assets.files.style.testimonial.css]
 
@@ -444,7 +444,7 @@ css: [ $assets.files.style.testimonial.css]
 
 -- end: ftd.row
 
--- end: testimonial-1
+-- end: testimonial-1-container
 
 
 
@@ -456,7 +456,7 @@ css: [ $assets.files.style.testimonial.css]
 
 
 
--- component testimonial-2:
+-- component testimonial-2-container:
 string name:
 string position:
 body about:
@@ -487,7 +487,7 @@ height.fixed.px: 48
 margin-bottom.px: 12
 align-self: center
 
--- ftd.text: $testimonial-2.about
+-- ftd.text: $testimonial-2-container.about
 classes: text-4
 css: [ $assets.files.style.testimonial.css]
 
@@ -506,13 +506,13 @@ margin.px: 15
 spacing.fixed.px: 10
 align-self: center
 
--- ftd.text: $testimonial-2.name
+-- ftd.text: $testimonial-2-container.name
 classes: text-5
 css: [ $assets.files.style.testimonial.css]
 text-align: center
 align-self: center
 
--- ftd.text: $testimonial-2.position
+-- ftd.text: $testimonial-2-container.position
 classes: text-6
 css: [ $assets.files.style.testimonial.css]
 text-align: center
@@ -525,7 +525,7 @@ align-self: center
 
 -- end: ftd.row
 
--- end: testimonial-2
+-- end: testimonial-2-container
 
 
 
@@ -538,7 +538,7 @@ align-self: center
 
 
 
--- component testimonial-3:
+-- component testimonial-3-container:
 ftd.image-src pro-pic:
 string name:
 string position:
@@ -563,14 +563,14 @@ height: fill-container
 spacing.fixed.px: 20
 
 -- ftd.image:
-src: $testimonial-3.pro-pic
+src: $testimonial-3-container.pro-pic
 width.fixed.px: 80
 height.fixed.px: 80
 border-radius.percent: 50
 margin-bottom.px: 12
 align-self: center
 
--- ftd.text: $testimonial-3.about
+-- ftd.text: $testimonial-3-container.about
 classes: text-4
 css: [ $assets.files.style.testimonial.css]
 
@@ -589,13 +589,13 @@ margin.px: 15
 spacing.fixed.px: 10
 align-self: center
 
--- ftd.text: $testimonial-3.name
+-- ftd.text: $testimonial-3-container.name
 classes: text-5
 css: [ $assets.files.style.testimonial.css]
 text-align: center
 align-self: center
 
--- ftd.text: $testimonial-3.position
+-- ftd.text: $testimonial-3-container.position
 classes: text-6
 css: [ $assets.files.style.testimonial.css]
 text-align: center
@@ -608,7 +608,7 @@ align-self: center
 
 -- end: ftd.row
 
--- end: testimonial-3
+-- end: testimonial-3-container
 
 
 
@@ -674,6 +674,7 @@ align-self: center
 ftd.image-src logo:
 string title:
 body about:
+string cta-link:
 
 
 -- ftd.column:
@@ -723,6 +724,7 @@ css: [ $assets.files.style.feature.css]
 -- ftd.text: Learn More ->
 classes: text-4
 css: [ $assets.files.style.feature.css]
+link: $feature-container-1.cta-link
 
 -- end: ftd.column
 
@@ -775,6 +777,7 @@ css: [ $assets.files.style.feature.css]
 -- ftd.text: Learn More ->
 classes: text-4
 css: [ $assets.files.style.feature.css]
+link: $feature-container-1.cta-link
 
 -- end: ftd.column
 
@@ -798,12 +801,13 @@ css: [ $assets.files.style.feature.css]
 ftd.image-src logo:
 string title:
 body about:
+string cta-link:
 
 
 -- ftd.column:
 
 -- ftd.row:
-;;if : { ftd.device == "desktop" }
+if : { ftd.device == "desktop" }
 classes: feature-2-container
 css: [ $assets.files.style.feature.css]
 min-width.fixed.px: 436
@@ -858,6 +862,69 @@ margin-right.px: 10
 -- ftd.text: Learn More ->
 classes: text-4
 css: [ $assets.files.style.feature.css]
+link: $feature-container-2.cta-link
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+;;mobile
+
+-- ftd.row:
+if : { ftd.device == "mobile" }
+classes: feature-2-container
+css: [ $assets.files.style.feature.css]
+width.fixed.px: 376
+height.fixed.px: 200
+spacing.fixed.px: 10
+border-width.px: 2
+border-radius.px: 10
+padding.px: 8
+
+
+-- ftd.column:
+classes: symbol
+css: [ $assets.files.style.feature.css]
+width.fixed.px: 52
+height.fixed.px: 52
+border-radius.percent: 50
+
+
+
+-- ftd.image:
+src: $feature-container-2.logo
+width.fixed.px: 40
+height.fixed.px: 40
+border-radius.percent: 50
+margin.px: 5
+
+-- end: ftd.column
+
+-- ftd.column:
+width: fill-container
+height: fill-container
+;;width.fixed.vw: 28
+;;height.fixed.vw: 16
+min-width.fixed.px: 300
+min-height.fixed.px: 188
+spacing.fixed.px: 10
+border-color: green
+border-width.px: 2
+
+-- ftd.text: $feature-container-2.title
+classes: text-2
+css: [ $assets.files.style.feature.css]
+
+
+-- ftd.text: $feature-container-2.about
+classes: text-3
+css: [ $assets.files.style.feature.css]
+margin-right.px: 10
+
+-- ftd.text: Learn More ->
+classes: text-4
+css: [ $assets.files.style.feature.css]
+link: $feature-container-2.cta-link
 
 -- end: ftd.column
 

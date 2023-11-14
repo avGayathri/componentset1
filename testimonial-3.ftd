@@ -1,4 +1,5 @@
 -- component testimonial-3:
+children card:
 
 -- ftd.row:
 width: fill-container
@@ -7,31 +8,7 @@ wrap: true
 spacing.fixed.px: 10
 margin.px: 10
 align-content: center
-
-
--- lib.testimonial-3:
-pro-pic: $assets.files.assets.pic1.jpg
-name: HOLDEN CAULFIELD
-position: Product Designer
-
-Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. 
-Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.
-
--- lib.testimonial-3:
-pro-pic: $assets.files.assets.pic1.jpg
-name: HOLDEN CAULFIELD
-position: Product Designer
-
-Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. 
-Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.
-
--- lib.testimonial-3:
-pro-pic: $assets.files.assets.pic1.jpg
-name: HOLDEN CAULFIELD
-position: Product Designer
-
-Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. 
-Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.
+children: $testimonial-3.card
 
 -- end: ftd.row
 
@@ -44,5 +21,33 @@ margin-top.px if { ftd.device == "desktop" }: 120
 margin-top.px if { ftd.device == "mobile" }: 40
 
 -- testimonial-3:
+
+-- lib.testimonial-3-container:
+pro-pic: $assets.files.assets.pic1.jpg
+name: HOLDEN CAULFIELD
+position: Product Designer
+
+Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. 
+Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.
+
+-- lib.testimonial-3-container:
+pro-pic: $assets.files.assets.pic1.jpg
+name: HOLDEN CAULFIELD
+position: Product Designer
+
+Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. 
+Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.
+
+-- lib.testimonial-3-container:
+pro-pic: $assets.files.assets.pic1.jpg
+name: HOLDEN CAULFIELD
+position: Product Designer
+
+Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. 
+Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.
+
+
+-- end: testimonial-3
+
 
 -- end: ftd.row

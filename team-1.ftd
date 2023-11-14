@@ -1,6 +1,7 @@
 -- component team-1:
 caption title:
 body about:
+children card:
 
 
 
@@ -64,6 +65,23 @@ spacing.fixed.px: 4
 -- ftd.row:
 wrap: true
 align-content: center
+children: $team-1.card
+
+
+
+-- end: ftd.row
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: team-1
+
+-- team-1:
+title: Our Team
+
+Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table.Franzen you probably
+haven't heard of them.
 
 -- lib.profilecard-a:
 pro-pic: $assets.files.assets.pic1.jpg
@@ -112,16 +130,4 @@ pro-pic: $assets.files.assets.pic9.jpg
 name: Rodrigo Monchi
 position: Product Manager
 
--- end: ftd.row
-
--- end: ftd.row
-
--- end: ftd.column
-
 -- end: team-1
-
--- team-1:
-title: Our Team
-
-Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table.Franzen you probably
-haven't heard of them.

@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
@@ -12,9 +13,9 @@ let __fastn_package_name__ = "avgayathri.github.io/componentset1";
 </script>
 
 
-<script src="markdown-BAEDD5DFCDD5DBEC8FC55F8804199879E276781A8879AD94F0C7DDA0F7069C74.js"></script>
+<script src="markdown-24E09EFC0C2B9A11DEA9AC71888EB3A1E85864FA7D9C95A3EB5075A0E0F49A5F.js"></script>
 <script src="prism-8FE3A42AD547E2DBBC9FE16BA059F8F1870D613AD0C5B0B013D6205B72A62BAF.js"></script>
-<script src="default-35D3DC3ED42F3A75607B99E7EA05FC0387A5F96396E7CACE3804686C45817498.js"></script>
+<script src="default-CFDDCE5BFFEB04842D8D61F0255182098EF6D38CA45C8D67211276DE9C70EC61.js"></script>
 <link rel="stylesheet" href="prism-73F718B9234C00C5C14AB6A11BF239A103F0B0F93B69CD55CB5C6530501182EB.css">
 
 
@@ -154,7 +155,7 @@ align-items: start;
 justify-content: start
 }
 
-.full {
+.ft_full_size {
 width: 100%;
 height: 100%;
 }
@@ -461,7 +462,40 @@ __fastn_package_name__ = "avgayathri_github_io_componentset1";
 try {
 let parenti0 = avgayathri_github_io_componentset1_team_2___team_2(parent, inherited, {
 title: "Our Team",
-about: "Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table.Franzen you probably\nhaven't heard of them."
+about: "Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table.Franzen you probably\nhaven't heard of them.",
+card: fastn.mutableList([function (root, inherited) {
+let rooti0 = avgayathri_github_io_componentset1_lib__profilecard_b(root, inherited, {
+pro_pic: global.avgayathri_github_io_componentset1_assets__files.get("assets").get("pic10").get("jpg"),
+name: "Holden Caulfield",
+position: "UI Designer",
+about: "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware."
+});
+},
+function (root, inherited) {
+let rooti0 = avgayathri_github_io_componentset1_lib__profilecard_b(root, inherited, {
+pro_pic: global.avgayathri_github_io_componentset1_assets__files.get("assets").get("pic11").get("jpg"),
+name: "Henry Letham",
+position: "CTO",
+about: "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware."
+});
+},
+function (root, inherited) {
+let rooti0 = avgayathri_github_io_componentset1_lib__profilecard_b(root, inherited, {
+pro_pic: global.avgayathri_github_io_componentset1_assets__files.get("assets").get("pic12").get("jpg"),
+name: "Oskar Blinde",
+position: "Founder",
+about: "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware."
+});
+},
+function (root, inherited) {
+let rooti0 = avgayathri_github_io_componentset1_lib__profilecard_b(root, inherited, {
+pro_pic: global.avgayathri_github_io_componentset1_assets__files.get("assets").get("pic13").get("jpg"),
+name: "John Doe",
+position: "Devops",
+about: "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware."
+});
+}
+])
 });
 } finally {
 __fastn_package_name__ = __fastn_super_package_name__;
@@ -469,6 +503,119 @@ __fastn_package_name__ = __fastn_super_package_name__;
 }
 global["main"] = main;
 fastn_utils.createNestedObject(global, "avgayathri_github_io_componentset1_assets__files.style.team.css", "-/avgayathri.github.io/componentset1/style/team.css");
+let avgayathri_github_io_componentset1_team_2___team_2 = function (parent, inherited, args)
+{
+let __fastn_super_package_name__ = __fastn_package_name__;
+__fastn_package_name__ = "avgayathri_github_io_componentset1";
+try {
+let __args__ = {
+card: fastn.mutableList([]),
+};
+inherited = fastn_utils.getInheritedValues(__args__, inherited, args);
+__args__ = fastn_utils.getArgs(__args__, args);
+let parenti0 = fastn_dom.createKernel(parent, fastn_dom.ElementKind.Column);
+parenti0.setProperty(fastn_dom.PropertyKind.AlignSelf, fastn_dom.AlignSelf.Center, inherited);
+parenti0.setProperty(fastn_dom.PropertyKind.Width, fastn_dom.Resizing.FillContainer, inherited);
+parenti0.setProperty(fastn_dom.PropertyKind.Height, fastn_dom.Resizing.FillContainer, inherited);
+parenti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
+fastn_dom.conditionalDom(root, [
+ftd.device
+], function () {
+return (fastn_utils.getter(ftd.device) == "desktop");
+}, function (root) {
+let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Column);
+rooti0.setProperty(fastn_dom.PropertyKind.AlignSelf, fastn_dom.AlignSelf.Center, inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
+let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Text);
+rooti0.setProperty(fastn_dom.PropertyKind.Role, inherited.get("types").get("heading_small"), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.StringValue, __args__.title, inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.AlignSelf, fastn_dom.AlignSelf.Center, inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.MarginTop, fastn_dom.Length.Px(80), inherited);
+},
+function (root, inherited) {
+let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Text);
+rooti0.setProperty(fastn_dom.PropertyKind.StringValue, __args__.about, inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.Css, fastn.mutableList([global.avgayathri_github_io_componentset1_assets__files.get("style").get("team").get("css")]), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.Classes, fastn.mutableList(["text"]), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.PaddingLeft, fastn_dom.Length.Px(200), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.PaddingRight, fastn_dom.Length.Px(200), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.MarginTop, fastn_dom.Length.Px(18), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.Color, fastn.recordInstance({
+dark: "grey",
+light: "grey"
+}), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.TextAlign, fastn_dom.TextAlign.Center, inherited);
+}
+]), inherited);
+return rooti0;
+});
+},
+function (root, inherited) {
+fastn_dom.conditionalDom(root, [
+ftd.device
+], function () {
+return (fastn_utils.getter(ftd.device) == "mobile");
+}, function (root) {
+let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Column);
+rooti0.setProperty(fastn_dom.PropertyKind.AlignSelf, fastn_dom.AlignSelf.Center, inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
+let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Text);
+rooti0.setProperty(fastn_dom.PropertyKind.Role, inherited.get("types").get("heading_small"), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.StringValue, __args__.title, inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.AlignSelf, fastn_dom.AlignSelf.Center, inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.MarginTop, fastn_dom.Length.Px(40), inherited);
+},
+function (root, inherited) {
+let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Text);
+rooti0.setProperty(fastn_dom.PropertyKind.StringValue, __args__.about, inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.Css, fastn.mutableList([global.avgayathri_github_io_componentset1_assets__files.get("style").get("team").get("css")]), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.Classes, fastn.mutableList(["text"]), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.PaddingLeft, fastn_dom.Length.Px(50), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.PaddingRight, fastn_dom.Length.Px(50), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.MarginTop, fastn_dom.Length.Px(18), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.Color, fastn.recordInstance({
+dark: "grey",
+light: "grey"
+}), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.TextAlign, fastn_dom.TextAlign.Center, inherited);
+}
+]), inherited);
+return rooti0;
+});
+},
+function (root, inherited) {
+let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Row);
+rooti0.setProperty(fastn_dom.PropertyKind.Width, fastn_dom.Resizing.FillContainer, inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.MarginTop, fastn.formula([ftd.device,
+ftd.device], function () {
+if (function () {
+return (fastn_utils.getter(ftd.device) == "desktop");
+}()) {
+return fastn_dom.Length.Px(80);
+} else if (function () {
+return (fastn_utils.getter(ftd.device) == "mobile");
+}()) {
+return fastn_dom.Length.Px(45);
+}
+}
+), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.AlignContent, fastn_dom.AlignContent.Center, inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.Spacing, fastn_dom.Spacing.Fixed(fastn_dom.Length.Px(8)), inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
+let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Row);
+rooti0.setProperty(fastn_dom.PropertyKind.Wrap, true, inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.AlignContent, fastn_dom.AlignContent.Center, inherited);
+rooti0.setProperty(fastn_dom.PropertyKind.Children, __args__.card, inherited);
+}
+]), inherited);
+}
+]), inherited);
+return parenti0;
+} finally {
+__fastn_package_name__ = __fastn_super_package_name__;
+}
+}
+global["avgayathri_github_io_componentset1_team_2___team_2"] = avgayathri_github_io_componentset1_team_2___team_2;
 fastn_utils.createNestedObject(global, "avgayathri_github_io_componentset1_assets__files.assets.pic13.jpg", fastn.recordInstance({
 light: "-/avgayathri.github.io/componentset1/assets/pic13.jpg",
 dark: "-/avgayathri.github.io/componentset1/assets/pic13.jpg"
@@ -680,150 +827,6 @@ __fastn_package_name__ = __fastn_super_package_name__;
 }
 }
 global["avgayathri_github_io_componentset1_lib__profilecard_b"] = avgayathri_github_io_componentset1_lib__profilecard_b;
-let avgayathri_github_io_componentset1_team_2___team_2 = function (parent, inherited, args)
-{
-let __fastn_super_package_name__ = __fastn_package_name__;
-__fastn_package_name__ = "avgayathri_github_io_componentset1";
-try {
-let __args__ = {
-};
-inherited = fastn_utils.getInheritedValues(__args__, inherited, args);
-__args__ = fastn_utils.getArgs(__args__, args);
-let parenti0 = fastn_dom.createKernel(parent, fastn_dom.ElementKind.Column);
-parenti0.setProperty(fastn_dom.PropertyKind.AlignSelf, fastn_dom.AlignSelf.Center, inherited);
-parenti0.setProperty(fastn_dom.PropertyKind.Width, fastn_dom.Resizing.FillContainer, inherited);
-parenti0.setProperty(fastn_dom.PropertyKind.Height, fastn_dom.Resizing.FillContainer, inherited);
-parenti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
-fastn_dom.conditionalDom(root, [
-ftd.device
-], function () {
-return (fastn_utils.getter(ftd.device) == "desktop");
-}, function (root) {
-let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Column);
-rooti0.setProperty(fastn_dom.PropertyKind.AlignSelf, fastn_dom.AlignSelf.Center, inherited);
-rooti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
-let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Text);
-rooti0.setProperty(fastn_dom.PropertyKind.Role, inherited.get("types").get("heading_small"), inherited);
-rooti0.setProperty(fastn_dom.PropertyKind.StringValue, __args__.title, inherited);
-rooti0.setProperty(fastn_dom.PropertyKind.AlignSelf, fastn_dom.AlignSelf.Center, inherited);
-rooti0.setProperty(fastn_dom.PropertyKind.MarginTop, fastn_dom.Length.Px(80), inherited);
-},
-function (root, inherited) {
-let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Text);
-rooti0.setProperty(fastn_dom.PropertyKind.StringValue, __args__.about, inherited);
-rooti0.setProperty(fastn_dom.PropertyKind.Css, fastn.mutableList([global.avgayathri_github_io_componentset1_assets__files.get("style").get("team").get("css")]), inherited);
-rooti0.setProperty(fastn_dom.PropertyKind.Classes, fastn.mutableList(["text"]), inherited);
-rooti0.setProperty(fastn_dom.PropertyKind.PaddingLeft, fastn_dom.Length.Px(200), inherited);
-rooti0.setProperty(fastn_dom.PropertyKind.PaddingRight, fastn_dom.Length.Px(200), inherited);
-rooti0.setProperty(fastn_dom.PropertyKind.MarginTop, fastn_dom.Length.Px(18), inherited);
-rooti0.setProperty(fastn_dom.PropertyKind.Color, fastn.recordInstance({
-dark: "grey",
-light: "grey"
-}), inherited);
-rooti0.setProperty(fastn_dom.PropertyKind.TextAlign, fastn_dom.TextAlign.Center, inherited);
-}
-]), inherited);
-return rooti0;
-});
-},
-function (root, inherited) {
-fastn_dom.conditionalDom(root, [
-ftd.device
-], function () {
-return (fastn_utils.getter(ftd.device) == "mobile");
-}, function (root) {
-let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Column);
-rooti0.setProperty(fastn_dom.PropertyKind.AlignSelf, fastn_dom.AlignSelf.Center, inherited);
-rooti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
-let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Text);
-rooti0.setProperty(fastn_dom.PropertyKind.Role, inherited.get("types").get("heading_small"), inherited);
-rooti0.setProperty(fastn_dom.PropertyKind.StringValue, __args__.title, inherited);
-rooti0.setProperty(fastn_dom.PropertyKind.AlignSelf, fastn_dom.AlignSelf.Center, inherited);
-rooti0.setProperty(fastn_dom.PropertyKind.MarginTop, fastn_dom.Length.Px(40), inherited);
-},
-function (root, inherited) {
-let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Text);
-rooti0.setProperty(fastn_dom.PropertyKind.StringValue, __args__.about, inherited);
-rooti0.setProperty(fastn_dom.PropertyKind.Css, fastn.mutableList([global.avgayathri_github_io_componentset1_assets__files.get("style").get("team").get("css")]), inherited);
-rooti0.setProperty(fastn_dom.PropertyKind.Classes, fastn.mutableList(["text"]), inherited);
-rooti0.setProperty(fastn_dom.PropertyKind.PaddingLeft, fastn_dom.Length.Px(50), inherited);
-rooti0.setProperty(fastn_dom.PropertyKind.PaddingRight, fastn_dom.Length.Px(50), inherited);
-rooti0.setProperty(fastn_dom.PropertyKind.MarginTop, fastn_dom.Length.Px(18), inherited);
-rooti0.setProperty(fastn_dom.PropertyKind.Color, fastn.recordInstance({
-dark: "grey",
-light: "grey"
-}), inherited);
-rooti0.setProperty(fastn_dom.PropertyKind.TextAlign, fastn_dom.TextAlign.Center, inherited);
-}
-]), inherited);
-return rooti0;
-});
-},
-function (root, inherited) {
-let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Row);
-rooti0.setProperty(fastn_dom.PropertyKind.Width, fastn_dom.Resizing.FillContainer, inherited);
-rooti0.setProperty(fastn_dom.PropertyKind.MarginTop, fastn.formula([ftd.device,
-ftd.device], function () {
-if (function () {
-return (fastn_utils.getter(ftd.device) == "desktop");
-}()) {
-return fastn_dom.Length.Px(80);
-} else if (function () {
-return (fastn_utils.getter(ftd.device) == "mobile");
-}()) {
-return fastn_dom.Length.Px(45);
-}
-}
-), inherited);
-rooti0.setProperty(fastn_dom.PropertyKind.AlignContent, fastn_dom.AlignContent.Center, inherited);
-rooti0.setProperty(fastn_dom.PropertyKind.Spacing, fastn_dom.Spacing.Fixed(fastn_dom.Length.Px(8)), inherited);
-rooti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
-let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Row);
-rooti0.setProperty(fastn_dom.PropertyKind.Wrap, true, inherited);
-rooti0.setProperty(fastn_dom.PropertyKind.AlignContent, fastn_dom.AlignContent.Center, inherited);
-rooti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
-let rooti0 = avgayathri_github_io_componentset1_lib__profilecard_b(root, inherited, {
-pro_pic: global.avgayathri_github_io_componentset1_assets__files.get("assets").get("pic10").get("jpg"),
-name: "Holden Caulfield",
-position: "UI Designer",
-about: "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware."
-});
-},
-function (root, inherited) {
-let rooti0 = avgayathri_github_io_componentset1_lib__profilecard_b(root, inherited, {
-pro_pic: global.avgayathri_github_io_componentset1_assets__files.get("assets").get("pic11").get("jpg"),
-name: "Henry Letham",
-position: "CTO",
-about: "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware."
-});
-},
-function (root, inherited) {
-let rooti0 = avgayathri_github_io_componentset1_lib__profilecard_b(root, inherited, {
-pro_pic: global.avgayathri_github_io_componentset1_assets__files.get("assets").get("pic12").get("jpg"),
-name: "Oskar Blinde",
-position: "Founder",
-about: "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware."
-});
-},
-function (root, inherited) {
-let rooti0 = avgayathri_github_io_componentset1_lib__profilecard_b(root, inherited, {
-pro_pic: global.avgayathri_github_io_componentset1_assets__files.get("assets").get("pic13").get("jpg"),
-name: "John Doe",
-position: "Devops",
-about: "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware."
-});
-}
-]), inherited);
-}
-]), inherited);
-}
-]), inherited);
-return parenti0;
-} finally {
-__fastn_package_name__ = __fastn_super_package_name__;
-}
-}
-global["avgayathri_github_io_componentset1_team_2___team_2"] = avgayathri_github_io_componentset1_team_2___team_2;
 fastn_dom.codeData.availableThemes["coldark-theme.dark"] = "code-theme-9A3284FD117DFF7CFD432FF860A5E14169FA592BC3DA4F5E8A6975143F5EA07F.css";
 fastn_dom.codeData.availableThemes["coldark-theme.light"] = "code-theme-99CD7B013C96C4632F0AEA39AC265387B814AE85A7D33666A4AE4BEFF59016D0.css";
 fastn_dom.codeData.availableThemes["coy-theme"] = "code-theme-B3AEA322EADEDA61F0E219845A0E9C8E73F6345E49362B46E6F52CEE40471248.css";
@@ -855,7 +858,7 @@ parenti0.setProperty(fastn_dom.PropertyKind.Width, fastn_dom.Resizing.FillContai
 parenti0.setProperty(fastn_dom.PropertyKind.Height, fastn_dom.Resizing.FillContainer, inherited);
 main(parenti0);
 }
-fastn_virtual.hydrate(main_wrapper);
+fastnVirtual.doubleBuffer(main_wrapper);
 ftd.post_init();
 })();
 

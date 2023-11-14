@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
@@ -12,9 +13,9 @@ let __fastn_package_name__ = "avgayathri.github.io/componentset1";
 </script>
 
 
-<script src="markdown-BAEDD5DFCDD5DBEC8FC55F8804199879E276781A8879AD94F0C7DDA0F7069C74.js"></script>
+<script src="markdown-24E09EFC0C2B9A11DEA9AC71888EB3A1E85864FA7D9C95A3EB5075A0E0F49A5F.js"></script>
 <script src="prism-8FE3A42AD547E2DBBC9FE16BA059F8F1870D613AD0C5B0B013D6205B72A62BAF.js"></script>
-<script src="default-35D3DC3ED42F3A75607B99E7EA05FC0387A5F96396E7CACE3804686C45817498.js"></script>
+<script src="default-CFDDCE5BFFEB04842D8D61F0255182098EF6D38CA45C8D67211276DE9C70EC61.js"></script>
 <link rel="stylesheet" href="prism-73F718B9234C00C5C14AB6A11BF239A103F0B0F93B69CD55CB5C6530501182EB.css">
 
 
@@ -154,7 +155,7 @@ align-items: start;
 justify-content: start
 }
 
-.full {
+.ft_full_size {
 width: 100%;
 height: 100%;
 }
@@ -378,7 +379,11 @@ let main = function (parent) {
 let __fastn_super_package_name__ = __fastn_package_name__;
 __fastn_package_name__ = "avgayathri_github_io_componentset1";
 try {
-let parenti0 = avgayathri_github_io_componentset1_testimonial_2___testimonial_2(parent, inherited);
+let parenti0 = avgayathri_github_io_componentset1_testimonial_2___testimonial_2(parent, inherited, {
+name: "HOLDEN CAULFIELD",
+position: "Product Designer",
+about: "Edison bulb retro cloud bread echo park, \nhelvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman \ntaiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware. Man bun next level coloring book \nskateboard four loko knausgaard. Kitsch keffiyeh master cleanse direct trade indigo juice before they sold out gentrify plaid \ngastropub normcore XOXO 90's pickled cindigo jean shorts. Slow-carb next level shoindigoitch ethical authentic, \nyr scenester sriracha forage franzen organic drinking vinegar."
+});
 } finally {
 __fastn_package_name__ = __fastn_super_package_name__;
 }
@@ -389,7 +394,7 @@ light: "-/avgayathri.github.io/componentset1/assets/quotes.png",
 dark: "-/avgayathri.github.io/componentset1/assets/quotes.png"
 }));
 fastn_utils.createNestedObject(global, "avgayathri_github_io_componentset1_assets__files.style.testimonial.css", "-/avgayathri.github.io/componentset1/style/testimonial.css");
-let avgayathri_github_io_componentset1_lib__testimonial_2 = function (parent, inherited, args)
+let avgayathri_github_io_componentset1_lib__testimonial_2_container = function (parent, inherited, args)
 {
 let __fastn_super_package_name__ = __fastn_package_name__;
 __fastn_package_name__ = "avgayathri_github_io_componentset1";
@@ -493,7 +498,7 @@ return parenti0;
 __fastn_package_name__ = __fastn_super_package_name__;
 }
 }
-global["avgayathri_github_io_componentset1_lib__testimonial_2"] = avgayathri_github_io_componentset1_lib__testimonial_2;
+global["avgayathri_github_io_componentset1_lib__testimonial_2_container"] = avgayathri_github_io_componentset1_lib__testimonial_2_container;
 let avgayathri_github_io_componentset1_testimonial_2___testimonial_2 = function (parent, inherited, args)
 {
 let __fastn_super_package_name__ = __fastn_package_name__;
@@ -511,10 +516,10 @@ let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Column);
 rooti0.setProperty(fastn_dom.PropertyKind.AlignSelf, fastn_dom.AlignSelf.Center, inherited);
 rooti0.setProperty(fastn_dom.PropertyKind.MarginTop, fastn_dom.Length.Px(50), inherited);
 rooti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
-let rooti0 = avgayathri_github_io_componentset1_lib__testimonial_2(root, inherited, {
-name: "HOLDEN CAULFIELD",
-position: "Product Designer",
-about: "Edison bulb retro cloud bread echo park, \nhelvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman \ntaiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware. Man bun next level coloring book \nskateboard four loko knausgaard. Kitsch keffiyeh master cleanse direct trade indigo juice before they sold out gentrify plaid \ngastropub normcore XOXO 90's pickled cindigo jean shorts. Slow-carb next level shoindigoitch ethical authentic, \nyr scenester sriracha forage franzen organic drinking vinegar."
+let rooti0 = avgayathri_github_io_componentset1_lib__testimonial_2_container(root, inherited, {
+name: __args__.name,
+position: __args__.position,
+about: __args__.about
 });
 }
 ]), inherited);
@@ -557,7 +562,7 @@ parenti0.setProperty(fastn_dom.PropertyKind.Width, fastn_dom.Resizing.FillContai
 parenti0.setProperty(fastn_dom.PropertyKind.Height, fastn_dom.Resizing.FillContainer, inherited);
 main(parenti0);
 }
-fastn_virtual.hydrate(main_wrapper);
+fastnVirtual.doubleBuffer(main_wrapper);
 ftd.post_init();
 })();
 

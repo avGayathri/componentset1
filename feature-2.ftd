@@ -11,12 +11,14 @@ border-width.px: 2
 -- lib.feature-container-2:
 logo: $assets.files.assets.graph.png
 title: Shooting Stars
+cta-link: https://fastnui.trizwit.com/
 
 Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.
 
 -- lib.feature-container-2:
 logo: $assets.files.assets.graph.png
 title: Shooting Stars
+cta-link: https://fastnui.trizwit.com/
 
 Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.
 
@@ -25,12 +27,6 @@ Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastro
 
 -- end: feature-2
 
-/-- ftd.row:
-width: fill-container
-margin-top.px: 100
-align-content: center
-align-self: center
 
 -- feature-2:
 
-/-- end: ftd.row
