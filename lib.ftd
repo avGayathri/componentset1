@@ -876,9 +876,10 @@ classes: feature-2-container
 css: [ $assets.files.style.feature.css]
 width.fixed.px: 376
 height.fixed.px: 200
-spacing.fixed.px: 10
+spacing.fixed.px: 5
 border-width.px: 2
 border-radius.px: 10
+margin-top.px: 20
 padding.px: 8
 
 
@@ -903,13 +904,10 @@ margin.px: 5
 -- ftd.column:
 width: fill-container
 height: fill-container
-;;width.fixed.vw: 28
-;;height.fixed.vw: 16
 min-width.fixed.px: 300
 min-height.fixed.px: 188
 spacing.fixed.px: 10
-border-color: green
-border-width.px: 2
+
 
 -- ftd.text: $feature-container-2.title
 classes: text-2
