@@ -874,7 +874,7 @@ link: $feature-container-2.cta-link
 if : { ftd.device == "mobile" }
 classes: feature-2-container
 css: [ $assets.files.style.feature.css]
-width.fixed.px: 376
+width.fixed.px: 356
 height.fixed.px: 200
 spacing.fixed.px: 5
 border-width.px: 2
