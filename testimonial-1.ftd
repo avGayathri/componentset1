@@ -1,5 +1,6 @@
 -- component testimonial-1:
 caption heading:
+children card:
 
 
 -- ftd.column:
@@ -25,22 +26,8 @@ spacing.fixed.px: 52
 align-self: center
 align-content: center
 wrap: true
+children: $testimonial-1.card
 
--- lib.testimonial-1:
-name: Alper Kamu
-position: DESIGNER
-pro-pic: $assets.files.assets.pic1.jpg
-
-Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. 
-Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.
-
--- lib.testimonial-1:
-name: Holden Caulfield
-position: UI DEVELOPER
-pro-pic: $assets.files.assets.pic1.jpg
-
-Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. 
-Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.
 
 -- end: ftd.row
 
@@ -51,3 +38,21 @@ Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic 
 
 -- testimonial-1:
 heading: Testimonials
+
+-- lib.testimonial-1-container:
+name: Alper Kamu
+position: DESIGNER
+pro-pic: $assets.files.assets.pic1.jpg
+
+Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. 
+Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.
+
+-- lib.testimonial-1-container:
+name: Holden Caulfield
+position: UI DEVELOPER
+pro-pic: $assets.files.assets.pic1.jpg
+
+Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. 
+Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.
+
+-- end: testimonial-1

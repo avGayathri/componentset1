@@ -1,4 +1,7 @@
 -- component testimonial-2:
+string name:
+string position:
+body about:
 
 
 -- ftd.column:
@@ -9,7 +12,20 @@ height: fill-container
 align-self: center
 margin-top.px: 50
 
--- lib.testimonial-2:
+-- lib.testimonial-2-container:
+name: $testimonial-2.name
+position: $testimonial-2.position
+about: $testimonial-2.about
+
+
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: testimonial-2
+
+-- testimonial-2:
 name: HOLDEN CAULFIELD
 position: Product Designer
 
@@ -19,11 +35,3 @@ taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vap
 skateboard four loko knausgaard. Kitsch keffiyeh master cleanse direct trade indigo juice before they sold out gentrify plaid 
 gastropub normcore XOXO 90's pickled cindigo jean shorts. Slow-carb next level shoindigoitch ethical authentic, 
 yr scenester sriracha forage franzen organic drinking vinegar.
-
--- end: ftd.column
-
--- end: ftd.column
-
--- end: testimonial-2
-
--- testimonial-2:
