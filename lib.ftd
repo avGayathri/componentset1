@@ -880,6 +880,7 @@ spacing.fixed.px: 5
 border-width.px: 2
 border-radius.px: 10
 padding.px: 8
+padding-top.px: 20
 
 
 -- ftd.column:
