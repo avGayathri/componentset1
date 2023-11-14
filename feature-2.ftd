@@ -5,7 +5,7 @@ width: fill-container
 spacing.fixed.px: 32
 align-content: center
 wrap: true
-
+margin-top.px: 40
 
 -- lib.feature-container-2:
 logo: $assets.files.assets.graph.png
