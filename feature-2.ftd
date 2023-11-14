@@ -1,4 +1,5 @@
 -- component feature-2:
+children card:
 
 -- ftd.row:
 width: fill-container
@@ -6,20 +7,7 @@ spacing.fixed.px: 32
 align-content: center
 wrap: true
 margin-top.px: 40
-
--- lib.feature-container-2:
-logo: $assets.files.assets.graph.png
-title: Shooting Stars
-cta-link: https://fastnui.trizwit.com/
-
-Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.
-
--- lib.feature-container-2:
-logo: $assets.files.assets.graph.png
-title: Shooting Stars
-cta-link: https://fastnui.trizwit.com/
-
-Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.
+children: $feature-2.card
 
 
 -- end: ftd.row
@@ -28,4 +16,20 @@ Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastro
 
 
 -- feature-2:
+
+-- lib.feature-container-2:
+logo: $assets.files.assets.graph.png
+title: Shooting Stars
+cta-link: https://fastnui.trizwit.com/
+
+Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.
+
+-- lib.feature-container-2:
+logo: $assets.files.assets.graph.png
+title: Shooting Stars
+cta-link: https://fastnui.trizwit.com/
+
+Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.
+
+-- end: feature-2
 
