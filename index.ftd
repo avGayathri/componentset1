@@ -47,4 +47,8 @@ link: feature-1
 role: $inherited.types.heading-medium
 link: feature-2
 
+-- ftd.text: feature-3
+role: $inherited.types.heading-medium
+link: feature-3
+
 -- end: ftd.column
