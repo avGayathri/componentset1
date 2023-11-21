@@ -42,8 +42,6 @@ if: { ftd.device == "mobile" }
 padding.px: 20
 spacing.fixed.px: 20
 align-content: center
-border-width.px: 3
-border-color: black 
 
 -- ftd.text: $cta-1.text
 role: $inherited.types.heading-small
