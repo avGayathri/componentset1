@@ -5,54 +5,62 @@ margin-top.px: 100
 
 -- ftd.text: team-1
 role: $inherited.types.heading-medium
-link: team-1
+link: team/team-1
 
 -- ftd.text: team-2
 role: $inherited.types.heading-medium
-link: team-2
+link: team/team-2
 
 -- ftd.text: team-3
 role: $inherited.types.heading-medium
-link: team-3
+link: team/team-3
 
 -- ftd.text: statistic-1
 role: $inherited.types.heading-medium
-link: statistic-1
+link: statistic/statistic-1
 
 -- ftd.text: statistic-2
 role: $inherited.types.heading-medium
-link: statistic-2
+link: statistic/statistic-2
 
 -- ftd.text: statistic-3
 role: $inherited.types.heading-medium
-link: statistic-3
+link: statistic/statistic-3
 
 -- ftd.text: testimonial-1
 role: $inherited.types.heading-medium
-link: testimonial-1
+link: testimonial/testimonial-1
 
 -- ftd.text: testimonial-2
 role: $inherited.types.heading-medium
-link: testimonial-2
+link: testimonial/testimonial-2
 
 -- ftd.text: testimonial-3
 role: $inherited.types.heading-medium
-link: testimonial-3
+link: testimonial/testimonial-3
 
 -- ftd.text: feature-1
 role: $inherited.types.heading-medium
-link: feature-1
+link: feature/feature-1
 
 -- ftd.text: feature-2
 role: $inherited.types.heading-medium
-link: feature-2
+link: feature/feature-2
 
 -- ftd.text: feature-3
 role: $inherited.types.heading-medium
-link: feature-3
+link: feature/feature-3
 
 -- ftd.text: cta-1
 role: $inherited.types.heading-medium
 link: cta-1
+
+-- ftd.text: cta-2
+role: $inherited.types.heading-medium
+link: cta-2
+
+-- ftd.text: cta-3
+role: $inherited.types.heading-medium
+link: cta-3
 
 -- end: ftd.column
