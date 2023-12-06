@@ -54,20 +54,20 @@ padding.vw: 2
 color: #eb5939
 color if {event.hover}: #000
 role: $inherited.types.heading-small
-text-align: center
+text-align: start
 margin-bottom.vw: 1
 
 -- ftd.text: $event.time
 color: #b7ab98
 color if {event.hover}: #000
 role: $inherited.types.heading-tiny
-text-align: center
+text-align: start
 
 -- ftd.text: $event.location
 color: #b7ab98
 color if {event.hover}: #000
 role: $inherited.types.heading-tiny
-text-align: center
+text-align: start
 
 -- end: ftd.column
 
