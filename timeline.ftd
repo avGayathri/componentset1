@@ -116,6 +116,7 @@ border-left-width.px: 6
 width.fixed.vw: 62
 height.fixed.vw: 52
 padding.vw: 2
+margin-left.px: 8
 
 
 -- ftd.text: $event.place
@@ -222,37 +223,37 @@ place: BANGALORE
 location: Draper Startup House For Entrepreneurs Bengaluru
 time: 5:00PM – 9:00PM 
 
-/-- event:
+-- event:
 date: JAN 2024
 place: HYDERABAD
 location: Upcoming Event
 time: To Be Announced
 
-/-- event:
+-- event:
 date: FEB 2024
 place: MUMBAI
 location: Upcoming Event
 time: To Be Announced 
 
-/-- event:
+-- event:
 date: MAR 2024
 place: AHMEDABAD
 location: Upcoming Event
 time: To Be Announced 
 
-/-- event:
+-- event:
 date: APR 2024
 place: DUBAI
 location: Upcoming Event
 time: To Be Announced 
 
-/-- event:
+-- event:
 date: MAY 2024
 place: JAIPUR
 location: Upcoming Event
 time: To Be Announced 
 
-/-- event:
+-- event:
 date: JUN, 2024
 place: DELHI
 location: Upcoming Event
