@@ -39,7 +39,7 @@ border-width.px: 2
 -- end: ftd.row
 
 -- ftd.column:
-height.fixed.vw: 14
+height.fixed.vw: 16
 border-color: #eb5939
 border-width.px: 2
 
