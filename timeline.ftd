@@ -1,4 +1,4 @@
--- component event:
+-- component timeline-comp:
 string date:
 string place:
 string location:
@@ -24,9 +24,9 @@ border-width.px: 1
 padding.px: 8
 align-content: center
 
--- ftd.text: $event.date
+-- ftd.text: $timeline-comp.date
 color: #b7ab98
-color if {event.hover}: #000
+color if {timeline-comp.hover}: #000
 role: $inherited.types.heading-tiny
 text-align: center
 
@@ -51,22 +51,22 @@ width.fixed.vw: 36
 border-color: #eb5939
 padding.vw: 2
 
--- ftd.text: $event.place
+-- ftd.text: $timeline-comp.place
 color: #eb5939
-color if {event.hover}: #000
+color if {timeline-comp.hover}: #000
 role: $inherited.types.heading-small
 text-align: start
 margin-bottom.vw: 1
 
--- ftd.text: $event.time
+-- ftd.text: $timeline-comp.time
 color: #b7ab98
-color if {event.hover}: #000
+color if {timeline-comp.hover}: #000
 role: $inherited.types.heading-tiny
 text-align: start
 
--- ftd.text: $event.location
+-- ftd.text: $timeline-comp.location
 color: #b7ab98
-color if {event.hover}: #000
+color if {timeline-comp.hover}: #000
 role: $inherited.types.heading-tiny
 text-align: start
 
@@ -90,9 +90,9 @@ border-color: #eb5939
 border-width.px: 1
 align-content: center
 
--- ftd.text: $event.date
+-- ftd.text: $timeline-comp.date
 color: #b7ab98
-color if {event.hover}: #000
+color if {timeline-comp.hover}: #000
 role: $inherited.types.heading-tiny
 text-align: center
 
@@ -119,23 +119,23 @@ padding.vw: 2
 margin-left.px: 8
 
 
--- ftd.text: $event.place
+-- ftd.text: $timeline-comp.place
 color: #eb5939
-color if {event.hover}: #000
+color if {timeline-comp.hover}: #000
 role: $inherited.types.heading-small
 text-align: start
 padding-bottom.vw: 2
 
--- ftd.text: $event.time
+-- ftd.text: $timeline-comp.time
 color: #b7ab98
-color if {event.hover}: #000
+color if {timeline-comp.hover}: #000
 role: $inherited.types.heading-tiny
 text-align: start
 padding-bottom.vw: 1
 
--- ftd.text: $event.location
+-- ftd.text: $timeline-comp.location
 color: #b7ab98
-color if {event.hover}: #000
+color if {timeline-comp.hover}: #000
 role: $inherited.types.heading-tiny
 text-align: start
 
@@ -145,7 +145,7 @@ text-align: start
 
 -- end: ftd.row
 
--- end: event
+-- end: timeline-comp
 
 
 
@@ -156,13 +156,13 @@ text-align: start
 
 
 
--- component events:
+-- component timeline:
 caption title:
 children child:
 
 -- ftd.column:
 width: fill-container
-id: events
+id: timeline
 
 -- ftd.column:
 if: { ftd.device == "desktop" }
@@ -170,7 +170,7 @@ width: fill-container
 spacing.fixed.vw: 2
 
 
--- ftd.text: $events.title
+-- ftd.text: $timeline.title
 role: $inherited.types.heading-large
 color: #eb5939
 margin-left.px: 40
@@ -178,7 +178,7 @@ margin-left.px: 40
 
 -- ftd.column:
 width: fill-container
-children: $events.child
+children: $timeline.child
 
 -- end: ftd.column
 
@@ -191,14 +191,14 @@ spacing.fixed.vw: 2
 margin-left.px: 10
 
 
--- ftd.text: $events.title
+-- ftd.text: $timeline.title
 role: $inherited.types.heading-large
 color: #eb5939
 
 
 -- ftd.column:
 width: fill-container
-children: $events.child
+children: $timeline.child
 
 -- end: ftd.column
 
@@ -206,7 +206,7 @@ children: $events.child
 
 -- end: ftd.column
 
--- end: events
+-- end: timeline
 
 
 -- ftd.column:
@@ -214,52 +214,52 @@ width: fill-container
 height: fill-container
 background.solid: #0d0d0d
 
--- events:
+-- timeline:
 title: Events
 
--- event:
+-- timeline-comp:
 date: DEC 8 2023
 place: BANGALORE
 location: Draper Startup House For Entrepreneurs Bengaluru
 time: 5:00PM – 9:00PM 
 
--- event:
+-- timeline-comp:
 date: JAN 2024
 place: HYDERABAD
 location: Upcoming Event
 time: To Be Announced
 
--- event:
+-- timeline-comp:
 date: FEB 2024
 place: MUMBAI
 location: Upcoming Event
 time: To Be Announced 
 
--- event:
+-- timeline-comp:
 date: MAR 2024
 place: AHMEDABAD
 location: Upcoming Event
 time: To Be Announced 
 
--- event:
+-- timeline-comp:
 date: APR 2024
 place: DUBAI
 location: Upcoming Event
 time: To Be Announced 
 
--- event:
+-- timeline-comp:
 date: MAY 2024
 place: JAIPUR
 location: Upcoming Event
 time: To Be Announced 
 
--- event:
-date: JUN, 2024
+-- timeline-comp:
+date: JUN 2024
 place: DELHI
 location: Upcoming Event
 time: To Be Announced 
 
 
--- end: events
+-- end: timeline
 
 -- end: ftd.column
