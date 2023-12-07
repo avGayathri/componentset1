@@ -10,28 +10,22 @@ ftd.image-src photo-7:
 ftd.image-src photo-8:
 ftd.image-src photo-9:
 
-
+-- ftd.column: 
 
 -- ftd.column:
-width.fixed.vw: 47
-height.fixed.vw: 80
-align-self: center
-
+if: { ftd.device == "desktop" }
 
 ;;row 1
 -- ftd.row:
 width: auto
 height: auto
 
-
 -- ftd.column:
 width: fill-container
 height: fill-container
 
-
 -- ftd.image:
 src: $gallery-1.photo-1
-;;css: [ $assets.files.style.gallery-1.css]
 classes: zoom
 width.fixed.vw: 12
 height.fixed.vw: 12
@@ -39,15 +33,12 @@ margin.px: 10
 
 -- end: ftd.column
 
-
 -- ftd.column:
 width: fill-container
 height: fill-container
 
-
 -- ftd.image:
 src: $gallery-1.photo-2
-;;css: [ $assets.files.style.gallery-1.css]
 classes: zoom
 width.fixed.vw: 12
 height.fixed.vw: 12
@@ -61,7 +52,6 @@ height: fill-container
 
 -- ftd.image:
 src: $gallery-1.photo-3
-;;css: [ $assets.files.style.gallery-1.css]
 classes: zoom
 width.fixed.vw: 18
 height.fixed.vw: 12
@@ -70,7 +60,6 @@ margin.px: 10
 -- end: ftd.column
 
 -- end: ftd.row
-
 
 ;;row 2
 -- ftd.row:
@@ -83,7 +72,6 @@ height: fill-container
 
 -- ftd.image:
 src: $gallery-1.photo-4
-;;css: [ $assets.files.style.gallery-1.css]
 classes: zoom
 width.fixed.vw: 12
 height.fixed.vw: 18
@@ -98,14 +86,11 @@ height: fill-container
 -- ftd.row:
 width: fill-container
 height: fill-container
+align-content: center
 
 -- ftd.text: $gallery-1.title
-;;css: [ $assets.files.style.gallery-1.css]
-classes: animate-character
-align-self: center
-margin-left.px: 70
 color: #d6b810
-role: $inherited.types.heading-hero
+role: $fira-code-size-80-700
 
 -- end: ftd.row
 
@@ -119,7 +104,6 @@ height: fill-container
 
 -- ftd.image:
 src: $gallery-1.photo-5
-;;css: [ $assets.files.style.gallery-1.css]
 classes: zoom
 width.fixed.vw: 18
 height.fixed.vw: 12
@@ -133,7 +117,6 @@ height: fill-container
 
 -- ftd.image:
 src: $gallery-1.photo-6
-;;css: [ $assets.files.style.gallery-1.css]
 classes: zoom
 width.fixed.vw: 12
 height.fixed.vw: 12
@@ -158,7 +141,6 @@ height: fill-container
 
 -- ftd.image:
 src: $gallery-1.photo-7
-;;css: [ $assets.files.style.gallery-1.css]
 classes: zoom
 width.fixed.vw: 12
 height.fixed.vw: 12
@@ -172,7 +154,6 @@ height: fill-container
 
 -- ftd.image:
 src: $gallery-1.photo-8
-;;css: [ $assets.files.style.gallery-1.css]
 classes: zoom
 width.fixed.vw: 12
 height.fixed.vw: 12
@@ -186,7 +167,6 @@ height: fill-container
 
 -- ftd.image:
 src: $gallery-1.photo-9
-;;css: [ $assets.files.style.gallery-1.css]
 classes: zoom
 width.fixed.vw: 18
 height.fixed.vw: 12
@@ -198,13 +178,97 @@ margin.px: 10
 
 -- end: ftd.column
 
--- end: gallery-1
+-- ftd.column:
+if: { ftd.device == "mobile" }
+width: fill-container
+
+-- ftd.text: $gallery-1.title
+align-self: center
+color: #d6b810
+role: $fira-code-size-50-400
 
 -- ftd.column:
 width: fill-container
 height: fill-container
-background.solid: white
-align-self: center
+align-content: center
+
+-- ftd.image:
+src: $gallery-1.photo-1
+width.fixed.vw: 84
+height.fixed.vw: 48
+margin.px: 10
+
+-- ftd.image:
+src: $gallery-1.photo-2
+width.fixed.vw: 84
+height.fixed.vw: 48
+margin.px: 10
+
+-- ftd.image:
+src: $gallery-1.photo-3
+width.fixed.vw: 84
+height.fixed.vw: 48
+margin.px: 10
+
+-- ftd.image:
+src: $gallery-1.photo-4
+width.fixed.vw: 84
+height.fixed.vw: 48
+margin.px: 10
+
+-- ftd.image:
+src: $gallery-1.photo-5
+width.fixed.vw: 84
+height.fixed.vw: 48
+margin.px: 10
+
+-- ftd.image:
+src: $gallery-1.photo-6
+width.fixed.vw: 84
+height.fixed.vw: 48
+margin.px: 10
+
+-- ftd.image:
+src: $gallery-1.photo-7
+width.fixed.vw: 84
+height.fixed.vw: 48
+margin.px: 10
+
+-- ftd.image:
+src: $gallery-1.photo-8
+width.fixed.vw: 84
+height.fixed.vw: 48
+margin.px: 10
+
+-- ftd.image:
+src: $gallery-1.photo-9
+width.fixed.vw: 84
+height.fixed.vw: 48
+margin.px: 10
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: gallery-1
+
+
+
+
+
+
+
+
+
+
+
+
+-- ftd.column:
+width: fill-container
+height: fill-container
+align-content: center
 
 -- gallery-1:
 title: GALLERY
@@ -219,3 +283,139 @@ photo-8: $assets.files.assets.dummy-image.jpg
 photo-9: $assets.files.assets.dummy-image.jpg
 
 -- end: ftd.column
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- ftd.type fira-code-size-80-desktop:
+size.px: 80
+weight: 700
+font-family: $fira-code-assets.fonts.Fira-Code
+
+
+-- ftd.type fira-code-size-48-mobile:
+size.px: 48
+weight: 700
+font-family: $fira-code-assets.fonts.Fira-Code
+
+-- ftd.responsive-type fira-code-size-80-700:
+desktop: $fira-code-size-80-desktop
+mobile: $fira-code-size-48-mobile
+
+
+
+
+
+
+-- ftd.type fira-code-size-50-desktop:
+size.px: 50
+weight: 500
+font-family: $fira-code-assets.fonts.Fira-Code
+
+
+-- ftd.type fira-code-size-36-mobile:
+size.px: 36
+weight: 500
+font-family: $fira-code-assets.fonts.Fira-Code
+
+-- ftd.responsive-type fira-code-size-50-400:
+desktop: $fira-code-size-50-desktop
+mobile: $fira-code-size-36-mobile
+
+
+
+
+
+
+-- ftd.type fira-code-size-24-desktop:
+size.px: 24
+weight: 400
+font-family: $fira-code-assets.fonts.Fira-Code
+
+
+-- ftd.type fira-code-size-22-mobile:
+size.px: 22
+weight: 400
+font-family: $fira-code-assets.fonts.Fira-Code
+
+-- ftd.responsive-type fira-code-size-24-400:
+desktop: $fira-code-size-24-desktop
+mobile: $fira-code-size-22-mobile
+
+
+
+
+
+-- ftd.type fira-code-size-20-desktop:
+size.px: 20
+weight: 400
+font-family: $fira-code-assets.fonts.Fira-Code
+
+
+-- ftd.type fira-code-size-18-mobile:
+size.px: 18
+weight: 400
+font-family: $fira-code-assets.fonts.Fira-Code
+
+-- ftd.responsive-type fira-code-size-20-400:
+desktop: $fira-code-size-20-desktop
+mobile: $fira-code-size-18-mobile
+
+
+
+
+
+
+-- ftd.type fira-code-size-38-desktop:
+size.px: 38
+weight: 400
+font-family: $fira-code-assets.fonts.Fira-Code
+
+
+-- ftd.type fira-code-size-26-mobile:
+size.px: 26
+weight: 400
+font-family: $fira-code-assets.fonts.Fira-Code
+
+-- ftd.responsive-type fira-code-size-38-400:
+desktop: $fira-code-size-38-desktop
+mobile: $fira-code-size-26-mobile
+
+
+
+
+
+
+
+
+-- ftd.type fira-code-size-16-desktop:
+size.px: 16
+weight: 400
+font-family: $fira-code-assets.fonts.Fira-Code
+
+
+-- ftd.type fira-code-size-16-mobile:
+size.px: 16
+weight: 400
+font-family: $fira-code-assets.fonts.Fira-Code
+
+-- ftd.responsive-type fira-code-size-16-400:
+desktop: $fira-code-size-16-desktop
+mobile: $fira-code-size-16-mobile
+
+
+
+-- ftd.type fira-code-size-12-mobile:
+size.px: 12
+weight: 400
+font-family: $fira-code-assets.fonts.Fira-Code

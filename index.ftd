@@ -63,4 +63,12 @@ link: cta/cta-2
 role: $inherited.types.heading-medium
 link: cta/cta-3
 
+-- ftd.text: gallery-1
+role: $inherited.types.heading-medium
+link: gallery-1
+
+-- ftd.text: gallery-2
+role: $inherited.types.heading-medium
+link: gallery-2
+
 -- end: ftd.column
