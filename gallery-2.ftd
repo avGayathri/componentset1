@@ -23,6 +23,8 @@ align-content: center
 width: fill-container
 align-content: center
 padding-horizontal.vw: 10
+padding-vertical.vw: 2
+spacing.fixed.vw: 1
 
 -- ftd.text: $gallery-2.title
 role: $inherited.types.heading-medium
@@ -36,13 +38,19 @@ text-align: center
 -- end: ftd.column
 
 -- ftd.row:
+width.fixed.vw: 52
+width.fixed.vw if { ftd.device == "mobile" }: 80
 spacing.fixed.px: 20
+wrap: true
+padding.vw: 2
+align-content: center
+
 
 -- ftd.column:
 width.fixed.vw: 14
 height.fixed.vw: 14
-width.fixed.vw if { ftd.device == "mobile" }: 32
-height.fixed.vw if { ftd.device == "mobile" }: 32
+width.fixed.vw if { ftd.device == "mobile" }: 62
+height.fixed.vw if { ftd.device == "mobile" }: 62
 margin-vertical.vw: 2
 border-radius.percent: 50
 border-width.px: 3
@@ -53,7 +61,6 @@ border-color: black
 width: fill-container
 height: fill-container
 border-radius.percent: 50
-fit: contain
 link: $gallery-2.cta-link-1
 
 -- end: ftd.column
@@ -61,8 +68,8 @@ link: $gallery-2.cta-link-1
 -- ftd.column:
 width.fixed.vw: 14
 height.fixed.vw: 14
-width.fixed.vw if { ftd.device == "mobile" }: 32
-height.fixed.vw if { ftd.device == "mobile" }: 32
+width.fixed.vw if { ftd.device == "mobile" }: 62
+height.fixed.vw if { ftd.device == "mobile" }: 62
 margin-vertical.vw: 2
 border-radius.percent: 50
 border-width.px: 3
@@ -72,7 +79,6 @@ border-color: black
 width: fill-container
 height: fill-container
 border-radius.percent: 50
-fit: contain
 link: $gallery-2.cta-link-2
 
 -- end: ftd.column
@@ -80,8 +86,8 @@ link: $gallery-2.cta-link-2
 -- ftd.column:
 width.fixed.vw: 14
 height.fixed.vw: 14
-width.fixed.vw if { ftd.device == "mobile" }: 32
-height.fixed.vw if { ftd.device == "mobile" }: 32
+width.fixed.vw if { ftd.device == "mobile" }: 62
+height.fixed.vw if { ftd.device == "mobile" }: 62
 margin-vertical.vw: 2
 border-radius.percent: 50
 border-width.px: 3
@@ -91,7 +97,6 @@ border-color: black
 width: fill-container
 height: fill-container
 border-radius.percent: 50
-fit: contain
 link: $gallery-2.cta-link-3
 
 -- end: ftd.column
@@ -99,8 +104,8 @@ link: $gallery-2.cta-link-3
 -- ftd.column:
 width.fixed.vw: 14
 height.fixed.vw: 14
-width.fixed.vw if { ftd.device == "mobile" }: 32
-height.fixed.vw if { ftd.device == "mobile" }: 32
+width.fixed.vw if { ftd.device == "mobile" }: 62
+height.fixed.vw if { ftd.device == "mobile" }: 62
 margin-vertical.vw: 2
 border-radius.percent: 50
 border-width.px: 3
@@ -110,7 +115,6 @@ border-color: black
 width: fill-container
 height: fill-container
 border-radius.percent: 50
-fit: contain
 link: $gallery-2.cta-link-4
 
 -- end: ftd.column
@@ -118,8 +122,8 @@ link: $gallery-2.cta-link-4
 -- ftd.column:
 width.fixed.vw: 14
 height.fixed.vw: 14
-width.fixed.vw if { ftd.device == "mobile" }: 32
-height.fixed.vw if { ftd.device == "mobile" }: 32
+width.fixed.vw if { ftd.device == "mobile" }: 62
+height.fixed.vw if { ftd.device == "mobile" }: 62
 margin-vertical.vw: 2
 border-radius.percent: 50
 border-width.px: 3
@@ -129,7 +133,6 @@ border-color: black
 width: fill-container
 height: fill-container
 border-radius.percent: 50
-fit: contain
 link: $gallery-2.cta-link-5
 
 -- end: ftd.column
@@ -137,8 +140,8 @@ link: $gallery-2.cta-link-5
 -- ftd.column:
 width.fixed.vw: 14
 height.fixed.vw: 14
-width.fixed.vw if { ftd.device == "mobile" }: 32
-height.fixed.vw if { ftd.device == "mobile" }: 32
+width.fixed.vw if { ftd.device == "mobile" }: 62
+height.fixed.vw if { ftd.device == "mobile" }: 62
 margin-vertical.vw: 2
 border-radius.percent: 50
 border-width.px: 3
@@ -148,7 +151,6 @@ border-color: black
 width: fill-container
 height: fill-container
 border-radius.percent: 50
-fit: contain
 link: $gallery-2.cta-link-6
 
 -- end: ftd.column
@@ -163,12 +165,12 @@ link: $gallery-2.cta-link-6
 
 -- gallery-2:
 title: Master Cleanse Reliac Heirloom
-image1: $assets.files.assets.pic1.jpg
-image2: $assets.files.assets.pic1.jpg
-image3: $assets.files.assets.pic1.jpg
-image4: $assets.files.assets.pic1.jpg
-image5: $assets.files.assets.pic1.jpg
-image6: $assets.files.assets.pic1.jpg
+image1: $assets.files.assets.dummy-image.jpg
+image2: $assets.files.assets.dummy-image.jpg
+image3: $assets.files.assets.dummy-image.jpg
+image4: $assets.files.assets.dummy-image.jpg
+image5: $assets.files.assets.dummy-image.jpg
+image6: $assets.files.assets.dummy-image.jpg
 cta-link-1: gallery-1
 cta-link-2: gallery-1
 cta-link-3: gallery-1
