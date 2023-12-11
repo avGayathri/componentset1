@@ -71,4 +71,8 @@ link: gallery-1
 role: $inherited.types.heading-medium
 link: gallery-2
 
+-- ftd.text: gallery-3
+role: $inherited.types.heading-medium
+link: gallery-3
+
 -- end: ftd.column
