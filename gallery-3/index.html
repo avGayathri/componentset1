@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <base href="/componentset1/">
+    <meta content="fastn" name="generator">
+    
+<link rel="shortcut icon" href="/-/avgayathri.github.io/componentset1/favicon.ico" type="image/x-icon">
+    
+    <script>
+        let __fastn_package_name__ = "avgayathri.github.io/componentset1";
+
+    </script>
+
+    
+                <script src="markdown-24E09EFC0C2B9A11DEA9AC71888EB3A1E85864FA7D9C95A3EB5075A0E0F49A5F.js"></script>
+                <script src="prism-8FE3A42AD547E2DBBC9FE16BA059F8F1870D613AD0C5B0B013D6205B72A62BAF.js"></script>
+                <script src="default-06E7AA59D4BEB928D0E12398C36B76E7404CFE20FFA814FA997F9A2D26474422.js"></script>
+                <link rel="stylesheet" href="prism-73F718B9234C00C5C14AB6A11BF239A103F0B0F93B69CD55CB5C6530501182EB.css">
+                
+            
+    
+
+    <style>
+       /* http://meyerweb.com/eric/tools/css/reset/
+          v2.0 | 20110126
+          License: none (public domain)
+       */
+
+/*html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+!* HTML5 display-role reset for older browsers *!
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}*/
+
+*, :after, :before {
+    /*box-sizing: inherit;*/
+    box-sizing: border-box;
+    text-decoration: none;
+    box-sizing: border-box;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-style: solid;
+    height: auto;
+    width: auto;
+}
+
+*, pre, div {
+    padding: 0;
+    margin: 0;
+    gap: 0;
+    outline: none;
+}
+
+
+body, ol ol, ol ul, ul ol, ul ul {
+    margin:0
+}
+pre, table{
+    overflow:auto
+}
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+input {
+    vertical-align: middle;
+}
+pre {
+    white-space: break-spaces;
+    word-wrap: break-word;
+}
+html {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+iframe {
+    border: 0;
+    color-scheme: auto;
+}
+
+pre code {
+    /*
+    This break show-line-number in `ftd.code`
+    overflow-x: auto;
+    */
+    display: block;
+    padding: 0 1em !important;
+}
+
+/* Common styles  */
+.ft_common{
+    text-decoration: none;
+    box-sizing: border-box;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-style: solid;
+    height: auto;
+    width: auto;
+}
+
+/* Common container attributes */
+.ft_row, .ft_column {
+    display: flex;
+    align-items: start;
+    justify-content: start
+}
+
+.ft_full_size {
+    width: 100%;
+    height: 100%;
+}
+
+.ft_row {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+.ft_column {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.ft_row {
+    flex-direction: row;
+}
+
+.ft_column {
+    flex-direction: column;
+}
+
+.ft_md ul,
+.ft_md ol{
+    margin: 10px 0;
+}
+
+.ft_md ul ul,
+.ft_md ul ol,
+.ft_md ol ul,
+.ft_md ol ol {
+    margin: 0;
+}
+
+.ft_md ul li,
+.ft_md ol li,
+.ft_md ul ol li .ft_md ul ul li .ft_md ol ul li .ft_md ol ol li {
+    position: relative;
+    padding-left: 32px;
+    margin: 4px 0;
+}
+
+.ft_md ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.ft_md ol {
+    list-style: none;
+    padding-left: 0;
+    counter-reset: item;
+}
+
+.ft_md ol li:before,
+.ft_md ol ol li:before,
+.ft_md ul ol li:before {
+    content: counter(item);
+    counter-increment: item;
+    font-size: 11px;
+    line-height: 10px;
+    text-align: center;
+    padding: 4px 0;
+    height: 10px;
+    width: 18px;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+.ft_md ul li::before,
+.ft_md ul ul li::before,
+.ft_md ol ul li::before {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    left: 8px;
+    top: 10px;
+    border-radius: 50%;
+    background: #c1c8ce;
+}
+
+ul, ol {
+    /* Added padding to the left to move the ol number/ ul bullet to the right */
+    padding-left: 20px;
+}
+
+a {
+    color: #2952a3;
+}
+
+a:visited {
+    color: #856ab9;
+}
+
+a:hover {
+    color: #24478f;
+}
+
+.ft_md a {
+    text-decoration: none;
+}
+
+.ft_md a:visited {
+    text-decoration: none;
+}
+
+.ft_md a:hover {
+    text-decoration: none;
+}
+
+code {
+    padding: 0.1rem 0.25rem;
+    border-radius: 4px;
+    background-color: #0000000d;
+}
+
+.ft_md blockquote {
+    padding: 0.25rem 1rem;
+    margin: 1rem 0;
+    border-radius: 3px;
+}
+
+.ft_md blockquote > blockquote {
+    margin: 0;
+}
+
+
+body.dark code {
+    padding: 0.1rem 0.25rem;
+    border-radius: 4px;
+    background-color: #ffffff1f;
+}
+
+
+body.dark a {
+    color: #6498ff
+}
+
+body.dark a:visited {
+    color: #b793fb;
+}
+
+
+p {
+    margin-block-end: 1em;
+}
+
+h1:only-child {
+    margin-block-end: 0.67em
+}
+
+table, td, th {
+  border: 1px solid;
+}
+
+th {
+    padding: 6px;
+}
+
+td {
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+    </style>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<body data-id="1"><div data-id="2" class="ft_column __w-1 __h-2"><div data-id="3" class="ft_column __w-3 __h-4"><comment data-id="4"></comment><comment data-id="5"></comment><div data-id="6" class="ft_column __w-5 __h-6 __g-7"><div data-id="7" class="ft_column __pl-8 __pr-9 __pt-10 __pb-11 __jc-12 __ali-13 __g-14"><div data-id="8" class="__rl-15 __c-16 __ta-17">Master Cleanse Reliac Heirloom</div><div data-id="9" class="__rl-18 __c-19 __ta-20">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table.
+Franzen you probably haven&#39;t heard of them man bun deep jianbing selfies heirloom.</div></div><div data-id="10" class="ft_column __w-21 __jc-22 __ali-23 __g-24"><div data-id="11" class="ft_column __g-25"><div data-id="12" class="ft_row __g-26"><img data-id="13" src="-/avgayathri.github.io/componentset1/assets/dummy-image.jpg" class="__w-27 __h-28"></img><img data-id="14" src="-/avgayathri.github.io/componentset1/assets/dummy-image.jpg" class="__w-29 __h-30"></img></div><img data-id="15" src="-/avgayathri.github.io/componentset1/assets/dummy-image.jpg" class="__w-31 __h-32"></img></div><div data-id="16" class="ft_column __g-33"><img data-id="17" src="-/avgayathri.github.io/componentset1/assets/dummy-image.jpg" class="__w-34 __h-35"></img><div data-id="18" class="ft_row __g-36"><img data-id="19" src="-/avgayathri.github.io/componentset1/assets/dummy-image.jpg" class="__w-37 __h-38"></img><img data-id="20" src="-/avgayathri.github.io/componentset1/assets/dummy-image.jpg" class="__w-39 __h-40"></img></div></div></div></div></div></div></body><style id="styles">
+    .__w-1 { width: 100%; }
+	.__h-2 { height: 100%; }
+	.__w-3 { width: 100%; }
+	.__h-4 { height: 100%; }
+	.__w-5 { width: 100%; }
+	.__h-6 { height: 100%; }
+	.__g-7 { gap: 4vw; }
+	.__pl-8 { padding-left: 2vw; }
+	.__pr-9 { padding-right: 2vw; }
+	.__pt-10 { padding-top: 2vw; }
+	.__pb-11 { padding-bottom: 2vw; }
+	.__jc-12 { justify-content: center; }
+	.__ali-13 { align-items: center; }
+	.__g-14 { gap: 2vw; }
+	.__rl-15 {  font-family: sans-serif; font-size: 38px; font-weight: 400; line-height: 57px; }
+	body.mobile .__rl-15 {  font-family: sans-serif; font-size: 26px; font-weight: 400; line-height: 40px; }
+	.__c-16 { color: #000000 !important; }
+	.__ta-17 { text-align: center; }
+	.__rl-18 {  font-family: sans-serif; font-size: 20px; font-weight: 400; line-height: 26px; }
+	body.mobile .__rl-18 {  font-family: sans-serif; font-size: 18px; font-weight: 400; line-height: 24px; }
+	.__c-19 { color: grey !important; }
+	.__ta-20 { text-align: center; }
+	.__w-21 { width: 100%; }
+	.__jc-22 { justify-content: center; }
+	.__ali-23 { align-items: center; }
+	.__g-24 { gap: 2vw; }
+	.__g-25 { gap: 2vw; }
+	.__g-26 { gap: 2vw; }
+	.__w-27 { width: 44vw; }
+	.__h-28 { height: 32vw; }
+	.__w-29 { width: 44vw; }
+	.__h-30 { height: 32vw; }
+	.__w-31 { width: 90vw; }
+	.__h-32 { height: 40vw; }
+	.__g-33 { gap: 2vw; }
+	.__w-34 { width: 90vw; }
+	.__h-35 { height: 40vw; }
+	.__g-36 { gap: 2vw; }
+	.__w-37 { width: 44vw; }
+	.__h-38 { height: 32vw; }
+	.__w-39 { width: 44vw; }
+	.__h-40 { height: 32vw; }
+    </style>
+<script>
+    (function() {
+        let main = function (parent) {
+  let __fastn_super_package_name__ = __fastn_package_name__;
+  __fastn_package_name__ = "avgayathri_github_io_componentset1";
+  try {
+    let parenti0 = avgayathri_github_io_componentset1_gallery_3___gallery_3(parent, inherited, {
+      title: "Master Cleanse Reliac Heirloom",
+      about: "Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table.\nFranzen you probably haven't heard of them man bun deep jianbing selfies heirloom.",
+      image1: global.avgayathri_github_io_componentset1_assets__files.get("assets").get("dummy_image").get("jpg"),
+      image2: global.avgayathri_github_io_componentset1_assets__files.get("assets").get("dummy_image").get("jpg"),
+      image3: global.avgayathri_github_io_componentset1_assets__files.get("assets").get("dummy_image").get("jpg"),
+      image4: global.avgayathri_github_io_componentset1_assets__files.get("assets").get("dummy_image").get("jpg"),
+      image5: global.avgayathri_github_io_componentset1_assets__files.get("assets").get("dummy_image").get("jpg"),
+      image6: global.avgayathri_github_io_componentset1_assets__files.get("assets").get("dummy_image").get("jpg")
+    });
+  } finally {
+    __fastn_package_name__ = __fastn_super_package_name__;
+  }
+}
+global["main"] = main;
+let avgayathri_github_io_componentset1_gallery_3___gallery_3 = function (parent, inherited, args)
+{
+  let __fastn_super_package_name__ = __fastn_package_name__;
+  __fastn_package_name__ = "avgayathri_github_io_componentset1";
+  try {
+    let __args__ = {
+    };
+    inherited = fastn_utils.getInheritedValues(__args__, inherited, args);
+    __args__ = fastn_utils.getArgs(__args__, args);
+    let parenti0 = fastn_dom.createKernel(parent, fastn_dom.ElementKind.Column);
+    parenti0.setProperty(fastn_dom.PropertyKind.Width, fastn_dom.Resizing.FillContainer, inherited);
+    parenti0.setProperty(fastn_dom.PropertyKind.Height, fastn_dom.Resizing.FillContainer, inherited);
+    parenti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
+      fastn_dom.conditionalDom(root, [
+        ftd.device
+      ], function () {
+        return (fastn_utils.getter(ftd.device) == "desktop");
+      }, function (root) {
+        let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Column);
+        rooti0.setProperty(fastn_dom.PropertyKind.Width, fastn_dom.Resizing.FillContainer, inherited);
+        rooti0.setProperty(fastn_dom.PropertyKind.Height, fastn_dom.Resizing.FillContainer, inherited);
+        rooti0.setProperty(fastn_dom.PropertyKind.AlignContent, fastn_dom.AlignContent.Center, inherited);
+        rooti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
+          let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Row);
+          rooti0.setProperty(fastn_dom.PropertyKind.PaddingHorizontal, fastn_dom.Length.Vw(7), inherited);
+          rooti0.setProperty(fastn_dom.PropertyKind.PaddingVertical, fastn_dom.Length.Vw(2), inherited);
+          rooti0.setProperty(fastn_dom.PropertyKind.AlignContent, fastn_dom.AlignContent.Center, inherited);
+          rooti0.setProperty(fastn_dom.PropertyKind.Spacing, fastn_dom.Spacing.Fixed(fastn_dom.Length.Vw(2)), inherited);
+          rooti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
+            let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Text);
+            rooti0.setProperty(fastn_dom.PropertyKind.Role, inherited.get("types").get("heading_medium"), inherited);
+            rooti0.setProperty(fastn_dom.PropertyKind.StringValue, __args__.title, inherited);
+            rooti0.setProperty(fastn_dom.PropertyKind.Color, fastn.recordInstance({
+              dark: "#000000",
+              light: "#000000"
+            }), inherited);
+          },
+          function (root, inherited) {
+            let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Text);
+            rooti0.setProperty(fastn_dom.PropertyKind.Role, inherited.get("types").get("heading_tiny"), inherited);
+            rooti0.setProperty(fastn_dom.PropertyKind.StringValue, __args__.about, inherited);
+            rooti0.setProperty(fastn_dom.PropertyKind.Color, fastn.recordInstance({
+              dark: "grey",
+              light: "grey"
+            }), inherited);
+            rooti0.setProperty(fastn_dom.PropertyKind.TextAlign, fastn_dom.TextAlign.Start, inherited);
+          }
+          ]), inherited);
+        },
+        function (root, inherited) {
+          let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Row);
+          rooti0.setProperty(fastn_dom.PropertyKind.Width, fastn_dom.Resizing.FillContainer, inherited);
+          rooti0.setProperty(fastn_dom.PropertyKind.AlignContent, fastn_dom.AlignContent.Center, inherited);
+          rooti0.setProperty(fastn_dom.PropertyKind.Spacing, fastn_dom.Spacing.Fixed(fastn_dom.Length.Vw(2)), inherited);
+          rooti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
+            let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Column);
+            rooti0.setProperty(fastn_dom.PropertyKind.Spacing, fastn_dom.Spacing.Fixed(fastn_dom.Length.Vw(2)), inherited);
+            rooti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
+              let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Row);
+              rooti0.setProperty(fastn_dom.PropertyKind.Spacing, fastn_dom.Spacing.Fixed(fastn_dom.Length.Vw(2)), inherited);
+              rooti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
+                let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Image);
+                rooti0.setProperty(fastn_dom.PropertyKind.ImageSrc, __args__.image1, inherited);
+                rooti0.setProperty(fastn_dom.PropertyKind.Width, fastn_dom.Resizing.Fixed(fastn_dom.Length.Vw(20)), inherited);
+                rooti0.setProperty(fastn_dom.PropertyKind.Height, fastn_dom.Resizing.Fixed(fastn_dom.Length.Vw(12)), inherited);
+              },
+              function (root, inherited) {
+                let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Image);
+                rooti0.setProperty(fastn_dom.PropertyKind.ImageSrc, __args__.image2, inherited);
+                rooti0.setProperty(fastn_dom.PropertyKind.Width, fastn_dom.Resizing.Fixed(fastn_dom.Length.Vw(20)), inherited);
+                rooti0.setProperty(fastn_dom.PropertyKind.Height, fastn_dom.Resizing.Fixed(fastn_dom.Length.Vw(12)), inherited);
+              }
+              ]), inherited);
+            },
+            function (root, inherited) {
+              let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Image);
+              rooti0.setProperty(fastn_dom.PropertyKind.ImageSrc, __args__.image3, inherited);
+              rooti0.setProperty(fastn_dom.PropertyKind.Width, fastn_dom.Resizing.Fixed(fastn_dom.Length.Vw(42)), inherited);
+              rooti0.setProperty(fastn_dom.PropertyKind.Height, fastn_dom.Resizing.Fixed(fastn_dom.Length.Vw(20)), inherited);
+            }
+            ]), inherited);
+          },
+          function (root, inherited) {
+            let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Column);
+            rooti0.setProperty(fastn_dom.PropertyKind.Spacing, fastn_dom.Spacing.Fixed(fastn_dom.Length.Vw(2)), inherited);
+            rooti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
+              let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Image);
+              rooti0.setProperty(fastn_dom.PropertyKind.ImageSrc, __args__.image3, inherited);
+              rooti0.setProperty(fastn_dom.PropertyKind.Width, fastn_dom.Resizing.Fixed(fastn_dom.Length.Vw(42)), inherited);
+              rooti0.setProperty(fastn_dom.PropertyKind.Height, fastn_dom.Resizing.Fixed(fastn_dom.Length.Vw(20)), inherited);
+            },
+            function (root, inherited) {
+              let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Row);
+              rooti0.setProperty(fastn_dom.PropertyKind.Spacing, fastn_dom.Spacing.Fixed(fastn_dom.Length.Vw(2)), inherited);
+              rooti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
+                let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Image);
+                rooti0.setProperty(fastn_dom.PropertyKind.ImageSrc, __args__.image1, inherited);
+                rooti0.setProperty(fastn_dom.PropertyKind.Width, fastn_dom.Resizing.Fixed(fastn_dom.Length.Vw(20)), inherited);
+                rooti0.setProperty(fastn_dom.PropertyKind.Height, fastn_dom.Resizing.Fixed(fastn_dom.Length.Vw(12)), inherited);
+              },
+              function (root, inherited) {
+                let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Image);
+                rooti0.setProperty(fastn_dom.PropertyKind.ImageSrc, __args__.image2, inherited);
+                rooti0.setProperty(fastn_dom.PropertyKind.Width, fastn_dom.Resizing.Fixed(fastn_dom.Length.Vw(20)), inherited);
+                rooti0.setProperty(fastn_dom.PropertyKind.Height, fastn_dom.Resizing.Fixed(fastn_dom.Length.Vw(12)), inherited);
+              }
+              ]), inherited);
+            }
+            ]), inherited);
+          }
+          ]), inherited);
+        }
+        ]), inherited);
+        return rooti0;
+      });
+    },
+    function (root, inherited) {
+      fastn_dom.conditionalDom(root, [
+        ftd.device
+      ], function () {
+        return (fastn_utils.getter(ftd.device) == "mobile");
+      }, function (root) {
+        let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Column);
+        rooti0.setProperty(fastn_dom.PropertyKind.Width, fastn_dom.Resizing.FillContainer, inherited);
+        rooti0.setProperty(fastn_dom.PropertyKind.Height, fastn_dom.Resizing.FillContainer, inherited);
+        rooti0.setProperty(fastn_dom.PropertyKind.Spacing, fastn_dom.Spacing.Fixed(fastn_dom.Length.Vw(4)), inherited);
+        rooti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
+          let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Column);
+          rooti0.setProperty(fastn_dom.PropertyKind.PaddingHorizontal, fastn_dom.Length.Vw(2), inherited);
+          rooti0.setProperty(fastn_dom.PropertyKind.PaddingVertical, fastn_dom.Length.Vw(2), inherited);
+          rooti0.setProperty(fastn_dom.PropertyKind.AlignContent, fastn_dom.AlignContent.Center, inherited);
+          rooti0.setProperty(fastn_dom.PropertyKind.Spacing, fastn_dom.Spacing.Fixed(fastn_dom.Length.Vw(2)), inherited);
+          rooti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
+            let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Text);
+            rooti0.setProperty(fastn_dom.PropertyKind.Role, inherited.get("types").get("heading_medium"), inherited);
+            rooti0.setProperty(fastn_dom.PropertyKind.StringValue, __args__.title, inherited);
+            rooti0.setProperty(fastn_dom.PropertyKind.Color, fastn.recordInstance({
+              dark: "#000000",
+              light: "#000000"
+            }), inherited);
+            rooti0.setProperty(fastn_dom.PropertyKind.TextAlign, fastn_dom.TextAlign.Center, inherited);
+          },
+          function (root, inherited) {
+            let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Text);
+            rooti0.setProperty(fastn_dom.PropertyKind.Role, inherited.get("types").get("heading_tiny"), inherited);
+            rooti0.setProperty(fastn_dom.PropertyKind.StringValue, __args__.about, inherited);
+            rooti0.setProperty(fastn_dom.PropertyKind.Color, fastn.recordInstance({
+              dark: "grey",
+              light: "grey"
+            }), inherited);
+            rooti0.setProperty(fastn_dom.PropertyKind.TextAlign, fastn_dom.TextAlign.Center, inherited);
+          }
+          ]), inherited);
+        },
+        function (root, inherited) {
+          let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Column);
+          rooti0.setProperty(fastn_dom.PropertyKind.Width, fastn_dom.Resizing.FillContainer, inherited);
+          rooti0.setProperty(fastn_dom.PropertyKind.AlignContent, fastn_dom.AlignContent.Center, inherited);
+          rooti0.setProperty(fastn_dom.PropertyKind.Spacing, fastn_dom.Spacing.Fixed(fastn_dom.Length.Vw(2)), inherited);
+          rooti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
+            let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Column);
+            rooti0.setProperty(fastn_dom.PropertyKind.Spacing, fastn_dom.Spacing.Fixed(fastn_dom.Length.Vw(2)), inherited);
+            rooti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
+              let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Row);
+              rooti0.setProperty(fastn_dom.PropertyKind.Spacing, fastn_dom.Spacing.Fixed(fastn_dom.Length.Vw(2)), inherited);
+              rooti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
+                let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Image);
+                rooti0.setProperty(fastn_dom.PropertyKind.ImageSrc, __args__.image1, inherited);
+                rooti0.setProperty(fastn_dom.PropertyKind.Width, fastn_dom.Resizing.Fixed(fastn_dom.Length.Vw(44)), inherited);
+                rooti0.setProperty(fastn_dom.PropertyKind.Height, fastn_dom.Resizing.Fixed(fastn_dom.Length.Vw(32)), inherited);
+              },
+              function (root, inherited) {
+                let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Image);
+                rooti0.setProperty(fastn_dom.PropertyKind.ImageSrc, __args__.image2, inherited);
+                rooti0.setProperty(fastn_dom.PropertyKind.Width, fastn_dom.Resizing.Fixed(fastn_dom.Length.Vw(44)), inherited);
+                rooti0.setProperty(fastn_dom.PropertyKind.Height, fastn_dom.Resizing.Fixed(fastn_dom.Length.Vw(32)), inherited);
+              }
+              ]), inherited);
+            },
+            function (root, inherited) {
+              let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Image);
+              rooti0.setProperty(fastn_dom.PropertyKind.ImageSrc, __args__.image3, inherited);
+              rooti0.setProperty(fastn_dom.PropertyKind.Width, fastn_dom.Resizing.Fixed(fastn_dom.Length.Vw(90)), inherited);
+              rooti0.setProperty(fastn_dom.PropertyKind.Height, fastn_dom.Resizing.Fixed(fastn_dom.Length.Vw(40)), inherited);
+            }
+            ]), inherited);
+          },
+          function (root, inherited) {
+            let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Column);
+            rooti0.setProperty(fastn_dom.PropertyKind.Spacing, fastn_dom.Spacing.Fixed(fastn_dom.Length.Vw(2)), inherited);
+            rooti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
+              let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Image);
+              rooti0.setProperty(fastn_dom.PropertyKind.ImageSrc, __args__.image3, inherited);
+              rooti0.setProperty(fastn_dom.PropertyKind.Width, fastn_dom.Resizing.Fixed(fastn_dom.Length.Vw(90)), inherited);
+              rooti0.setProperty(fastn_dom.PropertyKind.Height, fastn_dom.Resizing.Fixed(fastn_dom.Length.Vw(40)), inherited);
+            },
+            function (root, inherited) {
+              let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Row);
+              rooti0.setProperty(fastn_dom.PropertyKind.Spacing, fastn_dom.Spacing.Fixed(fastn_dom.Length.Vw(2)), inherited);
+              rooti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
+                let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Image);
+                rooti0.setProperty(fastn_dom.PropertyKind.ImageSrc, __args__.image1, inherited);
+                rooti0.setProperty(fastn_dom.PropertyKind.Width, fastn_dom.Resizing.Fixed(fastn_dom.Length.Vw(44)), inherited);
+                rooti0.setProperty(fastn_dom.PropertyKind.Height, fastn_dom.Resizing.Fixed(fastn_dom.Length.Vw(32)), inherited);
+              },
+              function (root, inherited) {
+                let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Image);
+                rooti0.setProperty(fastn_dom.PropertyKind.ImageSrc, __args__.image2, inherited);
+                rooti0.setProperty(fastn_dom.PropertyKind.Width, fastn_dom.Resizing.Fixed(fastn_dom.Length.Vw(44)), inherited);
+                rooti0.setProperty(fastn_dom.PropertyKind.Height, fastn_dom.Resizing.Fixed(fastn_dom.Length.Vw(32)), inherited);
+              }
+              ]), inherited);
+            }
+            ]), inherited);
+          }
+          ]), inherited);
+        }
+        ]), inherited);
+        return rooti0;
+      });
+    }
+    ]), inherited);
+    return parenti0;
+  } finally {
+    __fastn_package_name__ = __fastn_super_package_name__;
+  }
+}
+global["avgayathri_github_io_componentset1_gallery_3___gallery_3"] = avgayathri_github_io_componentset1_gallery_3___gallery_3;
+fastn_utils.createNestedObject(global, "avgayathri_github_io_componentset1_assets__files.assets.dummy_image.jpg", fastn.recordInstance({
+  light: "-/avgayathri.github.io/componentset1/assets/dummy-image.jpg",
+  dark: "-/avgayathri.github.io/componentset1/assets/dummy-image.jpg"
+}));
+fastn_dom.codeData.availableThemes["coldark-theme.dark"] = "code-theme-9A3284FD117DFF7CFD432FF860A5E14169FA592BC3DA4F5E8A6975143F5EA07F.css";
+fastn_dom.codeData.availableThemes["coldark-theme.light"] = "code-theme-99CD7B013C96C4632F0AEA39AC265387B814AE85A7D33666A4AE4BEFF59016D0.css";
+fastn_dom.codeData.availableThemes["coy-theme"] = "code-theme-B3AEA322EADEDA61F0E219845A0E9C8E73F6345E49362B46E6F52CEE40471248.css";
+fastn_dom.codeData.availableThemes["dracula-theme"] = "code-theme-0CA636E4954E3FC6184FB8000174F8EAA6C61DB10F6A18D74740E6D2032C1A2E.css";
+fastn_dom.codeData.availableThemes["duotone-theme.dark"] = "code-theme-95B9118AFC8631777EEBBD89B2066C3706A6DF3579B14F41AF05564E41CAA09C.css";
+fastn_dom.codeData.availableThemes["duotone-theme.earth"] = "code-theme-6EB6F03F9F578742CA0CD1189693E43A6135D910989ADD88CA3C0D6117EE24D7.css";
+fastn_dom.codeData.availableThemes["duotone-theme.forest"] = "code-theme-256C21B515FC9E77F95D88689A4086B9D9406B7AAE3A273780FE8B8748C5A7D2.css";
+fastn_dom.codeData.availableThemes["duotone-theme.light"] = "code-theme-0800A18B1822D6AFDAF807CF840379A2DB3483A1F058CA29FBCFB3815CA76148.css";
+fastn_dom.codeData.availableThemes["duotone-theme.sea"] = "code-theme-9A45313F167DBD90654BFD5BB3BC0BDF6AE447485C30B0389ADA7B49C069E46A.css";
+fastn_dom.codeData.availableThemes["duotone-theme.space"] = "code-theme-4DD8479BE14A755645BC09FF433FB70EB4CB28F0CBF3CA98DCB71B244B85B194.css";
+fastn_dom.codeData.availableThemes["fastn-theme.dark"] = "code-theme-F614177D3155EA8E915B35A3445175DC7C96D02FBC621F8AFD0FCCC417ED8A43.css";
+fastn_dom.codeData.availableThemes["fastn-theme.light"] = "code-theme-B8645DE281A38A3068C56919DE1BB0511696A1EE8002C5088748DA0BAC0806E6.css";
+fastn_dom.codeData.availableThemes["fire.light"] = "code-theme-A352AF572179AB980583D41BC41ADDBA36C4C17757A34C1C6AAAF2C253E25CE3.css";
+fastn_dom.codeData.availableThemes["gruvbox-theme.dark"] = "code-theme-B68AA27E05B319F04A9CD747AADBF9B9CD791E040DEC519AE9544B4FF65DDBAC.css";
+fastn_dom.codeData.availableThemes["gruvbox-theme.light"] = "code-theme-06E6F84E43C61CB1653D9F4FACD46B7EBCB3CD8A48EFAEF2E5BE3E9E9212D1E6.css";
+fastn_dom.codeData.availableThemes["laserwave-theme"] = "code-theme-0F444C6433C356376F7E92122F6C521FE40242BEC9D9E050359EE1DF4A9D5E6D.css";
+fastn_dom.codeData.availableThemes["material-theme.dark"] = "code-theme-8CCA3D600F91FA55950DF3132F2ABE4BA14CEEA13CD23E157BF6A137762B8452.css";
+fastn_dom.codeData.availableThemes["material-theme.light"] = "code-theme-8C59190F5018F48CCBB063359072EE9053D04923BBC5D1BA52B574E78D8C536A.css";
+fastn_dom.codeData.availableThemes["nightowl-theme"] = "code-theme-88F91252A8A0EA125B4BA2C7B85E65580DB580F1477931AADCB5118E4E69D1CD.css";
+fastn_dom.codeData.availableThemes["one-theme.dark"] = "code-theme-A24DC8F09D03756A62923E8A883CAE3B938D54E2813F0855312D2554DBE97BAD.css";
+fastn_dom.codeData.availableThemes["one-theme.light"] = "code-theme-60E02531E77333F3F1B636C4FC43E976EA9F41AD75268B2DD825C33C68B573A6.css";
+fastn_dom.codeData.availableThemes["vs-theme.dark"] = "code-theme-DC76F700474E809F7BA2D9914793D04881B17EA4699BA9C568C83D32A18B0173.css";
+fastn_dom.codeData.availableThemes["vs-theme.light"] = "code-theme-7852E516BA094B01897820BB3432BE553FE5B28F00E9CA0EBC9DFFB8312EE8BF.css";
+fastn_dom.codeData.availableThemes["ztouch-theme"] = "code-theme-792C7BB9F4C8DFF3E0CBC354D2084DBF71BC5750C2C1357F0E7D936867AFAB62.css";
+
+        let main_wrapper = function (parent) {
+            let parenti0 = fastn_dom.createKernel(parent, fastn_dom.ElementKind.Column);
+            parenti0.setProperty(fastn_dom.PropertyKind.Width, fastn_dom.Resizing.FillContainer, inherited);
+            parenti0.setProperty(fastn_dom.PropertyKind.Height, fastn_dom.Resizing.FillContainer, inherited);
+            main(parenti0);
+        }
+        fastnVirtual.doubleBuffer(main_wrapper);
+        ftd.post_init();
+    })();
+
+    window.onload = function() {
+        fastn_utils.resetFullHeight();
+        fastn_utils.setFullHeight();
+        ftd.emit_on_load();
+    };
+</script>
+</html>
