@@ -38,119 +38,94 @@ text-align: center
 -- end: ftd.column
 
 -- ftd.row:
-width.fixed.vw: 52
-width.fixed.vw if { ftd.device == "mobile" }: 80
-spacing.fixed.px: 20
+width.fixed.vw: 72
+width if { ftd.device == "mobile" }: fill-container
+spacing.fixed.vw: 2
 wrap: true
 padding.vw: 2
 align-content: center
 
 
 -- ftd.column:
-width.fixed.vw: 14
+width.fixed.vw: 20
 height.fixed.vw: 14
-width.fixed.vw if { ftd.device == "mobile" }: 62
+width.fixed.vw if { ftd.device == "mobile" }: 88
 height.fixed.vw if { ftd.device == "mobile" }: 62
 margin-vertical.vw: 2
-border-radius.percent: 50
-border-width.px: 3
-border-color: black
-
 
 -- ftd.image: $gallery-2.image1
 width: fill-container
 height: fill-container
-border-radius.percent: 50
 link: $gallery-2.cta-link-1
 
 -- end: ftd.column
 
 -- ftd.column:
-width.fixed.vw: 14
+width.fixed.vw: 20
 height.fixed.vw: 14
-width.fixed.vw if { ftd.device == "mobile" }: 62
+width.fixed.vw if { ftd.device == "mobile" }: 88
 height.fixed.vw if { ftd.device == "mobile" }: 62
 margin-vertical.vw: 2
-border-radius.percent: 50
-border-width.px: 3
-border-color: black
 
 -- ftd.image: $gallery-2.image2
 width: fill-container
 height: fill-container
-border-radius.percent: 50
 link: $gallery-2.cta-link-2
 
 -- end: ftd.column
 
 -- ftd.column:
-width.fixed.vw: 14
+width.fixed.vw: 20
 height.fixed.vw: 14
-width.fixed.vw if { ftd.device == "mobile" }: 62
+width.fixed.vw if { ftd.device == "mobile" }: 88
 height.fixed.vw if { ftd.device == "mobile" }: 62
 margin-vertical.vw: 2
-border-radius.percent: 50
-border-width.px: 3
-border-color: black
 
 -- ftd.image: $gallery-2.image3
 width: fill-container
 height: fill-container
-border-radius.percent: 50
 link: $gallery-2.cta-link-3
 
 -- end: ftd.column
 
 -- ftd.column:
-width.fixed.vw: 14
+width.fixed.vw: 20
 height.fixed.vw: 14
-width.fixed.vw if { ftd.device == "mobile" }: 62
+width.fixed.vw if { ftd.device == "mobile" }: 88
 height.fixed.vw if { ftd.device == "mobile" }: 62
 margin-vertical.vw: 2
-border-radius.percent: 50
-border-width.px: 3
-border-color: black
 
 -- ftd.image: $gallery-2.image4
 width: fill-container
 height: fill-container
-border-radius.percent: 50
 link: $gallery-2.cta-link-4
 
 -- end: ftd.column
 
 -- ftd.column:
-width.fixed.vw: 14
+width.fixed.vw: 20
 height.fixed.vw: 14
-width.fixed.vw if { ftd.device == "mobile" }: 62
+width.fixed.vw if { ftd.device == "mobile" }: 88
 height.fixed.vw if { ftd.device == "mobile" }: 62
 margin-vertical.vw: 2
-border-radius.percent: 50
-border-width.px: 3
-border-color: black
 
 -- ftd.image: $gallery-2.image5
 width: fill-container
 height: fill-container
-border-radius.percent: 50
 link: $gallery-2.cta-link-5
 
 -- end: ftd.column
 
 -- ftd.column:
-width.fixed.vw: 14
+width.fixed.vw: 20
 height.fixed.vw: 14
-width.fixed.vw if { ftd.device == "mobile" }: 62
+width.fixed.vw if { ftd.device == "mobile" }: 88
 height.fixed.vw if { ftd.device == "mobile" }: 62
 margin-vertical.vw: 2
-border-radius.percent: 50
-border-width.px: 3
-border-color: black
 
 -- ftd.image: $gallery-2.image6
 width: fill-container
 height: fill-container
-border-radius.percent: 50
 link: $gallery-2.cta-link-6
 
 -- end: ftd.column
