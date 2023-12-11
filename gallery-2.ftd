@@ -16,7 +16,6 @@ string cta-link-6:
 
 -- ftd.column:
 width: fill-container
-height: fill-container
 align-content: center
 
 -- ftd.column:
@@ -26,8 +25,10 @@ padding-horizontal.vw: 10
 padding-vertical.vw: 2
 spacing.fixed.vw: 1
 
+
 -- ftd.text: $gallery-2.title
 role: $inherited.types.heading-medium
+text-align: center
 color: #d6b810
 
 -- ftd.text: $gallery-2.about

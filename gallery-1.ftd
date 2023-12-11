@@ -11,6 +11,8 @@ ftd.image-src photo-8:
 ftd.image-src photo-9:
 
 -- ftd.column: 
+width: fill-container
+height: fill-container
 
 -- ftd.column:
 if: { ftd.device == "desktop" }
@@ -18,11 +20,10 @@ if: { ftd.device == "desktop" }
 ;;row 1
 -- ftd.row:
 width: auto
-height: auto
 
 -- ftd.column:
 width: fill-container
-height: fill-container
+
 
 -- ftd.image:
 src: $gallery-1.photo-1
@@ -181,7 +182,7 @@ margin.px: 10
 -- ftd.column:
 if: { ftd.device == "mobile" }
 width: fill-container
-height: fill-container
+
 
 -- ftd.row:
 width: fill-container
@@ -190,12 +191,13 @@ align-content: center
 
 -- ftd.text: $gallery-1.title
 align-self: center
-role: $inherited.types.heading-medium
+role: $inherited.types.heading-large
 color: #d6b810
 
 -- end: ftd.row
 
 -- ftd.column:
+width: fill-container
 align-content: center
 
 -- ftd.image:
@@ -270,9 +272,9 @@ margin.px: 10
 
 
 -- ftd.column:
-width: fill-container
+width.fixed.vw: 50 
 height: fill-container
-align-content: center
+align-self: center
 
 -- gallery-1:
 title: GALLERY
