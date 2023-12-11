@@ -90,7 +90,7 @@ align-content: center
 
 -- ftd.text: $gallery-1.title
 color: #d6b810
-role: $fira-code-size-80-700
+role: $inherited.types.heading-hero
 
 -- end: ftd.row
 
@@ -181,15 +181,21 @@ margin.px: 10
 -- ftd.column:
 if: { ftd.device == "mobile" }
 width: fill-container
+height: fill-container
+
+-- ftd.row:
+width: fill-container
+height: fill-container
+align-content: center
 
 -- ftd.text: $gallery-1.title
 align-self: center
+role: $inherited.types.heading-medium
 color: #d6b810
-role: $fira-code-size-50-400
+
+-- end: ftd.row
 
 -- ftd.column:
-width: fill-container
-height: fill-container
 align-content: center
 
 -- ftd.image:
@@ -263,8 +269,6 @@ margin.px: 10
 
 
 
-
-
 -- ftd.column:
 width: fill-container
 height: fill-container
@@ -297,18 +301,18 @@ photo-9: $assets.files.assets.dummy-image.jpg
 
 
 
--- ftd.type fira-code-size-80-desktop:
+/-- ftd.type fira-code-size-80-desktop:
 size.px: 80
 weight: 700
 font-family: $fira-code-assets.fonts.Fira-Code
 
 
--- ftd.type fira-code-size-48-mobile:
+/-- ftd.type fira-code-size-48-mobile:
 size.px: 48
 weight: 700
 font-family: $fira-code-assets.fonts.Fira-Code
 
--- ftd.responsive-type fira-code-size-80-700:
+/-- ftd.responsive-type fira-code-size-80-700:
 desktop: $fira-code-size-80-desktop
 mobile: $fira-code-size-48-mobile
 
@@ -317,18 +321,18 @@ mobile: $fira-code-size-48-mobile
 
 
 
--- ftd.type fira-code-size-50-desktop:
+/-- ftd.type fira-code-size-50-desktop:
 size.px: 50
 weight: 500
 font-family: $fira-code-assets.fonts.Fira-Code
 
 
--- ftd.type fira-code-size-36-mobile:
+/-- ftd.type fira-code-size-36-mobile:
 size.px: 36
 weight: 500
 font-family: $fira-code-assets.fonts.Fira-Code
 
--- ftd.responsive-type fira-code-size-50-400:
+/-- ftd.responsive-type fira-code-size-50-400:
 desktop: $fira-code-size-50-desktop
 mobile: $fira-code-size-36-mobile
 
@@ -337,18 +341,18 @@ mobile: $fira-code-size-36-mobile
 
 
 
--- ftd.type fira-code-size-24-desktop:
+/-- ftd.type fira-code-size-24-desktop:
 size.px: 24
 weight: 400
 font-family: $fira-code-assets.fonts.Fira-Code
 
 
--- ftd.type fira-code-size-22-mobile:
+/-- ftd.type fira-code-size-22-mobile:
 size.px: 22
 weight: 400
 font-family: $fira-code-assets.fonts.Fira-Code
 
--- ftd.responsive-type fira-code-size-24-400:
+/-- ftd.responsive-type fira-code-size-24-400:
 desktop: $fira-code-size-24-desktop
 mobile: $fira-code-size-22-mobile
 
@@ -356,18 +360,18 @@ mobile: $fira-code-size-22-mobile
 
 
 
--- ftd.type fira-code-size-20-desktop:
+/-- ftd.type fira-code-size-20-desktop:
 size.px: 20
 weight: 400
 font-family: $fira-code-assets.fonts.Fira-Code
 
 
--- ftd.type fira-code-size-18-mobile:
+/-- ftd.type fira-code-size-18-mobile:
 size.px: 18
 weight: 400
 font-family: $fira-code-assets.fonts.Fira-Code
 
--- ftd.responsive-type fira-code-size-20-400:
+/-- ftd.responsive-type fira-code-size-20-400:
 desktop: $fira-code-size-20-desktop
 mobile: $fira-code-size-18-mobile
 
@@ -376,18 +380,18 @@ mobile: $fira-code-size-18-mobile
 
 
 
--- ftd.type fira-code-size-38-desktop:
+/-- ftd.type fira-code-size-38-desktop:
 size.px: 38
 weight: 400
 font-family: $fira-code-assets.fonts.Fira-Code
 
 
--- ftd.type fira-code-size-26-mobile:
+/-- ftd.type fira-code-size-26-mobile:
 size.px: 26
 weight: 400
 font-family: $fira-code-assets.fonts.Fira-Code
 
--- ftd.responsive-type fira-code-size-38-400:
+/-- ftd.responsive-type fira-code-size-38-400:
 desktop: $fira-code-size-38-desktop
 mobile: $fira-code-size-26-mobile
 
@@ -398,24 +402,24 @@ mobile: $fira-code-size-26-mobile
 
 
 
--- ftd.type fira-code-size-16-desktop:
+/-- ftd.type fira-code-size-16-desktop:
 size.px: 16
 weight: 400
 font-family: $fira-code-assets.fonts.Fira-Code
 
 
--- ftd.type fira-code-size-16-mobile:
+/-- ftd.type fira-code-size-16-mobile:
 size.px: 16
 weight: 400
 font-family: $fira-code-assets.fonts.Fira-Code
 
--- ftd.responsive-type fira-code-size-16-400:
+/-- ftd.responsive-type fira-code-size-16-400:
 desktop: $fira-code-size-16-desktop
 mobile: $fira-code-size-16-mobile
 
 
 
--- ftd.type fira-code-size-12-mobile:
+/-- ftd.type fira-code-size-12-mobile:
 size.px: 12
 weight: 400
 font-family: $fira-code-assets.fonts.Fira-Code
