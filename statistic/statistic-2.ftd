@@ -153,10 +153,8 @@ margin-left.px: 5
 
 -- ftd.image:
 src: $statistic-2.image
-width.fixed.vw: 48
+width.fixed.vw: 88
 height.fixed.px: 180
-;;min-height.fixed.px: 100
-;;min-width.fixed.px: 316
 border-radius.px: 10
 margin-left.px: 2
 
